@@ -1,0 +1,54 @@
+[
+    { 
+        "id": 0,
+        "title" : "FrozenVS",
+        "intro" : "On a l’habitude d’appeler Frozen les Cognacs servis à température négative, sortis du congélateur à -18 °C. Ce type de service a vu le jour il y a une dizaine d’années environ. A ne pas confondre avec le Cognac frappé ou chilled, servi frais et non glacé, proche de 0 °C. A température ambiante, le Cognac gagnera environ 1 à 2 °C par minute dans le verre. Cette montée en empérature sera accélérée si le verre subit un mouvement. La force alcoolique du Cognac lui permet de ne pas geler à cette température mais sa texture s’en trouve radicalement changée : le Cognac devient plus huileux, plus rond, la sensation d’alcool disparaît au nez et en bouche. Parallèlement, ses arômes se concentrent, comme recentrés sur sa colonne vertébrale : vanille, fruits et épices sont plus fondus, la sensation boisée diminue fortement. C’est donc une expérience à part entière de la dégustation du Cognac.",
+        "image" : "",
+        "icon" : "",
+        "recipes" : [
+            { "id" : "1" },
+            { "id" : "2" },
+            { "id" : "6" },
+            { "id" : "7" }
+        ]
+    },
+    { 
+        "id": 1,
+        "title": "VSOP",
+        "intro" : "Comme il est plus âgé que le VS, il a eu plus de temps pour digérer les apports du chêne et c’est pourquoi il se montre si épicé. Le poivre et le clou de girofl e viennent compléter les épices douces (muscade, cannelle). Il possède aussi des notes toastées et torréfi ées, chocolat ou café, provenant du brûlage du fût.En ce qui concerne les arômes fruités, il se montre plus confi t et gourmand, sur les fruits à noyau séchés, abricot et pruneau par exemple, ou encore la marmelade d’orange et la compote de pomme, avec l’apparition des fruits secs comme l’amande et la noisette. Les fleurs évoluent également, prenant des accents séchés. Bien que conservant une certaine douceur, le Cognac VSOP se montre souvent plus boisé. La sensation alcoolique a fortement diminué avec l’âge.",
+        "image" : "",
+        "icon" : "",
+        "recipes" : [
+            { "id" : "5" },
+            { "id" : "4" },
+            { "id" : "3" },
+            { "id" : "0" }
+        ]
+    },
+    { 
+        "id": 2,
+        "title": "VS",
+        "intro" : "De par sa jeunesse, le Cognac VS possède encore tous les arômes distinctifs de l’eau-de-vie de vin et notamment ses caractéristiques fruitées (raisin, agrumes, poire, pomme cuite, prune, pêche et abricot) et fl orales (fl eur de vigne, marguerite, pétunia, rose, violette). Il a déjà extrait une grande partie des arômes du chêne lors de son court vieillissement mais ceux-ci n’ont pas encore eu le temps de se fondre totalement aux arômes de l’eau-de-vie. C’est pour cette raison que le Cognac VS peut paraître assez boisé et est souvent très vanillé – arôme très présent dans le chêne – et épicé (cannelle, muscade). Bien qu’embouteillé le plus souvent à 40 % d’alcool comme ses aînés, le Cognac VS peut paraître également plus vif au nez et très sec en bouche car l’alcool n’a pas encore eu le temps de se fondre totalement dans la masse.",
+        "image" : "",
+        "icon" : "",
+        "recipes" : [
+            { "id" : "3" },
+            { "id" : "0" },
+            { "id" : "6" },
+            { "id" : "5" }
+        ]
+    },
+    { 
+        "id": 3,
+        "title": "XO",
+        "intro" : "D’une grande complexité aromatique, les Cognacs XO peuvent prendre des directions différentes en fonction des choix du producteur : le cuir, les bois nobles et l’encens, un fruité exotique (mangue, ananas, fruit de la passion), le jasmin et le chèvrefeuille, des épices douces (safran) voire des notes balsamiques et bien évidemment de rancio, d’oxydation. À l’âge de la plénitude du Cognac correspond une douceur rare, l’alcool est parfaitement fondu, le Cognac ayant en plus gagné en gras. On obtient un spiritueux très complet, légèrement doux et amer. C’est le plus structuré et riche des Cognacs.",
+        "image" : "",
+        "icon" : "",
+        "recipes" : [
+            { "id" : "1" },
+            { "id" : "2" },
+            { "id" : "6" },
+            { "id" : "7" }
+        ]
+    }
+]

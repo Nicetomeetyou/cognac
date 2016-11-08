@@ -1,0 +1,1014 @@
+[
+    { 
+        "title": "Canard Laqué",
+        "family": "Viandes et charcuteries",
+        "intro":"Le canard laqué qui au passage nous vient de Chine doit avoir une chair tendre et une peau bien croustillante pour donner un accord probant.",
+        "id": 0,
+        "perfect" : [],
+        "possible" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : []
+    },    
+    { 
+        "title": "Foie gras",
+        "family": "Viandes et charcuteries",
+        "intro" : "Le foie gras, ici, juste préparé au sel et poivre, doit être servi tempéré, fondant pour bien s’accorder avec le cognac. Un accord facilement reproductible et transformable !",
+        "id": 1,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Jambon de Bayonne", 
+        "family": "Viandes et charcuteries", 
+        "intro" : "Le jambon de Bayonne et son umami est la très belle surprise et marche à tous les coups. Il faut essayer les autres jambons secs, Parme, Serrano, Pata Negra... Un accord intéressant en terme de mode de consommation, à l’apéritif, facilement reproductible à la maison ou à proposer dans les bars, brasseries et restaurants. Il serait très intéressant de créer la planche de charcuterie idéale pour le Cognac et de la coupler à une planche de fromages, la très populaire assiette mixte, plaçant le Cognac au coeur de la convivialité.",
+        "id": 2,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Pigeon", 
+        "family": "Viandes et charcuteries", 
+        "intro" : "Le pigeon (avec son goût un peu faisandé) fonctionne très bien avec un Cognac à température ambiante. On imagine que le gibier et son goût prononcé donnera des accords probants voire spectaculaires. Idéal pour les restaurants gastronomiques et les cuisiniers-chasseurs !",
+        "id": 3,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "3" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Pâthé en croute", 
+        "family": "Viandes et charcuteries", 
+        "intro" : "De nombreux facteurs tels la différence de cuisson de la croûte entre le dessus et le dessous, la présence de foie gras rendent le pâté en croute difficile à juger. Le VS Frozen peut fonctionner. Le XO, par sa complexité, semble le plus à même de s’accorder avec les différents ingrédients du pâté en croûte.",
+        "id": 4,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2.5" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Caviar",
+        "family": "Poissons et coquillages",
+        "intro" : "Caviar/Cognac, l’union est parfaite. Sans conteste, le n°1 au hit-parade des accords pour l’ensemble de l’atelier de la mer. L’entente est totale à condition que le Cognac ne présente pas un caractère boisé. Il nécessite du fruit, de la vanille et quand la complexité est au rendez-vous, l’accord est sublime. Le froid convient au caviar également.",
+        "id": 5,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "5" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "5" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "5" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [],
+        "avoid" : []
+    },
+    { 
+        "title": "Gambas",
+        "family": "Poissons et coquillages",
+        "intro" : "Pour la gamba, comme avec la langoustine, la cuisson et la fraîcheur sont des aspects très pointus. L’accord se fait sur une gamba grillée mais il est perfectible avec des épices ou une sauce. Le meilleur équilibre est obtenu sur le VS Frozen. Le profi l aromatique du Cognac, surtout pour les catégories plus âgées, est crucial. Le caractère boisé et tannique est rédhibitoire.",
+        "id": 6,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3" }
+            ]}
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "0" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Langoustine",
+        "family": "Poissons et coquillages",
+        "intro" : "Entre la langoustine et le Cognac, la complicité est bien réelle et le type de cuisson déterminant. L’association avec le XO exige une langoustine très cuisinée (rôtie, relevée avec des épices et une sauce).Mais c’est avec le VS Frozen que l’accord marche le mieux sur une langoustine presque nature. Évident, limpide, profond.",
+        "id": 7,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "5" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "0" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Hareng fumé",
+        "family": "Poissons et coquillages",
+        "intro" : "Trop rustique pour le Cognac, le hareng fumé ? A voir car il sait flatter les plus jeunes de ces spiritueux. Le fumé et le gras permettent un magnifi que accord avec le VS, un accord correct avec le VSOP et médiocre avec le XO. Seul le VS Frozen échoue.",
+        "id": 8,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2.5" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "1.5" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Saint-Jacques",
+        "family": "Poissons et coquillages",
+        "intro" : "Les réactions sont très diverses avec la Saint-Jacques. Lorsqu’elle est cuite, le beurre et la caramélisation font un excellent pont avec le Cognac VS et surprenant avec le XO. Mais, le froid du VS Frozen fait barrage. Crue, elle est plus difficile à marier, elle a besoin d’un plus (huile, citron, épices).",
+        "id": 9,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "5" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "2" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Saumon",
+        "family": "Poissons et coquillages",
+        "intro" : "Le gras est l’une des clés d’un accord réussi. Dans le cas du saumon, il est déterminant qu’il s’agisse du gras du poisson, de la cuisson ou de l’assaisonnement. Le Cognac lui ne doit pas être boisé ni sucré mais présenter un profi l'aromatique léger, fruité (sur les agrumes) et floral.",
+        "id": 10,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "1.5" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "1.5" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Huîtres de Cancale",
+        "family": "Poissons et coquillages",
+        "intro" : "Pas de place pour la demi-mesure avec une personnalité comme l’Huître de Cancale. La variété des goûts personnels jouent à plein dans l’appréciation des accords. L’iode est le terrain de l’affrontement. Soit Cognac et Huître de Cancale s’y anéantissent, soit ils s’y magnifient. Il faut un Cognac fruité, au caractère affi rmé, et privilégier la température ambiante. Le VSOP gagne haut la main.",
+        "id": 11,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "1.5" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "1" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Ananas", 
+        "family": "Fruits et Légumes",
+        "intro" : "La rencontre avec l’ananas opère lorsque son acidité est contrée par le gras du Cognac. C’est un accord majeur avec le VS Frozen et un très bon accord avec le XO. Le résultat sera encore meilleur cuit ou confit.",
+        "id": 12,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4.5" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2.5" }
+            ]}
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "1.5" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Litchi",
+        "family": "Fruits et Légumes",
+        "intro" : "Le litchi, fruit très doux, n’apprécie pas le Cognac VS, mais s’accorde très bien avec le VS Frozen et les Cognacs plus âgés.",
+        "id": 13,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3" }
+            ]}
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "1.5" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Pomme",
+        "family": "Fruits et Légumes",
+        "intro" : "La légère acidité de la pomme contrebalancée par sa touche sucrée lui permet de s'accorder parfaitement avec un Cognac VS à température ambiante ou encore un VS Frozen.",
+        "id": 14,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "3" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Carotte",
+        "family": "Fruits et Légumes",
+        "intro" : "La purée de carottes est indéniablement un bon accompagnement de tous les Cognacs, pour ne pas dire un accompagnement universel du Cognac !",
+        "id": 15,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4.5" }
+            ]},
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2.5" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Concombre",
+        "family": "Fruits et Légumes",
+        "intro" : "Le concombre avec sa haute teneur en eau et sa fraîcheur, sa chaire relativement neutre et sa peau très amère ne s’accorde qu’avec le Cognac VS Frozen.",
+        "id": 16,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "1" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "1" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "1" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Shitaké",
+        "family": "Fruits et Légumes",
+        "intro" : "Le shiitaké est la grande surprise : l’umami du champignon est un accord majeur et universel avec le Cognac.",
+        "id": 17,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "3" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Framboise",
+        "family": "Fruits et Légumes",
+        "intro" : "Les fruits rouges, framboise et cerise, acidulés, s’accordent avec le Cognac XO mais peuvent parfois s’accorder avec des Cognacs plus jeunes.",
+        "id": 18,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "3.5" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "2" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2" }
+            ]}
+
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Potiron",
+        "family": "Fruits et Légumes",
+        "intro" : "Le potiron sucré-salé et sans amertume s’accorde très bien avec tous les Cognacs.",
+        "id": 19,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2.5" }
+            ]}
+
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "1.5" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Cerise",
+        "family": "Fruits et Légumes",
+        "intro" : "Les fruits rouges, framboise et cerise, acidulés, s’accordent avec le Cognac XO mais peuvent parfois s’accorder avec des Cognacs plus jeunes.",
+        "id": 20,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2" }
+            ]}
+
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "1.5" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Betterave rouge",
+        "family": "Fruits et Légumes",
+        "intro" : "La betterave rouge, plutôt douce avec ses notes terreuses, ne peut s’accorder qu’avec un Cognac VSOP ou XO.",
+        "id": 21,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2" }
+            ]}
+
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "1" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Emmenthal",
+        "family": "Fromages",
+        "intro" : "Assez neutre en saveurs, l’emmental produit un enrichissement mutuel avec le VS Frozen. Accord moyen avec le VS, opposition et rejet avec le VSOP et tolérance mutuelle avec le XO.",
+        "id": 22,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2" }
+            ]}
+
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "0.5" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Roquefort",
+        "family": "Fromages",
+        "intro" : "Quel que soit le Cognac, le roquefort domine l’atelier des fromages. L’accord joue sur les notes douces et vanillées du Cognac, sur le crémeux du fromage et en opposition, son caractère typé, salé et piquant. Éblouissant avec le VSOP, excellent avec XO et VS, très bon avec le VS Frozen.",
+        "id": 23,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "5" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [],
+        "avoid" : []
+    },
+    { 
+        "title": "Edam",
+        "family": "Fromages",
+        "intro" : "L’edam n’a pas conquis. Une exception : le VS où l’accord se fait entre les notes douces du Cognac et la texture souple du fromage. Le VSOP et le XO sont trop complexes pour un fromage à la saveur légère.",
+        "id": 24,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "1.5" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "1.5" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "0.5" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Fromage blanc (Brillat Savarin)", 
+        "family": "Fromages",
+        "intro" : "Le brillat-savarin réussit l’accord majeur avec le VS. L’accord joue sur le gras et le crémeux. Le froid (VS Frozen) bouleverse l’équation, apportant de l’amertume. La vanille et le fruit du VSOP sont satisfaits tandis que le profil boisé du XO se heurte à la jeunesse du fromage.",
+        "id": 25,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2.5" }
+            ]},
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Brie", 
+        "family": "Fromages",
+        "intro" : "Pour le brie, l’accord joue sur tout le spectre aromatique avec le VSOP. Le fromage y gagne en douceur et le Cognac s’enrichit de notes terreuses de champignons. Pour le VS, la puissance alcoolique fait barrage. Il y a peu d’échanges avec le VS Frozen. Echec entre le XO et le brie.",
+        "id": 26,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "2" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Cheddar",
+        "family": "Fromages",
+        "intro" : "Le cheddar tend à dominer les jeunes Cognacs, alors qu’il trouve harmonie et équilibre avec des Cognacs plus âgés mais surtout avec le VSOP où cet accord majeur se fait sur les notes fruitées.",
+        "id": 27,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "1" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Fourme d'Ambert",
+        "family": "Fromages",
+        "intro" : "La fourme d’Ambert a tendance à dominer le Cognac, surtout le VS Frozen. Au contraire, avec le VS, le Cognac met en valeur le fromage, d’une manière plaisante. Accord majeur avec le XO où la combinaison apporte de la complexité aux deux.",
+        "id": 28,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2.5" }
+            ]}
+        ],
+        "avoid" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "1.5" }
+            ]},
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "1" }
+            ]}
+        ]
+    },
+    { 
+        "title": "Chocolat au lait",
+        "family": "Pâtisseries et Chocolats",
+        "intro" : "Le VS Frozen s’accorde très bien avec le cacao sous toutes ses formes, notamment avec le chocolat au lait. Le Cognac VS s’accorde également très bien avec tout type de chocolats mais surtout ceux à la texture fondante comme le chocolat au lait qui enrobe plus facilement la vivacité de l’alcool du Cognac VS.",
+        "id": 29,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2.5" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Crème brûlée",
+        "family": "Pâtisseries et Chocolats",
+        "intro" : "La crème brûlée s’accorde très bien aux jeunes Cognacs mais l’intérêt est réduit avec les très vieux Cognacs (XO) qui s’évanouissent dans la crème.",
+        "id": 30,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2.5" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Ganache noire",
+        "family": "Pâtisseries et Chocolats",
+        "intro" : "La ganache s'accorde très bien avec le VS Frozen qui possède une texture plus huileuse. A savoir, le chocolat noir et amer s'épanouit d'autant plus que le Cognac est âgé. ",
+        "id": 31,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "3.5" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2.5" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Pancake",
+        "family": "Pâtisseries et Chocolats",
+        "intro" : "Le pancake s’accorde au VS Frozen grâce au sirop d’érable qui permet de diffuser plus lentement l’alcool et les arômes du Cognac.",
+        "id": 32,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2.5" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2.5" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Tarte tatin",
+        "family": "Pâtisseries et Chocolats",
+        "intro" : "Servie chaude, la tarte tatin s’accorde avec presque tous les Cognacs (sauf le VS à température ambiante qui est comme absorbé par le caramel et la pâte), et permet de relever les arômes sans excès de sucrosité.",
+        "id": 33,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "4.5" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "2.5" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Chelsea Bun",
+        "family": "Pâtisseries et Chocolats",
+        "intro" : "Le chelsea bun, sorte de pain aux raisins épicé, ne s’accorde bien qu’avec un Cognac jeune. Les raisins secs sont un liant exceptionnel pour le Cognac.",
+        "id": 34,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "2.5" }
+            ]},
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "1" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Chocolat blanc",
+        "family": "Pâtisseries et Chocolats",
+        "intro" : "La texture fondante du chocolat blanc s'équilibre davantage avec un jeune Cognac. Par exemple, la neutralité du VS Frozen se trouve renforcée par le beurre de cacao très présent dans ce type de chocolat. ",
+        "id": 35,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "2" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "0" },
+                { "note" : "2.5" }
+            ]}
+        ],
+        "avoid" : []
+    },
+    { 
+        "title": "Palet chocolat noir",
+        "family": "Pâtisseries et Chocolats",
+        "intro" : "L'accord entre le Cognac et le palet au chocolat noir peut susciter des impressions contrastées car sa relative sécheresse renforce l'impression d'amertume et la sensation alcoolique. L'amertume du chocolat noir s'accorde effectivement mieux aux vieux Cognacs. Plus le Cognac est âgé, plusl'accord est complet et plus le chocolat noir et amer s'épanouit. ",
+        "id": 36,
+        "perfect" : [
+            { "accord" : [
+                { "name" : "1" },
+                { "note" : "4" }
+            ]},
+            { "accord" : [
+                { "name" : "2" },
+                { "note" : "3.5" }
+            ]},
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3.5" }
+            ]}
+        ],
+        "possible" : [
+            { "accord" : [
+                { "name" : "3" },
+                { "note" : "3" }
+            ]}
+        ],
+        "avoid" : []
+    }
+  ]

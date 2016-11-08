@@ -1,0 +1,218 @@
+[
+    { 
+        "id": 0,
+        "title": "Le Cognac est issu de la distillation de :",
+        "responses" : [
+            { "response" : [
+                { "text" : "Vin" },
+                { "value" : "1" }
+            ]},
+            { "response" : [
+                { "text" : "Céréales" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "Prunes" },
+                { "value" : "0" }
+            ]}
+        ],
+        "validation" : "response 0"
+    },
+    { 
+        "id": 1,
+        "title": "L’assemblage dans le monde du Cognac, c’est :",
+        "responses" : [
+            { "response" : [
+                { "text" : "La fabrication d’un fût de vieillissement" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "L’accord avec un plat" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "Le mariage de différentes eaux-de-vie vieillies" },
+                { "value" : "1" }
+            ]}
+        ],
+        "validation" : "response 1"
+    },
+    { 
+        "id": 2,
+        "title": "Un Cognac VS est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "responses" : [
+            { "response" : [
+                { "text" : "1 an" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "2 ans" },
+                { "value" : "1" }
+            ]},
+            { "response" : [
+                { "text" : "4 ans" },
+                { "value" : "0" }
+            ]}
+        ],
+        "validation" : "response 2"
+    },
+    { 
+        "id": 3,
+        "title": "Un Cognac VSOP est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "responses" : [
+            { "response" : [
+                { "text" : "2 ans" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "3 ans" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "4 ans" },
+                { "value" : "1" }
+            ]}
+        ],
+        "validation" : ""
+    },
+    { 
+        "id": 4,
+        "title": "Un Cognac XO est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "responses" : [
+            { "response" : [
+                { "text" : "4 ans" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "6 ans" },
+                { "value" : "1" }
+            ]},
+            { "response" : [
+                { "text" : "8 ans" },
+                { "value" : "0" }
+            ]}
+        ],
+        "validation" : ""
+    },
+    { 
+        "id": 5,
+        "title": "Quel est le verre idéal pour apprécier un Cognac pur ?",
+        "responses" : [
+            { "response" : [
+                { "text" : "Le verre tulipe" },
+                { "value" : "1" }
+            ]},
+            { "response" : [
+                { "text" : "Le verre ballon" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "Le verre Old Fashioned" },
+                { "value" : "0" }
+            ]}
+        ],
+        "validation" : ""
+    },
+    { 
+        "id": 6,
+        "title": "Faut-il chauffer son Cognac ?",
+        "responses" : [
+            { "response" : [
+                { "text" : "Oui" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "Non" },
+                { "value" : "1" }
+            ]}
+        ],
+        "validation" : ""
+    },
+    { 
+        "id": 7,
+        "title": "Faut-il agiter son verre ?",
+        "responses" : [
+            { "response" : [
+                { "text" : "Oui" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "Non" },
+                { "value" : "1" }
+            ]}
+        ],
+        "validation" : ""
+    },
+    { 
+        "id": 8,
+        "title": "Quel Cognac s’accorde mieux à l’ananas ?",
+        "responses" : [
+            { "response" : [
+                { "text" : "VS Frozen" },
+                { "value" : "1" }
+            ]},
+            { "response" : [
+                { "text" : "VSOP" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "XO" },
+                { "value" : "0" }
+            ]}
+        ],
+        "validation" : ""
+    },
+    { 
+        "id": 9,
+        "title": "Quel Cognac s’accorde mieux au Brie ?",
+        "responses" : [
+            { "response" : [
+                { "text" : "VS" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "VSOP" },
+                { "value" : "1" }
+            ]},
+            { "response" : [
+                { "text" : "XO" },
+                { "value" : "0" }
+            ]}
+        ],
+        "validation" : ""
+    },
+    { 
+        "id": 10,
+        "title": "Quel Cognac s’accorde mieux au pâté en croûte ?",
+        "responses" : [
+            { "response" : [
+                { "text" : "VS" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "VSOP" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "XO" },
+                { "value" : "1" }
+            ]}
+        ],
+        "validation" : ""
+    },
+    { 
+        "id": 11,
+        "title": "Le Cognac est-il uniquement un digestif ?",
+        "responses" : [
+            { "response" : [
+                { "text" : "Oui" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "Non" },
+                { "value" : "1" }
+            ]}
+        ],
+        "validation" : ""
+    }
+]

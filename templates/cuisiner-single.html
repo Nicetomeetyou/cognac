@@ -1,0 +1,65 @@
+<ion-view view-title="{{ tabRecipe.title }}" hide-nav-bar="true">
+	<ion-content>
+		<section class="fiche-recette">
+			<div class="btn-go-back" ng-click="goBack()"><span class="icon-flch-gauche"></span></div>
+
+			<div class="row">
+				<div class="col">
+					<div class="description-fiche-recette">
+						<div class="illustration-container">
+							<img class="illustration" src="img/image-chocolate.jpg" alt="Photographie de la saveur">
+						</div>
+
+						<div class="primary-title-container">
+							<span class="item-family">{{ tabRecipe.family }}</span>
+							<h1 class="title">{{ tabRecipe.title }}</h1>
+						</div>
+
+						<div class="description-block">
+							<ul class="technical-info">
+								<li class="time-recipe">20h45</li>
+								<li class="persons-number">400 pers</li>
+							</ul>
+							<p class="text">{{ tabRecipe.intro }}</p>
+						</div>
+					</div>
+
+					<div class="fiche-recette-container">
+						<div class="fiche-recette-block">
+							<h3 class="title">Ingrédients</h3>
+							<ul class="list">
+								<li class="list-item" ng-repeat="item in tabRecipe.ingredients track by $index">
+									{{item.name}}
+								</li>
+							</ul>
+						</div>
+
+						<div class="fiche-recette-block">
+							<h3 class="title">&Eacute;tapes de préparation</h3>
+							<ul class="list step-list">
+								<li class="list-item" ng-repeat="item in tabRecipe.directions track by $index">
+									<div class="step-number-block">{{$index + 1}}</div>
+									<div class="step-description-block"><p class="text">{{item.step}}</p></div>
+								</li>
+								<li class="list-item last-step">
+									<div class="step-number-block icone-last-step"></div>
+									<div class="step-description-block"><p class="text">Voilà ! Bon appétit.</p></div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="fiche-recette-block end">
+							<h3 class="title">Valeurs nutritionnelles</h3>
+							<ul class="list">
+								<li class="list-item" ng-repeat="item in tabRecipe.nutrition track by $index">
+									{{item.value[0].name}} <span class="note">{{item.value[1].note}}</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</ion-content>
+</ion-view>

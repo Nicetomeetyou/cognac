@@ -1,0 +1,126 @@
+<ion-view view-title="" hide-nav-bar="true">
+	<ion-content>
+
+		<section class="accord">
+			<div class="btn-go-back" ng-click="goBack()"><span class="icon-flch-gauche"></span></div>
+
+			<div class="row">
+				<div class="col">
+					<div class="description-accord">
+						<div class="illustration-container">
+							<img class="illustration" src="img/flavors/{{ tabContent.image }}" alt="Photographie de la saveur">
+							<span class="icone-block icone icone-saveur-{{ tabContent.family }}"></span>
+						</div>
+
+						<div class="primary-title-container">
+							<h1 class="title">{{ tabContent.title }}</h1>
+							<span class="item-family">{{ tabFamilyFlavors[tabContent.family] }}</span>
+						</div>
+
+						<div class="description-block">
+							<p class="text">{{ tabContent.intro }}</p>
+						</div>
+					</div>
+
+					<div class="accords-possibility-container">
+						<div class="accords-possibility-block">
+
+							<h3 translate="accord.acc-majeurs" class="title" slide-toggle="#definication-accords-majeurs-s">Accords Majeurs</h3>
+							<div id="definication-accords-majeurs-s" class="slideable definition">
+								<p class="text">L’accord majeur c’est l’équilibre parfait entre une saveur et un cognac lorsque solide et liquide se complètent parfaitement et prolongent le plaisir.</p>
+							</div>
+
+
+							<ul class="list">
+								<li class="list-item icone icone-cognac-{{tabCognac[item.accord[0].name].id+1}}" ng-repeat="item in notesPerfect track by $index">
+									{{tabCognac[item.accord[0].name].title}}
+									<span class="note">{{item.accord[1].note}}<span class="denominator">/5</span></span>
+								</li>
+								<li translate="accord.no-accord" class="no-accord" ng-show="!notesPerfect.length">Il n'existe pas d'Accords Majeurs pour cette saveur.</li>
+							</ul>
+						</div>
+
+						<div class="accords-possibility-block">
+
+							<h3 translate="accord.acc-possible" class="title" slide-toggle="#definication-accords-possibles-s">Accords Possible</h3>
+							<div id="definication-accords-possibles-s" class="slideable definition">
+								<p class="text">Un accord possible, c’est un équilibre fragile entre une saveur et un cognac. <br> L’un des deux éléments prend le pas sur l’autre. <br> C’est une belle rencontre qui ne peut toutefois pas tenir toutes ses promesses.</p>
+							</div>
+							
+							<ul class="list">
+								<li class="list-item icone icone-cognac-{{tabCognac[item.accord[0].name].id+1}}" ng-repeat="item in notesPossible track by $index">
+									{{tabCognac[item.accord[0].name].title}}
+									<span class="note">{{item.accord[1].note}}<span class="denominator">/5</span></span>
+								</li>
+								<li translate="accord.no-accord" class="no-accord" ng-show="!notesPossible.length">Il n'y a pas d'Accord possible pour cette saveur.</li>
+							</ul>
+						</div>
+
+						<div class="accords-possibility-block end">
+
+							<h3 translate="accord.acc-evite" class="title" slide-toggle="#definication-accords-a-eviter-s">Accords a Éviter</h3>
+							<div id="definication-accords-a-eviter-s" class="slideable definition">
+								<p class="text">Un accord à éviter, c’est lorsque l’équilibre ne se produit pas entre liquide et solide. <br> Par exemple, lorsque le cognac est trop puissant ou le met trop discret.</p>
+							</div>
+							
+							<ul class="list">
+								<li class="list-item icone icone-cognac-{{tabCognac[item.accord[0].name].id+1}}" ng-repeat="item in notesAvoid track by $index">
+									{{tabCognac[item.accord[0].name].title}}
+									<span class="note">{{item.accord[1].note}}<span class="denominator">/5</span></span>
+								</li>
+								<li translate="accord.no-accord" class="no-accord" ng-show="!notesAvoid.length">Il n'y a pas d'Accord à éviter avec cette saveur.</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section ng-show="associatedRecipes.length" class="cooking-recipes">
+			<div class="row">
+				<div class="col">
+					<div class="secondary-title-container">
+						<h2 class="title"><span translate="accord.title-recipes-saveurs">Les recettes avec :</span> <br/>{{ tabContent.title }}</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-container">
+				<ks-swiper-container class="swiper-container"
+									 initial-slide="1"
+									 speed="2000"
+									 loop="true"
+									 show-nav-buttons="false"
+									 slides-per-view="1"
+									 space-between="5"
+									 pagination-is-active="true"
+									 pagination-clickable="true"
+									 override-parameters="{effect: 'coverflow',coverflow: {rotate: 50,stretch: 0,depth: 100,modifier: 1,slideShadows : false}}"
+									 on-ready="onReadySwiper(swiper)">
+
+					<ks-swiper-slide class="swiper-slide" ng-repeat="item in associatedRecipes track by $index">
+						<a class="recipe-link-container" href="#/app/cuisiner/{{item.id}}">
+							<figure>
+								<img ng-src="img/image-chocolate.jpg" width="100%">
+								<figcaption class="description">
+									<span class="text">{{item.title}}</span>
+									<span class="time-recipe">{{item.time}}</span>
+								</figcaption>
+							</figure>
+						</a>
+					</ks-swiper-slide>            
+				</ks-swiper-container>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div class="btn-container">
+						<a translate="gen.btn-recette" class="button btn-ghost" href="#/app/cuisiner">Plus de recettes</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</ion-content>
+</ion-view>

@@ -1,0 +1,109 @@
+<ion-view view-title="Cuisiner avec Gault&Millau" hide-nav-bar="true">
+	<ion-content>
+
+		<section class="cuisiner">
+			<div class="illustration-container">
+				<div class="btn-go-back" ng-click="goHome()"><span class="icon-flch-gauche"></span></div>
+
+				<div class="row">
+					<div class="col">
+						<div class="primary-title-container">
+							<h1 translate="recipes.title" class="title">On passe à la pratique avec Gault&Millau</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="tabs-container">
+					<div class="row">
+						<div class="col">
+							<a href="javascript:void(0)" class="tablinks tabs-block active" onclick="openCity(event, 'entrees')">
+								<span class="entitled">{{tabFamilyRecipes[1]}}</span>
+							</a>
+						</div>
+						<div class="col">
+							<a href="javascript:void(0)" class="tablinks tabs-block" onclick="openCity(event, 'plats')">
+								<span class="entitled">{{tabFamilyRecipes[2]}}</span>
+							</a>
+						</div>
+						<div class="col">
+							<a href="javascript:void(0)" class="tablinks tabs-block" onclick="openCity(event, 'desserts')">
+								<span class="entitled">{{tabFamilyRecipes[3]}}</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div id="entrees" class="tabcontent tab-content">
+						<div class="recipe-counter">
+							<p class="text">Il y a <span class="number">{{tabRecipes[0].length}}</span> recettes d'entrées</p>
+						</div>
+						<ul class="list">
+							<li class="recipe-item" ng-repeat="item in tabRecipes[0] track by item.id">
+								<a class="recipe-link-container {{item.new}}" href="#/app/cuisiner/{{item.id}}">
+									<figure>
+										<img ng-src="img/image-chocolate.jpg" width="100%">
+										<figcaption class="description">
+											<span class="text">{{item.title}}</span>
+											<span class="time-recipe">1h30</span>
+										</figcaption>
+									</figure>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div id="plats" class="tabcontent tab-content">
+						<div class="recipe-counter">
+							<p class="text">Il y a <span class="number">{{tabRecipes[1].length}}</span> recettes de plats</p>
+						</div>
+						<ul class="list">
+							<li class="recipe-item" ng-repeat="item in tabRecipes[1] track by item.id">
+								<a class="recipe-link-container {{item.new}}" href="#/app/cuisiner/{{item.id}}">
+									<figure>
+										<img ng-src="img/image-chocolate.jpg" width="100%">
+										<figcaption class="description">
+											<span class="text">{{item.title}}</span>
+											<span class="time-recipe">1h30</span>
+										</figcaption>
+									</figure>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div id="desserts" class="tabcontent tab-content">
+						<div class="recipe-counter">
+							<p class="text">Il y a <span class="number">{{tabRecipes[2].length}}</span> recettes de desserts</p>
+						</div>
+						<ul class="list">
+							<li class="recipe-item" ng-repeat="item in tabRecipes[2] track by item.id">
+								<a class="recipe-link-container {{item.new}}" href="#/app/cuisiner/{{item.id}}">
+									<figure>
+										<img ng-src="img/image-chocolate.jpg" width="100%">
+										<figcaption class="description">
+											<span class="text">{{item.title}}</span>
+											<span class="time-recipe">1h30</span>
+										</figcaption>
+									</figure>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div class="btn-container">
+						<a class="button btn-ghost" href="#/app/cuisiner">Plus de recettes</a>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+	</ion-content>
+</ion-view>

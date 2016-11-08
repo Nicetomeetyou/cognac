@@ -1,0 +1,30 @@
+<ion-view hide-nav-bar="true" view-title="">
+	<ion-content>
+		<section class="quizz">
+			<div class="btn-go-back" ng-click="goHome()"><span class="icon-croix"></span></div>
+
+			<div class="row">
+				<div class="col">
+					<div class="description-quizz rep{{ response }}">
+						<div class="illustration-container">
+							<div class="question-number">Reponse {{ numQuestionDisplay }}</div>
+						</div>
+
+						<div class="primary-title-container">
+							<span class="question-number-total">{{ numQuestionDisplay }} / {{ tabQuizz.length }}</span>
+							<h1 class="title">{{ tabQuizz[numQuestion].title }}</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="answer-container">
+				<p class="text">{{ responseText }}</p>
+
+				<div class="btn-container">
+					<button class="button btn-ghost" ng-click="nextQuestion()">Question suivante</button>
+				</div>
+			</div>
+
+		</section>
+	</ion-content>
+</ion-view>

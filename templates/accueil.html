@@ -1,0 +1,108 @@
+<ion-view hide-nav-bar="true" view-title="">
+	<ion-content>
+		<section class="welcome">
+			<div class="row">
+				<div class="col">
+					<div class="hero-title-container">
+						<h1 translate="accueil.title" class="title">Accords Majeurs</h1>
+						<span translate="accueil.baseline" class="baseline">Cognac et plats, le bon match</span>
+					</div>
+
+					<div class="btn-container">
+						<a translate="accueil.btn-saveurs" href="#/app/trouver-accord" class="button">
+							Rechercher l'accord
+						</a>
+					</div>
+
+					<div class="illustration-container">
+						<img class="illustration" src="img/cognac-glass.png" alt="Illustration d'un verre Cognac">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cooking-recipes">
+			<div class="row">
+				<div class="col">
+					<div class="secondary-title-container">
+						<h2 translate="accueil.title-recette" class="title">On passe à la pratique avec Gault&Millau</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-container">
+				<ks-swiper-container class="swiper-container"
+									 initial-slide="1"
+									 speed="2000"
+									 loop="true"
+									 show-nav-buttons="false"
+									 slides-per-view="1"
+									 space-between="5"
+									 pagination-is-active="true"
+									 pagination-clickable="true"
+									 override-parameters="{effect: 'coverflow',coverflow: {rotate: 50,stretch: 0,depth: 100,modifier: 1,slideShadows : false}}"
+									 on-ready="onReadySwiper(swiper)">
+
+					<ks-swiper-slide class="swiper-slide" ng-repeat="item in associatedRecipes track by $index">
+						<a class="recipe-link-container" href="#/app/cuisiner/{{item.id}}">
+							<figure>
+								<img class="img" ng-src="img/image-chocolate.jpg" width="100%">
+								<figcaption class="description">
+									<span class="text">{{item.title}}</span>
+									<span class="time-recipe">{{item.time}}</span>
+								</figcaption>
+							</figure>
+						</a>
+					</ks-swiper-slide>          
+				</ks-swiper-container>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div class="btn-container">
+						<a translate="gen.btn-recette" class="button btn-ghost" href="#/app/cuisiner">Plus de recettes</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="quizz-welcome">
+			<div class="row">
+				<div class="col">
+					<div class="tertiary-title-container">
+						<h2 translate="accueil.title-quizz" class="title">Le test anti idées reçues</h2>
+						<p translate="accueil.baseline-quizz" class="intro">Savez vous déguster le Cognac ? Les profils de Cognacs et arômes.</p>
+					</div>
+					<div class="btn-container">
+						<a translate="accueil.btn-quizz" class="button btn-ghost" href="#/app/quizz">Participer</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="actualite">
+			<div class="row">
+				<div class="col">
+					<div class="tertiary-title-container">
+						<h2 translate="accueil.title-feed" class="title">L’actualité Cognac</h2>
+						<span translate="accueil.baseline-feed" class="hashtag">#CognacFoodPairing</span>
+					</div>
+					<div class="btn-container">
+						<a translate="accueil.btn-feed" class="button btn-ghost" href="#/app/social">Découvrir</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<aside class="maker">
+			<!-- Ajouter ou enlever la classe ".hide-icon" pour transformer le i en croix -->
+			<div translate="accueil.footer" class="text hide-icon" slide-toggle="#bnic">Fabriqué avec <span class="icon-coeur"></span> par la BNIC</div>
+			
+			<div id="bnic" class="slideable">
+				<div class="description">Cette application est éditée par le <strong>Bureau National Interprofessionnel du Cognac</strong> (BNIC). <br><br>
+				Cette interprofession qui fédère viticulteurs et maisons de négoce, oeuvre quotidiennement pour la protection de l'AOC Cognac et son développement économique dans le monde.<br><br>
+				Reconnu pour sa subtilité et sa richesse aromatique, le cognac, appellation d’une rare qualité, propose une expérience unique au monde.</div>
+			</div>
+		</aside>
+	</ion-content>
+</ion-view>

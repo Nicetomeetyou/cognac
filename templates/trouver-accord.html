@@ -1,0 +1,72 @@
+<ion-view id="test" view-title="Trouver votre Accord" hide-nav-bar="true">
+<ion-content>
+
+<section class="trouver-accord">
+	<div class="illustration-container">
+		<div class="btn-go-back" ng-click="goHome()"><span class="icon-flch-gauche"></span></div>
+
+		<div class="row">
+			<div class="col">
+				<div class="primary-title-container">
+					<h1 translate="accord.title" class="title">Trouver l'accord <br> parfait par type de :</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="tabs-container">
+			<div class="row">
+				<div class="col">
+					<a href="javascript:void(0)" class="tablinks tabs-block active" onclick="openCity(event, 'saveurs')">
+						<span translate="accord.saveurs" class="entitled icone icone-saveur">Saveurs</span>
+					</a>
+				</div>
+				<div class="col">
+					<a href="javascript:void(0)" class="tablinks tabs-block" onclick="openCity(event, 'cognac')">
+						<span translate="accord.cognac" class="entitled icone icone-cognac">Cognac</span>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<img class="illustration" src="img/cognac-glass.png" alt="Illustration d'un verre Cognac">
+	</div>
+
+	<div class="row">
+		<div class="col">
+			<div id="saveurs" class="tabcontent tab-content">
+				<ul>
+
+					<li class="filter-container">
+						<div id="filter" class="btn-toggle" slide-toggle="#derp">Filtrez les saveurs</div>
+						<ul id="derp" class="slideable slideable-container">
+							<li ng-click="filterList(1)" class="list-item icone icone-saveur-1">Fromages</li>
+							<li ng-click="filterList(2)" class="list-item icone icone-saveur-2">Fruit et légumes</li>
+							<li ng-click="filterList(3)" class="list-item icone icone-saveur-3">Pâtisseries et chocolats</li>
+							<li ng-click="filterList(4)" class="list-item icone icone-saveur-4">Poissons et produits de la mer</li>
+							<li ng-click="filterList(5)" class="list-item icone icone-saveur-5">Viandes et charcuteries</li>
+							<li ng-click="filterList(0)" class="list-item">Tous</li>
+
+						</ul>
+					</li>
+					
+					<li ng-repeat="item in tabSaveurs | orderBy:'title'">
+
+						<a ng-show="{{ 'show_' + item.family }}" class="tab-link icone icone-saveur-{{item.family}}" href="#/app/trouver-saveurs/{{item.id}}">{{item.title}}</a>
+
+					</li>
+				</ul>
+			</div>
+
+			<div id="cognac" class="tabcontent tab-content">
+				<ul>
+					<li ng-repeat="item in tabCognac track by item.id">
+						<a class="tab-link icone icone-cognac-{{item.id + 1}}" href="#/app/trouver-cognac/{{item.id}}">{{item.title}}</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+</ion-content>
+</ion-view>
