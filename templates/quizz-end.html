@@ -1,0 +1,35 @@
+<ion-view hide-nav-bar="true" view-title="">
+	<ion-content>
+		<section class="quizz-end">
+			<div class="btn-go-back" ng-click="goHome()"><span class="icon-croix"></span></div>
+
+			<div class="row">
+				<div class="col">
+					<!--
+						Légende des couleurs en fonction de la réussite du quizz :
+						rep-type-1 = couleur orangée
+						rep-type-2 = couleur orange
+						rep-type-3 = couleur orange foncée
+						rep-type-4 = couleur rouge foncée, presque noire
+					-->
+					<div class="primary-title-container rep-type-1"><!-- Ajouter la classe ".rep-type-X" correspondante -->
+						<h1 class="title">{{ percentile }}% de bonnes <br> réponses</h1>
+					</div>
+
+					<div class="description-quizz-end">
+						<span class="intro">Félicitation</span>
+						<p class="text">{{ endMessage }}</p>						
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div class="btn-container">
+						<a class="button btn-ghost" href="#/app/trouver-accord">Trouver l'association parfaite</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</ion-content>
+</ion-view>

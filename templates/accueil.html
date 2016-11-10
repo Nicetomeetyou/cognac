@@ -1,27 +1,39 @@
 <ion-view hide-nav-bar="true" view-title="">
 	<ion-content>
-		<section class="welcome">
-			<div class="row">
-				<div class="col">
-					<div class="hero-title-container">
-						<h1 translate="accueil.title" class="title">Accords Majeurs</h1>
-						<span translate="accueil.baseline" class="baseline">Cognac et plats, le bon match</span>
-					</div>
+		<section id="welcome-js" class="welcome "><!-- Ajouter la classe ".anime" au chargement de la page -->
+			<div class="welcome-container">
+				<div class="row">
+					<div class="col">
+						<div class="hero-title-container">
+							<h1 translate="accueil.title" class="title">Accords Majeurs</h1>
+							<span translate="accueil.baseline" class="baseline">Cognac et plats, le bon match</span>
+						</div>
 
-					<div class="btn-container">
-						<a translate="accueil.btn-saveurs" href="#/app/trouver-accord" class="button">
-							Rechercher l'accord
-						</a>
-					</div>
+						<div class="btn-container">
+							<a translate="accueil.btn-saveurs" href="#/app/trouver-accord" class="button">
+								Rechercher l'accord
+							</a>
+						</div>
 
-					<div class="illustration-container">
-						<img class="illustration" src="img/cognac-glass.png" alt="Illustration d'un verre Cognac">
+						<div class="illustration-container">
+							<img class="illustration" src="img/cognac-glass.png" alt="Illustration d'un verre Cognac">
+						</div>
 					</div>
 				</div>
 			</div>
+
+			<div class="deco-container">
+				<div class="deco deco-block-1"><img class="illustration" src="img/deco-welcome-1.svg" alt="Elément de décoration"></div>
+				<div class="deco deco-block-2"><img class="illustration" src="img/deco-welcome-2.svg" alt="Elément de décoration"></div>
+				<div class="deco deco-block-3"><img class="illustration" src="img/deco-welcome-3.svg" alt="Elément de décoration"></div>
+				<div class="deco deco-block-4"><img class="illustration" src="img/deco-welcome-4.svg" alt="Elément de décoration"></div>
+				<div class="deco deco-block-5"><img class="illustration" src="img/deco-welcome-5.svg" alt="Elément de décoration"></div>
+				<div class="deco deco-block-6"><img class="illustration" src="img/deco-welcome-6.svg" alt="Elément de décoration"></div>
+				<div class="deco deco-block-7"><img class="illustration" src="img/deco-welcome-7.svg" alt="Elément de décoration"></div>
+			</div>
 		</section>
 
-		<section class="cooking-recipes">
+		<section id="cooking-recipes-js" class="cooking-recipes cooking-recipes-accueil">
 			<div class="row">
 				<div class="col">
 					<div class="secondary-title-container">
@@ -32,9 +44,9 @@
 
 			<div class="slider-container">
 				<ks-swiper-container class="swiper-container"
-									 initial-slide="1"
+									 initial-slide="0"
 									 speed="2000"
-									 loop="true"
+									 loop="false"
 									 show-nav-buttons="false"
 									 slides-per-view="1"
 									 space-between="5"
@@ -46,7 +58,7 @@
 					<ks-swiper-slide class="swiper-slide" ng-repeat="item in associatedRecipes track by $index">
 						<a class="recipe-link-container" href="#/app/cuisiner/{{item.id}}">
 							<figure>
-								<img class="img" ng-src="img/image-chocolate.jpg" width="100%">
+								<img class="img" ng-src="img/recipes/{{ item.image }}" width="100%">
 								<figcaption class="description">
 									<span class="text">{{item.title}}</span>
 									<span class="time-recipe">{{item.time}}</span>
@@ -95,13 +107,12 @@
 		</section>
 
 		<aside class="maker">
-			<!-- Ajouter ou enlever la classe ".hide-icon" pour transformer le i en croix -->
-			<div translate="accueil.footer" class="text hide-icon" slide-toggle="#bnic">Fabriqué avec <span class="icon-coeur"></span> par la BNIC</div>
-			
+			<div translate="accueil.footer" class="text hide-icon" slide-toggle="#bnic" toggle-class="switch-icon">Fabriqué avec <span class="icon-coeur"></span> par la BNIC</div>
 			<div id="bnic" class="slideable">
 				<div class="description">Cette application est éditée par le <strong>Bureau National Interprofessionnel du Cognac</strong> (BNIC). <br><br>
-				Cette interprofession qui fédère viticulteurs et maisons de négoce, oeuvre quotidiennement pour la protection de l'AOC Cognac et son développement économique dans le monde.<br><br>
-				Reconnu pour sa subtilité et sa richesse aromatique, le cognac, appellation d’une rare qualité, propose une expérience unique au monde.</div>
+					Cette interprofession qui fédère viticulteurs et maisons de négoce, oeuvre quotidiennement pour la protection de l'AOC Cognac et son développement économique dans le monde.<br><br>
+					Reconnu pour sa subtilité et sa richesse aromatique, le cognac, appellation d’une rare qualité, propose une expérience unique au monde.
+				</div>
 			</div>
 		</aside>
 	</ion-content>

@@ -1,54 +1,55 @@
 <ion-view view-title="FEED" hide-nav-bar="true">
-<ion-content>
-<section class="actualite actualite-feed">
-	<div class="row">
-		<div class="col">
-			<div class="btn-go-back" ng-click="goBack()"><span class="icon-flch-gauche"></span></div>
+	<ion-content ion-sticky>
+		<div class="btn-go-back item-divider" ng-click="goBack()"><span class="icon-flch-gauche"></span></div>
 
-			<div class="tertiary-title-container">
-				<h1 translate="social.title" class="title">L’actualité Cognac</h1>
-				<span translate="social.hashtag" class="hashtag">#CognacFoodPairing</span>
-			</div>
-		</div>
-	</div>
+		<section class="actualite actualite-feed">
+			<div class="row">
+				<div class="col">
 
-	<div class="feed-container">
-
-		<div class="loading" ng-hide=endLoadingFeed>
-			<div class="loading1 load-child"></div>
-			<div class="loading2 load-child"></div>
-			<div class="loading3 load-child"></div>
-			<div class="loading4 load-child"></div>
-			<div class="loading5 load-child"></div>
-			<div class="loading6 load-child"></div>
-			<div class="loading7 load-child"></div>
-			<div class="loading8 load-child"></div>
-			<div class="loading9 load-child"></div>
-			<div class="loading10 load-child"></div>
-			<div class="loading11 load-child"></div>
-			<div class="loading12 load-child"></div>
-		</div>
-		
-		<div class="offline" ng-hide=!endLoadingFeedError>
-			<div translate="social.offline" class="offline-message">Impossible d’accéder<br> à Internet</div>
-			<div class="offline-illustration">
-					<img class="illustration" src="img/offline.svg">
-			</div>
-		</div>
-
-		<ul class="list" ng-hide=!endLoadingFeed>
-			<li class="social-post {{item.source}}" ng-repeat="item in feed">
-				<div class="img-block">
-					<img class="img" ng-hide="!item.media_url" src='{{item.media_url}}'/>
+					<div class="tertiary-title-container">
+						<h1 translate="social.title" class="title">L’actualité Cognac</h1>
+						<span translate="social.hashtag" class="hashtag">#CognacFoodPairing</span>
+					</div>
 				</div>
-				<div class="text-block">
-					<p ng-bind-html="linkify(item.text) | unsafe" class="text">{</p>
+			</div>
+
+			<div class="feed-container">
+
+				<div class="loading" ng-hide=endLoadingFeed>
+					<div class="loading1 load-child"></div>
+					<div class="loading2 load-child"></div>
+					<div class="loading3 load-child"></div>
+					<div class="loading4 load-child"></div>
+					<div class="loading5 load-child"></div>
+					<div class="loading6 load-child"></div>
+					<div class="loading7 load-child"></div>
+					<div class="loading8 load-child"></div>
+					<div class="loading9 load-child"></div>
+					<div class="loading10 load-child"></div>
+					<div class="loading11 load-child"></div>
+					<div class="loading12 load-child"></div>
 				</div>
-			</li>
-		</ul>
 
-	</div>
-</section>
+				<div class="offline" ng-hide=!endLoadingFeedError>
+					<div translate="social.offline" class="offline-message">Impossible d’accéder<br> à Internet</div>
+					<div class="offline-illustration">
+						<img class="illustration" src="img/offline.svg">
+					</div>
+				</div>
 
-</ion-content>
+				<ul class="list" ng-hide=!endLoadingFeed>
+					<li class="social-post {{item.source}}" ng-repeat="item in feed">
+						<div class="img-block">
+							<img class="img" ng-hide="!item.media_url" src='{{item.media_url}}'/>
+						</div>
+						<div class="text-block">
+							<p ng-bind-html="linkify(item.text) | unsafe" class="text">{</p>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</section>
+
+	</ion-content>
 </ion-view>

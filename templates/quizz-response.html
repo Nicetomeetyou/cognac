@@ -13,6 +13,8 @@
 						<div class="primary-title-container">
 							<span class="question-number-total">{{ numQuestionDisplay }} / {{ tabQuizz.length }}</span>
 							<h1 class="title">{{ tabQuizz[numQuestion].title }}</h1>
+							<br/>
+							<p>{{ responseUser }}</p>
 						</div>
 					</div>
 				</div>
@@ -21,7 +23,8 @@
 				<p class="text">{{ responseText }}</p>
 
 				<div class="btn-container">
-					<button class="button btn-ghost" ng-click="nextQuestion()">Question suivante</button>
+					<button class="button btn-ghost" ng-show="!showEndButton" ng-click="nextQuestion()">Question suivante</button>
+					<button class="button btn-ghost" ng-show="showEndButton" ng-click="nextQuestion()">Voir le resultat</button>
 				</div>
 			</div>
 

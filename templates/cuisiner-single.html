@@ -1,24 +1,25 @@
-<ion-view view-title="{{ tabRecipe.title }}" hide-nav-bar="true">
-	<ion-content>
+<ion-view view-title="" hide-nav-bar="true">
+	<ion-content ion-sticky>
+		<div class="btn-go-back item-divider" ng-click="goBack()"><span class="icon-flch-gauche"></span></div>
+
 		<section class="fiche-recette">
-			<div class="btn-go-back" ng-click="goBack()"><span class="icon-flch-gauche"></span></div>
 
 			<div class="row">
 				<div class="col">
 					<div class="description-fiche-recette">
 						<div class="illustration-container">
-							<img class="illustration" src="img/image-chocolate.jpg" alt="Photographie de la saveur">
+							<img class="illustration" src="img/recipes/{{ tabRecipe.image }}" alt="Photographie de la saveur">
 						</div>
 
 						<div class="primary-title-container">
-							<span class="item-family">{{ tabRecipe.family }}</span>
+							<span class="item-family">{{ tabFamilyRecipes[tabRecipe.family] }}</span>
 							<h1 class="title">{{ tabRecipe.title }}</h1>
 						</div>
 
 						<div class="description-block">
 							<ul class="technical-info">
-								<li class="time-recipe">20h45</li>
-								<li class="persons-number">400 pers</li>
+								<li class="time-recipe">{{ tabRecipe.time }}</li>
+								<li class="persons-number">{{ tabRecipe.people }}</li>
 							</ul>
 							<p class="text">{{ tabRecipe.intro }}</p>
 						</div>
@@ -48,7 +49,7 @@
 							</ul>
 						</div>
 
-						<div class="fiche-recette-block end">
+						<div ng-show="tabRecipe.nutrition.length" class="fiche-recette-block end">
 							<h3 class="title">Valeurs nutritionnelles</h3>
 							<ul class="list">
 								<li class="list-item" ng-repeat="item in tabRecipe.nutrition track by $index">
@@ -56,6 +57,7 @@
 								</li>
 							</ul>
 						</div>
+
 					</div>
 				</div>
 			</div>

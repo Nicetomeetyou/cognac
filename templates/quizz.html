@@ -23,7 +23,7 @@
 					<div class="answer-quizz">
 						<ul class="list">
 							<li class="answer-item" ng-repeat="item in tabQuizz[numQuestion].responses track by $index">
-								<button ng-click="setResponse({{ numQuestion }},{{ item.response[1].value }})">{{ item.response[0].text }}</button>
+								<button ng-click="setResponse(numQuestion, item.response[1].value, {{$index}})">{{ item.response[0].text }}</button>
 							</li>
 						</ul>
 					</div>

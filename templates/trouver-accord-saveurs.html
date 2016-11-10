@@ -1,9 +1,8 @@
 <ion-view view-title="" hide-nav-bar="true">
-	<ion-content>
+	<ion-content ion-sticky>
+		<div class="btn-go-back item-divider" ng-click="goBack()"><span class="icon-flch-gauche"></span></div>
 
 		<section class="accord">
-			<div class="btn-go-back" ng-click="goBack()"><span class="icon-flch-gauche"></span></div>
-
 			<div class="row">
 				<div class="col">
 					<div class="description-accord">
@@ -18,18 +17,22 @@
 						</div>
 
 						<div class="description-block">
-							<p class="text">{{ tabContent.intro }}</p>
+							<div ng-class="isItemShown(item) ? 'item-expand inactive' : 'item-expand active'">
+								<p  class="text" ng-bind-html="renderHtml(tabContent.intro)"></p>
+							</div>
+							<div ng-click="toggleItem(item)" class="item-expand-footer">
+								{{ isItemShown(item) ? 'Lire la suite' : 'Réduire' }}
+								<span ng-class="isItemShown(item) ? 'ion-ios-plus-outline' : 'ion-ios-minus-outline'"></span>
+							</div>
 						</div>
 					</div>
 
 					<div class="accords-possibility-container">
 						<div class="accords-possibility-block">
-
-							<h3 translate="accord.acc-majeurs" class="title" slide-toggle="#definication-accords-majeurs-s">Accords Majeurs</h3>
+							<h3 translate="accord.acc-majeurs" class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-majeurs-s">Accords Majeurs</h3>
 							<div id="definication-accords-majeurs-s" class="slideable definition">
 								<p class="text">L’accord majeur c’est l’équilibre parfait entre une saveur et un cognac lorsque solide et liquide se complètent parfaitement et prolongent le plaisir.</p>
 							</div>
-
 
 							<ul class="list">
 								<li class="list-item icone icone-cognac-{{tabCognac[item.accord[0].name].id+1}}" ng-repeat="item in notesPerfect track by $index">
@@ -41,12 +44,11 @@
 						</div>
 
 						<div class="accords-possibility-block">
-
-							<h3 translate="accord.acc-possible" class="title" slide-toggle="#definication-accords-possibles-s">Accords Possible</h3>
+							<h3 translate="accord.acc-possible" class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-possibles-s">Accords Possible</h3>
 							<div id="definication-accords-possibles-s" class="slideable definition">
 								<p class="text">Un accord possible, c’est un équilibre fragile entre une saveur et un cognac. <br> L’un des deux éléments prend le pas sur l’autre. <br> C’est une belle rencontre qui ne peut toutefois pas tenir toutes ses promesses.</p>
 							</div>
-							
+
 							<ul class="list">
 								<li class="list-item icone icone-cognac-{{tabCognac[item.accord[0].name].id+1}}" ng-repeat="item in notesPossible track by $index">
 									{{tabCognac[item.accord[0].name].title}}
@@ -57,12 +59,11 @@
 						</div>
 
 						<div class="accords-possibility-block end">
-
-							<h3 translate="accord.acc-evite" class="title" slide-toggle="#definication-accords-a-eviter-s">Accords a Éviter</h3>
+							<h3 translate="accord.acc-evite" class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-a-eviter-s">Accords a Éviter</h3>
 							<div id="definication-accords-a-eviter-s" class="slideable definition">
 								<p class="text">Un accord à éviter, c’est lorsque l’équilibre ne se produit pas entre liquide et solide. <br> Par exemple, lorsque le cognac est trop puissant ou le met trop discret.</p>
 							</div>
-							
+
 							<ul class="list">
 								<li class="list-item icone icone-cognac-{{tabCognac[item.accord[0].name].id+1}}" ng-repeat="item in notesAvoid track by $index">
 									{{tabCognac[item.accord[0].name].title}}
@@ -88,9 +89,9 @@
 
 			<div class="slider-container">
 				<ks-swiper-container class="swiper-container"
-									 initial-slide="1"
+									 initial-slide="0"
 									 speed="2000"
-									 loop="true"
+									 loop="false"
 									 show-nav-buttons="false"
 									 slides-per-view="1"
 									 space-between="5"
@@ -102,7 +103,7 @@
 					<ks-swiper-slide class="swiper-slide" ng-repeat="item in associatedRecipes track by $index">
 						<a class="recipe-link-container" href="#/app/cuisiner/{{item.id}}">
 							<figure>
-								<img ng-src="img/image-chocolate.jpg" width="100%">
+								<img ng-src="img/recipes/{{ item.image }}" width="100%">
 								<figcaption class="description">
 									<span class="text">{{item.title}}</span>
 									<span class="time-recipe">{{item.time}}</span>

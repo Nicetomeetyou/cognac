@@ -99,8 +99,40 @@ p {
 	margin: 0;
 	padding: 0;
 }
+.bar {
+	padding: 0;
+	height: 50px;
+	border-bottom: 1px solid #E0E0E0;
+}
+.item-divider {
+	padding-top: 0;
+	padding-bottom: 0;
+	min-height: auto;
+	background-color: rgba(255, 255, 255, 0);
+	color: #4f4f4f;
+	font-weight: 400;
+}
 
-
+/* Custumisation uniquement pour les flèches en sticky */
+.item-divider.assertive {
+	overflow: hidden;
+	display: block;
+	width: 60px;
+	height: 60px;
+}
+.item-divider.assertive::before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 8px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+	z-index: -1;
+}
 
 /* Typo
 ****************************************/
@@ -196,7 +228,11 @@ p {
 .btn-go-back:hover {
 	color: #C95914;
 }
-
+.btn-go-back .icon-flch-gauche:before {
+	position: relative;
+	top: 2px;
+	left: 5px;
+}
 
 /* Title container
 ****************************************/
@@ -206,7 +242,7 @@ p {
 	position: relative;
 	display: block;
 	width: 100%;
-	padding: 20px 40px;
+	padding: 20px 30px;
 	text-align: center;
 }
 .hero-title-container::before,
@@ -278,9 +314,8 @@ p {
 .welcome {
 	position: relative;
 	min-height: 475px;
-	padding: 72px 0;
-	background: #EDEBED url(../img/bg-welcome.svg) center -30px no-repeat;
-	background-size: 640px;
+	background: #EDEBED;
+	padding: 0;
 }
 .welcome .hero-title-container {
 	position: relative;
@@ -313,6 +348,71 @@ p {
 	display: block;
 	width: 165px;
 	margin: 0 auto;
+}
+.welcome-container {
+	position: relative;
+	display: block;
+	width: 100%;
+	min-height: 475px;
+	padding: 72px 0;
+	z-index: 10;
+}
+.deco-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	min-height: 475px;
+	z-index: 2;
+}
+.deco-container .deco {
+	position: absolute;
+	display: block;
+	left: 50%;
+}
+.deco.deco-block-1 {
+	top: 0;
+	margin-left: -260px;
+	width: 140px;
+	height: 106px;	
+}
+.deco.deco-block-2 {
+	top: -24px;
+	margin-left: 106px;
+	width: 75px;
+	height: 86px;	
+}
+.deco.deco-block-3 {
+	top: 180px;
+	margin-left: -200px;
+	width: 108px;
+	height: 123px;	
+}
+.deco.deco-block-4 {	
+	top: 140px;
+	margin-left: 106px;
+	width: 146px;
+	height: 178px;	
+}
+.deco.deco-block-5 {	
+	top: 338px;
+	margin-left: -212px;
+	width: 95px;
+	height: 64px;	
+}
+.deco.deco-block-6 {
+	top: 340px;
+	margin-left: 48px;
+	width: 270px;
+	height: 223px;	
+}
+.deco.deco-block-7 {
+	top: 436px;
+	margin-left: -212px;
+	width: 96px;
+	height: 103px;	
 }
 
 /* Cooking recipes */
@@ -594,6 +694,109 @@ p {
 	text-transform: none;
 }
 
+
+/* Quizz end */
+.quizz-end {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100vh;
+	min-height: 475px;
+	padding: 72px 0;
+	background: #000 url(../img/bg-quizz-end.jpg) top center no-repeat;
+	background-size: cover;
+}
+.quizz-end .btn-go-back {
+	font-size: 2rem;
+	color: #fff;
+}
+.quizz-end .btn-go-back:hover {
+	color: #C95914;
+}
+.quizz-end .primary-title-container {
+	position: relative;
+	padding: 20px 20px 80px;
+	margin-bottom: 80px;
+}
+.quizz-end .primary-title-container::before {
+	content: "\e917";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-bottom: -45px;
+	margin-left: -45px;
+	display: block;
+	width: 90px;
+	height: 90px;
+	font-family: 'icomoon';
+	font-size: 2rem;
+	line-height: 80px;
+	color: #fff;
+	text-align: center;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #C95914;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	z-index: 8;
+}
+.quizz-end .primary-title-container.rep-type-1::before { /* Couleur orangée */
+	background-color: #FFB219;
+}
+.quizz-end .primary-title-container.rep-type-2::before { /* Couleur orange */
+	background-color: #C95914;
+}
+.quizz-end .primary-title-container.rep-type-3::before { /* Couleur orange foncée */
+	background-color: #A63211;
+}
+.quizz-end .primary-title-container.rep-type-4::before { /* Couleur rouge foncée, presque noire */
+	background-color: #590909;
+}
+.quizz-end .primary-title-container .title {
+	color: #fff;
+}
+
+.description-quizz-end {
+	position: relative;
+	text-align: center;
+}
+.description-quizz-end .intro {
+	display: block;
+	width: 100%;
+	font-family: 'WorkSans-Medium';
+	font-size: 1rem;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 16px;	
+}
+.description-quizz-end .text {
+	display: block;
+	width: 100%;
+	font-family: 'WorkSans-Regular';
+	font-size: 1rem;
+	line-height: 1;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+	padding: 0 16px 16px;
+}
+.quizz-end .btn-container {
+	padding: 20px 0;
+}
+.quizz-end .button.btn-ghost {
+	color: #fff;
+	text-transform: none;
+	border-color: #fff;
+	background-color: rgba(0, 0, 0, 0);
+}
 
 /* Actualité */
 .actualite {
@@ -932,7 +1135,7 @@ p {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-.maker .text.hide-icon::before {
+.maker .text.switch-icon::before {
 	content:"\e907";
 	font-size: 1.5rem;
 }
@@ -1197,6 +1400,65 @@ p {
 	cursor: pointer;
 }
 
+/* Read more */
+.item-expand {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	max-height: 60px;
+	-webkit-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;	
+}
+.item-expand.inactive:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	height: 20px;
+	width: 100%;
+	background: -webkit-linear-gradient(top,  rgba(237,235,237,0) 0%,rgba(237,235,237,1) 100%);
+	background: linear-gradient(to bottom,  rgba(237,235,237,0) 0%,rgba(237,235,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00edebed', endColorstr='#edebed',GradientType=0 );
+}
+.item-expand.active {
+	height: auto;
+	max-height: none;
+}
+.item-expand-footer {
+	font-size: 0.75rem;
+	line-height: 1;
+	text-transform: uppercase;
+	color: #979797;
+	margin-top: 16px;
+}
+.item-expand-footer span {
+	padding-left: 10px;
+}
+.description-block .ion-ios-plus-outline:before,
+.description-block .ion-ios-minus-outline:before {
+	position: relative;
+	top: 2px;
+	font-family: 'icomoon';
+	font-size: 0.875rem;
+	line-height: 1;
+	color: #979797;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+}
+.description-block .ion-ios-plus-outline:before {
+	content:"\e901";
+}
+.description-block .ion-ios-minus-outline:before {
+	content:"\e904";
+}
+
 /* Accord */
 .accord {
 	padding-bottom: 36px;
@@ -1301,6 +1563,8 @@ p {
 .accords-possibility-block.end {
 	padding-bottom: 0;
 }
+
+.item-divider .title,
 .accords-possibility-block .title {
 	position: relative;
 	font-size: 1.125rem;
@@ -1309,6 +1573,7 @@ p {
 	padding: 10px 16px 10px 35px;
 	cursor: pointer;
 }
+
 .accords-possibility-block .title::before {
 	content:"\e910";
 	position: absolute;
@@ -1329,6 +1594,10 @@ p {
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+.accords-possibility-block .title.switch-icon::before {
+	content: "\e907";
+	font-size: 1.5rem;
 }
 .accords-possibility-block .list {
 	position: relative;
@@ -1406,6 +1675,7 @@ p {
 	font-weight: 400;
 	font-style: normal;
 	color: #979797;
+	padding-top: 16px;
 	padding-bottom: 16px;
 }
 
@@ -1525,7 +1795,7 @@ p {
 .fiche-recette-block {
 	display: block;
 	width: 100%;
-	padding-bottom: 50px;
+	/*padding-bottom: 50px;*/
 }
 .fiche-recette-block.end {
 	padding-bottom: 0;
@@ -1604,4 +1874,108 @@ p {
 	padding: 16px 0 0 16px;
 }
 
+
+
+
+
+/*
+.animation {
+-webkit-transition: all linear 0.5s;
+transition: all linear 0.5s;
+}
+.animation.ng-hide {
+height: 0;
+}
+*/
+
+
+
+/* Animation
+****************************************/
+
+/* Accueil */
+.welcome {
+	background-color: #fff;
+	-webkit-transform: translateY(20px);
+	transform: translateY(20px);
+	-webkit-transition: all 1000ms cubic-bezier(0.075, 0.820, 0.495, 1); 
+	transition: all 1000ms cubic-bezier(0.075, 0.820, 0.495, 1);	
+}
+.anime.welcome {
+	background-color: #EDEBED;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.cooking-recipes.cooking-recipes-accueil {
+	opacity: 0;
+	-webkit-transition: all 1000ms cubic-bezier(0.075, 0.820, 0.495, 1); 
+	transition: all 1000ms cubic-bezier(0.075, 0.820, 0.495, 1);	
+	-webkit-transition-delay: 800ms;
+	transition-delay: 800ms;
+}
+.anime.cooking-recipes.cooking-recipes-accueil {
+	opacity: 1;
+}
+
+.hero-title-container .title,
+.hero-title-container .baseline,
+.welcome-container .btn-container .button,
+.welcome-container .illustration-container .illustration,
+.welcome .deco-container .deco,
+.hero-title-container::before,
+.hero-title-container::after {
+	opacity: 0;
+	-webkit-transition: all 1000ms cubic-bezier(0.075, 0.820, 0.495, 1); 
+	transition: all 1000ms cubic-bezier(0.075, 0.820, 0.495, 1);
+}
+.hero-title-container .title {
+	-webkit-transform: translateY(20px);
+	transform: translateY(20px);
+}
+.hero-title-container .baseline {
+	-webkit-transform: translateY(30px);
+	transform: translateY(30px);
+}
+.welcome-container .btn-container .button {
+	-webkit-transform: translateY(10px);
+	transform: translateY(10px);
+	-webkit-transition-delay: 800ms;
+	transition-delay: 800ms;
+}
+.welcome-container .illustration-container .illustration {
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
+}
+.welcome .deco-container .deco {
+	-webkit-transform: translateY(60px);
+	transform: translateY(60px);
+}
+.hero-title-container::before,
+.hero-title-container::after {
+	margin-left: 0;
+	width: 0;
+	-webkit-transition-delay: 200ms;
+	transition-delay: 200ms;
+}
+
+.anime .hero-title-container .title,
+.anime .hero-title-container .baseline,
+.anime .welcome-container .btn-container .button,
+.anime .welcome-container .illustration-container .illustration,
+.anime.welcome .deco-container .deco {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.anime .hero-title-container::before {
+	opacity: 1;
+	margin-left: -30px;
+	width: 60px;
+}
+.anime .hero-title-container::after {
+	opacity: 1;
+	margin-left: -55px;
+	width: 110px;
+}
 
