@@ -73,8 +73,6 @@
     <gap:splash src="resources/splash/Default~iphone.png"         gap:platform="ios"     width="320" height="480" />
     <gap:splash src="resources/splash/Default-Portrait@~ipadpro.png"           gap:platform="ios"     width="768" height="1024" />
 
-    </gap:config-file>
-
     <!--
         Define access to external domains.
 
