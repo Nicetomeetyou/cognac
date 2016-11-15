@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, flavorsFactory, recipesFactory) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, flavorsFactory, recipesFactory, $ionicPopup) {
 	var flavors = flavorsFactory.getJsonFlavors();
 
 	var topRecipes = [{ "id" : "1" }, { "id" : "2" }, { "id" : "6" }, { "id" : "7" }];
@@ -8,6 +8,25 @@ angular.module('starter.controllers', [])
 	recipesFactory.getJsonRecipes().then(function(recipes){
 		$scope.associatedRecipes = recipesFactory.getRecipesAssociated(topRecipes, recipes);
 	});
+
+	$scope.showPopup = function() {
+		$scope.data = {};
+
+		// An elaborate, custom popup
+		var myPopup = $ionicPopup.show({
+			template: '',
+			title: 'Cette application est éditée par le <strong>Bureau National Interprofessionnel du Cognac</strong> (BNIC).',
+			subTitle: 'Cette interprofession qui fédère viticulteurs et maisons de négoce, oeuvre quotidiennement pour la protection de l\'AOC Cognac et son développement économique dans le monde.<br><br>Reconnu pour sa subtilité et sa richesse aromatique, le cognac, appellation d’une rare qualité, propose une expérience unique au monde.',
+			scope: $scope,
+			buttons: [{
+				text: '<span class="icon-croix"></span>',
+				type: 'button-positive',
+				onTap: function(e) {
+					myPopup.close();
+				}
+			}]
+		});
+	};
 })
 
 .controller('flavorController', function($scope, flavorsFactory, cognacFactory, $state) {

@@ -17,8 +17,10 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 		}
 
 		if (window.StatusBar) {
-			StatusBar.styleDefault();
+			return StatusBar.hide();
 		}
+
+		ionic.Platform.fullScreen();
 
 		if (window.FirebasePlugin) {
 			FirebasePlugin.getInstanceId(function(token) {
@@ -326,15 +328,34 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 		restrict: 'A',
 		link: function(scope, element, attrs) {
 			var target = document.querySelector(attrs.slideToggle);
+			
 			attrs.expanded = false;
 			element.bind('click', function() {
-				var content = target.querySelector('.slideable_content');
-				if(!attrs.expanded) {
-					var y = content.clientHeight;
-					content.style.border = 0;
-					target.style.height = y + 'px';
+				var content = element.next('.slideable_content');
+				var next = element.next(".slideable");
+
+				console.log(element);
+				console.log(attrs);
+
+				if(!next.hasClass('open')) {
+					var y = content[0].scrollHeight;
+					
+					if(attrs.id == 'filter') { 
+						var myElement = document.getElementById('filter');
+						myElement.innerHTML = "Fermer";
+					}
+
+					next.css("height" , y + 'px');
+					next.addClass('open')
 				} else {
-					target.style.height = '0px';
+
+					if(attrs.id == 'filter') { 
+						var myElement = document.getElementById('filter');
+						myElement.innerHTML = "Filtrez les saveurs";
+					}
+
+					next.css("height" , '0px');
+					next.removeClass('open')
 				}
 				attrs.expanded = !attrs.expanded;
 			});
