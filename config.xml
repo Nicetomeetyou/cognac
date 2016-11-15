@@ -28,13 +28,13 @@
         Define a specific version of PhoneGap to build into your app.
         <preference name="phonegap-version"       value="3.5.0" />
     -->
-    <plugin name="cordova-plugin-firebase" spec="~0.1.18"/>
-    <plugin name="cordova-plugin-device" spec="~1.1.3"/>
-    <plugin name="cordova-plugin-whitelist" spec="~1.3.0"/>
-    <plugin name="cordova-plugin-statusbar" spec="~2.2.0"/>
-    <plugin name="ionic-plugin-keyboard" spec="~2.2.1"/>
-    <plugin name="cordova-plugin-splashscreen" spec="~4.0.0"/>
-    <plugin name="cordova-plugin-console" spec="~1.0.4"/>
+    <plugin name="cordova-plugin-firebase" />
+    <plugin name="cordova-plugin-device" />
+    <plugin name="cordova-plugin-whitelist" />
+    <plugin name="cordova-plugin-statusbar" />
+    <plugin name="ionic-plugin-keyboard" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-console" />
     <!-- Plugins -->
 
     <!-- Third party plugins -->
