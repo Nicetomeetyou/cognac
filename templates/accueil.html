@@ -1,6 +1,6 @@
 <ion-view hide-nav-bar="true" view-title="">
 	<ion-content>
-		<section id="welcome-js" class="welcome "><!-- Ajouter la classe ".anime" au chargement de la page -->
+		<section id="welcome-js" class="welcome"><!-- Ajout de la classe ".anime" au chargement de la page -->
 			<div class="welcome-container">
 				<div class="row">
 					<div class="col">
@@ -10,9 +10,7 @@
 						</div>
 
 						<div class="btn-container">
-							<a translate="accueil.btn-saveurs" href="#/app/trouver-accord" class="button">
-								Rechercher l'accord
-							</a>
+							<a translate="accueil.btn-saveurs" href="#/app/trouver-accord" class="button">Rechercher l'accord</a>
 						</div>
 
 						<div class="illustration-container">
@@ -31,6 +29,7 @@
 				<div class="deco deco-block-6"><img class="illustration" src="img/deco-welcome-6.svg" alt="Elément de décoration"></div>
 				<div class="deco deco-block-7"><img class="illustration" src="img/deco-welcome-7.svg" alt="Elément de décoration"></div>
 			</div>
+			
 		</section>
 
 		<section id="cooking-recipes-js" class="cooking-recipes cooking-recipes-accueil">
@@ -86,7 +85,7 @@
 						<p translate="accueil.baseline-quizz" class="intro">Savez vous déguster le Cognac ? Les profils de Cognacs et arômes.</p>
 					</div>
 					<div class="btn-container">
-						<a translate="accueil.btn-quizz" class="button btn-ghost" href="#/app/quizz">Participer</a>
+						<div translate="accueil.btn-quizz" class="button btn-ghost" ng-click="resetGame()">Participer</div>
 					</div>
 				</div>
 			</div>

@@ -24,10 +24,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 
 		if (window.FirebasePlugin) {
 			FirebasePlugin.getInstanceId(function(token) {
-				console.log("Token", token);
-			}, function(error) {
-				console.error(error);
-			});
+			}, function(error) {});
 		}
 
 		if(typeof analytics !== "undefined") {
@@ -59,7 +56,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 		views: {
 			'menuContent': {
 				templateUrl: 'templates/accueil.html',
-				controller: function() {
+				controller: function($scope) {
 					if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Accueil");
 					if(typeof analytics !== "undefined") { analytics.trackView("Accueil"); }
 
@@ -70,6 +67,8 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 						var cookingRecipesJs= document.getElementById('cooking-recipes-js');
 						angular.element(cookingRecipesJs).addClass('anime');
 					}, 1000);
+
+					
 				}
 			}
 		}
@@ -136,7 +135,6 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 					$scope.associatedRecipes = [];
 					recipesFactory.getJsonRecipes().then(function(recipes){
 						$scope.associatedRecipes = recipesFactory.getRecipesAssociated($scope.tabContent.recipes, recipes);
-						console.log($scope.associatedRecipes.length);
 					});
 
 					$scope.tabFamilyFlavors = eval("tabFamilyFlavors_"+langApp);
@@ -333,9 +331,6 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 			element.bind('click', function() {
 				var content = element.next('.slideable_content');
 				var next = element.next(".slideable");
-
-				console.log(element);
-				console.log(attrs);
 
 				if(!next.hasClass('open')) {
 					var y = content[0].scrollHeight;

@@ -1,7 +1,7 @@
 <ion-view hide-nav-bar="true" view-title="">
 	<ion-content>
 		<section class="quizz">
-			<div class="btn-go-back" ng-click="goHome()"><span class="icon-croix"></span></div>
+			<div class="btn-go-back" ng-click="goHome()"></div>
 
 			<div class="row">
 				<div class="col">
@@ -22,12 +22,16 @@
 			<div class="answer-container">
 				<p class="text">{{ responseText }}</p>
 
-				<div class="btn-container">
-					<button class="button btn-ghost" ng-show="!showEndButton" ng-click="nextQuestion()">Question suivante</button>
-					<button class="button btn-ghost" ng-show="showEndButton" ng-click="nextQuestion()">Voir le resultat</button>
-				</div>
+				<!--<div class="btn-container">
+<button class="button btn-ghost" ng-show="!showEndButton" ng-click="nextQuestion()">Question suivante</button>
+<button class="button btn-ghost" ng-show="showEndButton" ng-click="nextQuestion()">Voir le resultat</button>
+</div>-->
 			</div>
-
 		</section>
 	</ion-content>
+
+	<ion-footer-bar class="sticky-btn-container">
+		<button class="button btn-ghost" ng-show="!showEndButton" ng-click="nextQuestion()">Question suivante</button>
+		<button class="button btn-ghost" ng-show="showEndButton" ng-click="nextQuestion()">Voir le resultat</button>
+	</ion-footer-bar>
 </ion-view>

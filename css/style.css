@@ -113,26 +113,7 @@ p {
 	font-weight: 400;
 }
 
-/* Custumisation uniquement pour les flèches en sticky */
-.item-divider.assertive {
-	overflow: hidden;
-	display: block;
-	width: 60px;
-	height: 60px;
-}
-.item-divider.assertive::before {
-	content: "";
-	position: absolute;
-	top: 5px;
-	left: 8px;
-	display: block;
-	width: 50px;
-	height: 50px;
-	background-color: #fff;
-	border-radius: 50%;
-	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
-	z-index: -1;
-}
+
 
 /* Typo
 ****************************************/
@@ -195,9 +176,9 @@ p {
 	transition: all 300ms ease-in-out;
 }
 .button:hover {
-	color: #fff;
-	border-color: #C95914;
-	background-color: #C95914;
+	color: #000;
+	border-color: #000;
+	background-color: #fff;
 }
 
 .button.btn-ghost {
@@ -215,24 +196,56 @@ p {
 	top: 0;
 	left: 0;
 	display: block;
-	min-width: 40px;
-	font-size: 1.5rem;
-	line-height: 24px;
-	color: #000;
-	padding: 16px 0 16px 16px;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 50%;
+	padding: 0;
+	margin: 5px 0 0 5px;
 	cursor: pointer;
 	z-index: 20;
 	-webkit-transition: all 300ms ease-in-out;
 	transition: all 300ms ease-in-out;
 }
-.btn-go-back:hover {
-	color: #C95914;
+.btn-go-back::before {
+	content:"\e90b";
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	left: 50%;
+	margin-left: -12px;
+	display: block;
+	width: 24px;
+	height: 24px;
+	font-family: 'icomoon';
+	font-size: 1.5rem;
+	line-height: 24px;
+	color: #000;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
-.btn-go-back .icon-flch-gauche:before {
-	position: relative;
-	top: 2px;
-	left: 5px;
+
+/* Custumisation uniquement pour les flèches en sticky */
+.btn-go-back.assertive {
+	overflow: hidden;
+	display: block;
 }
+.btn-go-back.assertive {
+	background-color: #fff;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.quizz .btn-go-back::before {
+	content:"\e907";
+	font-size: 2rem;
+	color: #fff;
+	margin-left: -16px;
+}
+
 
 /* Title container
 ****************************************/
@@ -305,7 +318,6 @@ p {
 	padding: 0 30px 10px;
 	text-align: center;
 }
-
 
 /* Section
 ****************************************/
@@ -457,6 +469,7 @@ p {
 	position: relative;
 	display: block;
 	width: 100%;
+	min-height: 110px;
 	padding: 20px;
 	text-align: center;
 	border: 1px solid #E0E0E0;
@@ -685,12 +698,32 @@ p {
 	width: 100%;
 	padding: 32px 16px;
 }
-.answer-container .btn-container {
-	padding-top: 32px;
+/*.answer-container .btn-container {
+padding-top: 32px;
 }
 .answer-container .btn-container .button {
-	text-transform: none;
+text-transform: none;
+}*/
+
+.sticky-btn-container.bar {
+	text-align: center;
+	background-color: #E0E0E0;
+	border-bottom: 0 solid #E0E0E0;
 }
+.sticky-btn-container.bar .button,
+.sticky-btn-container.bar button {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	font-weight: 400;
+	color: #000;
+	padding: 0 10px;
+	border: 0 solid #E0E0E0;
+}
+
 
 /* Quizz end */
 .quizz-end {
@@ -957,7 +990,6 @@ p {
 	display: block;
 	width: 100%;
 }
-
 .loading {
 	position:relative;
 	margin:40px auto;
@@ -1094,12 +1126,12 @@ p {
 	}
 }
 
-
 /* Maker */
 .maker {
 	position: relative;
 	display: block;
 	width: 100%;
+	height: 56px;
 	text-align: center;
 	background-color: #fff;
 }
@@ -1155,6 +1187,7 @@ p {
 	max-width: 90%;
 	max-height: 90%;
 	background-color: #fff;
+	border-radius: 2px;
 }
 .popup-head {
 	padding: 32px 16px;
@@ -1492,11 +1525,14 @@ p {
 	max-height: none;
 }
 .item-expand-footer {
+	display: block;
+	width: 100%;
 	font-size: 0.75rem;
 	line-height: 1;
 	text-transform: uppercase;
 	color: #979797;
-	margin-top: 16px;
+	padding: 10px 0;
+	cursor: pointer;
 }
 .item-expand-footer span {
 	padding-left: 10px;
@@ -1595,7 +1631,6 @@ p {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
 .accord .primary-title-container .title {
 	padding-bottom: 5px;
 }
@@ -1613,7 +1648,6 @@ p {
 .accord .description-block .text {
 	padding-bottom: 8px;
 }
-
 .accords-possibility-container {
 	position: relative;
 	display: block;
@@ -1638,7 +1672,6 @@ p {
 	padding: 10px 16px 10px 35px;
 	cursor: pointer;
 }
-
 .accords-possibility-block .title::before {
 	content:"\e910";
 	position: absolute;
@@ -1775,7 +1808,6 @@ p {
 .cuisiner .list .recipe-item {
 	margin-bottom: 30px;
 }
-
 
 /* Fiche recette */
 .fiche-recette {
@@ -2034,5 +2066,4 @@ p {
 .platform-ios {
 	border-top: 20px solid #fff;
 }
-
 

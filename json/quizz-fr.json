@@ -2,6 +2,7 @@
     { 
         "id": 0,
         "title": "Le Cognac est issu de la distillation de :",
+        "good" : "0",
         "responses" : [
             { "response" : [
                 { "text" : "Vin" },
@@ -21,6 +22,7 @@
     { 
         "id": 1,
         "title": "L’assemblage dans le monde du Cognac, c’est :",
+        "good" : "2",
         "responses" : [
             { "response" : [
                 { "text" : "La fabrication d’un fût de vieillissement" },
@@ -35,11 +37,12 @@
                 { "value" : "1" }
             ]}
         ],
-        "validation" : "C'est en effet en réalisant des assemblages entre eaux-de- vie d'âges et de crus différents que le Maître de Chai crée son cognac, tel un peintre ou un musicien en véritable harmonie. Un travail d'orfèvre qui permet de garantir le même style pour un cognac donné. Et de proposer des cognacs adaptés aux goûts de chacun."
+        "validation" : "C'est en effet en réalisant des assemblages entre eaux-de-vie d'âges et de crus différents que le Maître de Chai crée son cognac, tel un peintre ou un musicien en véritable harmonie. Un travail d'orfèvre qui permet de garantir le même style pour un cognac donné. Et de proposer des cognacs adaptés aux goûts de chacun."
     },
     { 
         "id": 2,
         "title": "Un Cognac VS est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "1 an" },
@@ -59,6 +62,7 @@
     { 
         "id": 3,
         "title": "Un Cognac VSOP est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "2 ans" },
@@ -78,6 +82,7 @@
     { 
         "id": 4,
         "title": "Un Cognac XO est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "4 ans" },
@@ -97,6 +102,7 @@
     { 
         "id": 5,
         "title": "Quel est le verre idéal pour apprécier un Cognac pur ?",
+        "good" : "0",
         "responses" : [
             { "response" : [
                 { "text" : "Le verre tulipe" },
@@ -116,6 +122,7 @@
     { 
         "id": 6,
         "title": "Faut-il chauffer son Cognac ?",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "Oui" },
@@ -131,6 +138,7 @@
     { 
         "id": 7,
         "title": "Faut-il agiter son verre ?",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "Oui" },
@@ -146,6 +154,7 @@
     { 
         "id": 8,
         "title": "Quel Cognac s’accorde mieux à l’ananas ?",
+        "good" : "0",
         "responses" : [
             { "response" : [
                 { "text" : "VS Frozen" },
@@ -165,6 +174,7 @@
     { 
         "id": 9,
         "title": "Quel Cognac s’accorde mieux au Brie ?",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "VS" },
@@ -184,6 +194,7 @@
     { 
         "id": 10,
         "title": "Quel Cognac s’accorde mieux au pâté en croûte ?",
+        "good" : "2",
         "responses" : [
             { "response" : [
                 { "text" : "VS" },
@@ -203,6 +214,7 @@
     { 
         "id": 11,
         "title": "Le Cognac est-il uniquement un digestif ?",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "Oui" },

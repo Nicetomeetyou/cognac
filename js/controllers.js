@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, flavorsFactory, recipesFactory, $ionicPopup) {
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, flavorsFactory, recipesFactory, $ionicPopup, $rootScope, $state) {
 	var flavors = flavorsFactory.getJsonFlavors();
 
 	var topRecipes = [{ "id" : "1" }, { "id" : "2" }, { "id" : "6" }, { "id" : "7" }];
@@ -8,6 +8,15 @@ angular.module('starter.controllers', [])
 	recipesFactory.getJsonRecipes().then(function(recipes){
 		$scope.associatedRecipes = recipesFactory.getRecipesAssociated(topRecipes, recipes);
 	});
+
+	$scope.resetGame = function() {
+		$rootScope.numQuestionDisplay = 1;
+		$rootScope.numQuestion = 0;
+
+		$rootScope.showEndButton = false;
+		
+		$state.go('app.quizz');
+	}
 
 	$scope.showPopup = function() {
 		$scope.data = {};
@@ -171,7 +180,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('quizzController', function($scope, $ionicHistory, quizzFactory, $rootScope, $state, $ionicViewSwitcher) {
-	$scope.showEndButton = false;
+	$rootScope.showEndButton = false;
 
 	if(!$rootScope.tabResponse) $rootScope.tabResponse = [];
 
@@ -180,15 +189,16 @@ angular.module('starter.controllers', [])
 		$rootScope.tabQuizz = quizz;
 	});
 
-	$scope.setResponse = function(id, response, num) {
+	$scope.setResponse = function(id, response, num, good) {
+		console.log(response);
+
 		$rootScope.response = response;
 		$rootScope.responseText = $scope.tabQuizz[$rootScope.numQuestion].validation;
-		$rootScope.responseUser = $scope.tabQuizz[$rootScope.numQuestion].responses[num].response[0].text;
+		$rootScope.responseUser = $scope.tabQuizz[$rootScope.numQuestion].responses[good].response[0].text;
 
 		$rootScope.tabResponse[$rootScope.numQuestion] = parseInt(response);
-		console.log($rootScope.tabResponse);
 
-		$state.go('app.quizz-response'); 
+		$state.go('app.quizz-response');
 	}
 
 	$scope.nextQuestion = function(id, response) {
@@ -196,7 +206,7 @@ angular.module('starter.controllers', [])
 		$rootScope.numQuestion++;
 		$rootScope.response = "-";
 
-		if($rootScope.numQuestionDisplay == $rootScope.tabQuizz.length) $scope.showEndButton = true;
+		if($rootScope.numQuestionDisplay == $rootScope.tabQuizz.length) $rootScope.showEndButton = true;
 
 		$ionicViewSwitcher.nextDirection('forward');
 		if($rootScope.numQuestionDisplay == $rootScope.tabQuizz.length + 1) {
@@ -208,8 +218,8 @@ angular.module('starter.controllers', [])
 
 			$rootScope.percentile = parseInt(sum/$rootScope.tabQuizz.length*100);
 
-			$state.go('app.quizz-end'); 
-		} else $state.go('app.quizz'); 
+			$state.go('app.quizz-end');
+		} else $state.go('app.quizz');
 	}
 
 	$scope.goHome = function() {
@@ -217,7 +227,7 @@ angular.module('starter.controllers', [])
 		$rootScope.numQuestion = 0;
 
 		$state.go('app.accueil');
-	};
+	}
 
 	if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Quizz");
 	if(typeof analytics !== "undefined") { analytics.trackView("Quizz"); }
