@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "193533064718",
+    "firebase_url": "https://cognac-accords-majeurs.firebaseio.com",
+    "project_id": "cognac-accords-majeurs",
+    "storage_bucket": "cognac-accords-majeurs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193533064718:android:3a62c170e97a6420",
+        "android_client_info": {
+          "package_name": "com.ionicframework.accordsmajeurs196379"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193533064718-e6q4utfuh3enub1q10p9co40f60jevka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2GKlm269cPuYdnKDK3atnpkWUfo6vv2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
