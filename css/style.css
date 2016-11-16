@@ -698,12 +698,6 @@ p {
 	width: 100%;
 	padding: 32px 16px;
 }
-/*.answer-container .btn-container {
-padding-top: 32px;
-}
-.answer-container .btn-container .button {
-text-transform: none;
-}*/
 
 .sticky-btn-container.bar {
 	text-align: center;
@@ -2063,7 +2057,41 @@ text-transform: none;
 
 /* Custum iOS
 ****************************************/
-.platform-ios {
-	border-top: 20px solid #fff;
+.platform-ios::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 20px;
+	background-color: #fff;
+	z-index: 300;
 }
+.platform-ios .welcome,
+.platform-ios .trouver-accord,
+.platform-ios .accord,
+.platform-ios .fiche-recette,
+.platform-ios .cuisiner,
+.platform-ios .quizz,
+.platform-ios .actualite-feed {
+	border-top: 20px solid rgba(255, 255, 255, 0);	
+}
+.platform-ios .btn-go-back {
+    margin: 25px 0 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
