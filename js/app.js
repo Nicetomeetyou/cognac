@@ -16,10 +16,6 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 			cordova.plugins.Keyboard.disableScroll(true);
 		}
 
-		if (window.StatusBar) {
-			return StatusBar.hide();
-		}
-
 		ionic.Platform.fullScreen();
 
 		if (window.FirebasePlugin) {
@@ -31,6 +27,10 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 			analytics.startTrackerWithId("UA-86976605-1");
 		} else {
 			console.log("Google Analytics Unavailable");
+		}
+
+		if (window.StatusBar) {
+			return StatusBar.hide();
 		}
 	});
 })
