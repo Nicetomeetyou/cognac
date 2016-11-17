@@ -39,7 +39,7 @@
 									{{tabCognac[item.accord[0].name].title}}
 									<span class="note">{{item.accord[1].note}}<span class="denominator">/5</span></span>
 								</li>
-								<li translate="accord.no-accord" class="no-accord" ng-show="!notesPerfect.length">Il n'existe pas d'Accords Majeurs pour cette saveur.</li>
+								<li translate="accord.no-accord-majeurs" class="no-accord" ng-show="!notesPerfect.length">Il n'existe pas d'Accords Majeurs pour cette saveur.</li>
 							</ul>
 						</div>
 
@@ -54,7 +54,7 @@
 									{{tabCognac[item.accord[0].name].title}}
 									<span class="note">{{item.accord[1].note}}<span class="denominator">/5</span></span>
 								</li>
-								<li translate="accord.no-accord" class="no-accord" ng-show="!notesPossible.length">Il n'y a pas d'Accord possible pour cette saveur.</li>
+								<li translate="accord.no-accord-possible" class="no-accord" ng-show="!notesPossible.length">Il n'y a pas d'Accord possible pour cette saveur.</li>
 							</ul>
 						</div>
 
@@ -69,7 +69,7 @@
 									{{tabCognac[item.accord[0].name].title}}
 									<span class="note">{{item.accord[1].note}}<span class="denominator">/5</span></span>
 								</li>
-								<li translate="accord.no-accord" class="no-accord" ng-show="!notesAvoid.length">Il n'y a pas d'Accord à éviter avec cette saveur.</li>
+								<li translate="accord.no-accord-eviter" class="no-accord" ng-show="!notesAvoid.length">Il n'y a pas d'Accord à éviter avec cette saveur.</li>
 							</ul>
 						</div>
 					</div>

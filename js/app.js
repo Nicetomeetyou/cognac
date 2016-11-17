@@ -18,11 +18,6 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 
 		ionic.Platform.fullScreen();
 
-		if (window.FirebasePlugin) {
-			FirebasePlugin.getInstanceId(function(token) {
-			}, function(error) {});
-		}
-
 		if(typeof analytics !== "undefined") {
 			analytics.startTrackerWithId("UA-86976605-1");
 		} else {
@@ -56,7 +51,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 		views: {
 			'menuContent': {
 				templateUrl: 'templates/accueil.html',
-				controller: function($scope) {
+				controller: function($scope, $ionicSideMenuDelegate) {
 					if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Accueil");
 					if(typeof analytics !== "undefined") { analytics.trackView("Accueil"); }
 
@@ -68,7 +63,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 						angular.element(cookingRecipesJs).addClass('anime');
 					}, 1000);
 
-					
+					$ionicSideMenuDelegate.canDragContent(false);
 				}
 			}
 		}

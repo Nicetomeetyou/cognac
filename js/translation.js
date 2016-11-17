@@ -13,7 +13,7 @@ var translations = {
 		"accueil.title-feed" : "L’actualité Cognac",
 		"accueil.baseline-feed" : "#CognacFoodPairing",
 		"accueil.btn-feed" : "Découvrir",
-		"accueil.footer" : "Fabriqué avec <span class=\"icon-coeur\"></span> par la BNIC",
+		"accueil.footer" : "Fabriqué avec <span class=\"icon-coeur\"></span> par le BNIC",
 		// -- TROUVER ACCORDS
 		"accord.title" : "Trouver l'accord <br> parfait par type de :",
 		"accord.saveurs" : "Saveurs",
@@ -21,7 +21,9 @@ var translations = {
 		"accord.acc-majeurs" : "Accords majeurs",
 		"accord.acc-possible" : "Accords possibles",
 		"accord.acc-evite" : "Accords a éviter",
-		"accord.no-accord" : "Il n'y a pas d'accord possible pour cette saveur.",
+		"accord.no-accord-majeurs" : "Il n'existe pas d'Accords Majeurs pour cette saveur.",
+		"accord.no-accord-possible" : "Il n'y a pas d'Accord possible pour cette saveur.",
+		"accord.no-accord-eviter" : "Il n'y a pas d'Accord à éviter avec cette saveur.",
 		"accord.title-recipes-cognac" : "Les Recettes avec du Cognac",
 		"accord.title-recipes-saveurs" : "Les recettes avec :",
 		// -- SOCIAL
@@ -45,7 +47,7 @@ var translations = {
 		"accueil.title-feed" : "L’actualité Cognac",
 		"accueil.baseline-feed" : "#CognacFoodPairing",
 		"accueil.btn-feed" : "Découvrir",
-		"accueil.footer" : "Fabriqué avec <span class=\"icon-coeur\"></span> par la BNIC",
+		"accueil.footer" : "Fabriqué avec <span class=\"icon-coeur\"></span> par le BNIC",
 		// -- TROUVER ACCORDS
 		"accord.title" : "Trouver l'accord <br> parfait par type de :",
 		"accord.saveurs" : "Saveurs",
@@ -53,6 +55,8 @@ var translations = {
 		"accord.acc-majeurs" : "Accords majeurs",
 		"accord.acc-possible" : "Accords possibles",
 		"accord.acc-evite" : "Accords a éviter",
-		"accord.no-accord" : "Il n'y a pas d'accord possible pour cette saveur.",
+		"accord.no-accord-majeurs" : "Il n'existe pas d'Accords Majeurs pour cette saveur.",
+		"accord.no-accord-possible" : "Il n'y a pas d'Accord possible pour cette saveur.",
+		"accord.no-accord-eviter" : "Il n'y a pas d'Accord à éviter avec cette saveur."
 	}
 }

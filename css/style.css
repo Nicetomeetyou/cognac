@@ -1387,6 +1387,9 @@ p {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icone.icone-saveur-0::before { /* Filtre */
+	content:"\e912";
+}
 .icone.icone-saveur-1::before { /* Fromage */
 	content:"\e90d";
 }
@@ -1777,7 +1780,7 @@ p {
 }
 .cuisiner .illustration-container {
 	position: relative;
-	background: url(../img/bg-cuisiner.jpg) center top no-repeat;
+	background: url(../img/bg-cuisiner.jpg) center bottom no-repeat;
 	background-size: cover;
 }
 .cuisiner .tabs-container .tabs-block {
@@ -1886,7 +1889,7 @@ p {
 .fiche-recette-block {
 	display: block;
 	width: 100%;
-	/*padding-bottom: 50px;*/
+	padding-bottom: 50px;
 }
 .fiche-recette-block.end {
 	padding-bottom: 0;
