@@ -22,7 +22,10 @@
         permission on your app, which PhoneGap requires.
     -->
 
-    <preference name="deployment-target" value="5.0" />
+    <platform name="ios">
+        <preference name="deployment-target" value="4.0"/<name />
+    </platform>
+
     <preference name="SplashScreen" value="screen"/>
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation" value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
