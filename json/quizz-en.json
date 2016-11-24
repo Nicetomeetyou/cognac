@@ -2,6 +2,7 @@
     { 
         "id": 0,
         "title": "Le Cognac est issu de la distillation de :",
+        "good" : "0",
         "responses" : [
             { "response" : [
                 { "text" : "Vin" },
@@ -16,11 +17,12 @@
                 { "value" : "0" }
             ]}
         ],
-        "validation" : "response 0"
+        "validation" : "Le cognac est né de la double distillation d’un vin blanc produit dans une aire géographique délimitée autour de la ville de cognac."
     },
     { 
         "id": 1,
         "title": "L’assemblage dans le monde du Cognac, c’est :",
+        "good" : "2",
         "responses" : [
             { "response" : [
                 { "text" : "La fabrication d’un fût de vieillissement" },
@@ -35,11 +37,12 @@
                 { "value" : "1" }
             ]}
         ],
-        "validation" : "response 1"
+        "validation" : "C'est en effet en réalisant des assemblages entre eaux-de-vie d'âges et de crus différents que le Maître de Chai crée son cognac, tel un peintre ou un musicien en véritable harmonie. Un travail d'orfèvre qui permet de garantir le même style pour un cognac donné. Et de proposer des cognacs adaptés aux goûts de chacun."
     },
     { 
         "id": 2,
         "title": "Un Cognac VS est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "1 an" },
@@ -54,37 +57,35 @@
                 { "value" : "0" }
             ]}
         ],
-        "validation" : "response 2"
+        "validation" : "Un cognac VS pour « Very Special » est un assemblage d’eaux de vie ayant vieilli au minimum 2 ans en fût de chêne pour la plus jeune des eaux-de- vie qui va constituer son assemblage."
     },
     { 
         "id": 3,
+        "title": "Faut-il chauffer son Cognac ?",
+        "good" : "1",
+        "responses" : [
+            { "response" : [
+                { "text" : "Oui" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "Non" },
+                { "value" : "1" }
+            ]}
+        ],
+        "validation" : "Contrairement aux idées reçues, il ne faut pas chauffer le cognac au risque de libérer l’alcool et de réduire les arômes."
+    },
+    { 
+        "id": 4,
         "title": "Un Cognac VSOP est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "2 ans" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "3 ans" },
-                { "value" : "0" }
-            ]},
-            { "response" : [
                 { "text" : "4 ans" },
-                { "value" : "1" }
-            ]}
-        ],
-        "validation" : ""
-    },
-    { 
-        "id": 4,
-        "title": "Un Cognac XO est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
-        "responses" : [
-            { "response" : [
-                { "text" : "4 ans" },
-                { "value" : "0" }
-            ]},
-            { "response" : [
-                { "text" : "6 ans" },
                 { "value" : "1" }
             ]},
             { "response" : [
@@ -92,11 +93,12 @@
                 { "value" : "0" }
             ]}
         ],
-        "validation" : ""
+        "validation" : "Le Very Superior Old Pale, VSOP, est un assemblage d’eaux-de-vie ayant vieilli au moin 4 ans en fût de chêne."
     },
     { 
         "id": 5,
         "title": "Quel est le verre idéal pour apprécier un Cognac pur ?",
+        "good" : "0",
         "responses" : [
             { "response" : [
                 { "text" : "Le verre tulipe" },
@@ -111,26 +113,32 @@
                 { "value" : "0" }
             ]}
         ],
-        "validation" : ""
+        "validation" : "Pour apprécier les arômes du cognac, le verre tulipe est le plus approprié car il s’ouvre sur le haut du buvant lui permettant de libérer progressivement les arômes."
     },
     { 
         "id": 6,
-        "title": "Faut-il chauffer son Cognac ?",
+        "title": "Un Cognac XO est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "good" : "1",
         "responses" : [
             { "response" : [
-                { "text" : "Oui" },
+                { "text" : "4 ans" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "Non" },
+                { "text" : "6 ans" },
                 { "value" : "1" }
+            ]},
+            { "response" : [
+                { "text" : "8 ans" },
+                { "value" : "0" }
             ]}
         ],
-        "validation" : ""
+        "validation" : "Le XO pour Extra Old est le plus vieux des cognacs puisque son eau-de-vie a vieilli au minimum 6 ans en fût de chêne."
     },
     { 
         "id": 7,
         "title": "Faut-il agiter son verre ?",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "Oui" },
@@ -141,11 +149,12 @@
                 { "value" : "1" }
             ]}
         ],
-        "validation" : ""
+        "validation" : "A 40 % d’alcool, il n’est pas nécessaire d’agiter son verre, ni d’ailleurs de mettre son nez au fond du verre ! L’objectif est de sentir les arômes et non l’alcool."
     },
     { 
         "id": 8,
         "title": "Quel Cognac s’accorde mieux à l’ananas ?",
+        "good" : "0",
         "responses" : [
             { "response" : [
                 { "text" : "VS Frozen" },
@@ -160,11 +169,12 @@
                 { "value" : "0" }
             ]}
         ],
-        "validation" : ""
+        "validation" : "Mis au congélateur, le cognac « Frozen » offre une palette d’arômes concentrée sur la vanille et les épices. La sensation d’alcool disparait au nez et en bouche."
     },
     { 
         "id": 9,
         "title": "Quel Cognac s’accorde mieux au Brie ?",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "VS" },
@@ -179,11 +189,12 @@
                 { "value" : "0" }
             ]}
         ],
-        "validation" : ""
+        "validation" : "Le VSOP, pour sa rondeur, ses arômes élégants et sa force qui laissent place à une large palette aromatique."
     },
     { 
         "id": 10,
         "title": "Quel Cognac s’accorde mieux au pâté en croûte ?",
+        "good" : "2",
         "responses" : [
             { "response" : [
                 { "text" : "VS" },
@@ -198,11 +209,12 @@
                 { "value" : "1" }
             ]}
         ],
-        "validation" : ""
+        "validation" : "Pour sa finesse et sa complexité aromatique, l’élégance des fruits confits et des épices douces qui lui procurent une explosion de saveurs et d’arômes."
     },
     { 
         "id": 11,
         "title": "Le Cognac est-il uniquement un digestif ?",
+        "good" : "1",
         "responses" : [
             { "response" : [
                 { "text" : "Oui" },
@@ -213,6 +225,6 @@
                 { "value" : "1" }
             ]}
         ],
-        "validation" : ""
+        "validation" : "Contrairement à ce que l’on pense en France, le cognac peut se boire en cocktail, en apéritif, notamment en VS et VSOP.  Il peut également accompagner des plats. CQFD avec cette application !"
     }
 ]

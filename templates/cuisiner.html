@@ -38,7 +38,7 @@
 				<div class="col">
 					<div id="entrees" class="tab-content tabcontent2" ng-show="showList1">
 						<div class="recipe-counter">
-							<p class="text">Il y a <span class="number">{{tabRecipes[0].length}}</span> recettes d'entrées</p>
+							<p class="text"><span translate="recipes.ilya">Il y a</span> <span class="number">{{tabRecipes[0].length}}</span> <span translate="recipes.starter">recettes d'entrées</span></p>
 						</div>
 						<ul class="list">
 							<li class="recipe-item" ng-repeat="item in tabRecipes[0] track by item.id">
@@ -47,7 +47,7 @@
 										<img ng-src="img/recipes/{{ item.image }}" width="100%">
 										<figcaption class="description">
 											<span class="text">{{item.title}}</span>
-											<span class="time-recipe">1h30</span>
+											<span class="time-recipe">{{item.time}}</span>
 										</figcaption>
 									</figure>
 								</a>
@@ -57,7 +57,7 @@
 
 					<div id="plats" class="tab-content tabcontent2" ng-show="showList2">
 						<div class="recipe-counter">
-							<p class="text">Il y a <span class="number">{{tabRecipes[1].length}}</span> recettes de plats</p>
+							<p class="text"><span translate="recipes.ilya">Il y a</span> <span class="number">{{tabRecipes[1].length}}</span> <span translate="recipes.main">recettes de plats</span></p>
 						</div>
 						<ul class="list">
 							<li class="recipe-item" ng-repeat="item in tabRecipes[1] track by item.id">
@@ -66,7 +66,7 @@
 										<img ng-src="img/recipes/{{ item.image }}" width="100%">
 										<figcaption class="description">
 											<span class="text">{{item.title}}</span>
-											<span class="time-recipe">1h30</span>
+											<span class="time-recipe">{{item.time}}</span>
 										</figcaption>
 									</figure>
 								</a>
@@ -76,7 +76,7 @@
 
 					<div id="desserts" class="tab-content tabcontent" ng-show="showList3">
 						<div class="recipe-counter">
-							<p class="text">Il y a <span class="number">{{tabRecipes[2].length}}</span> recette de desserts</p>
+							<p class="text"><span translate="recipes.ilya">Il y a</span> <span class="number">{{tabRecipes[2].length}}</span> <span translate="recipes.desert">recette de desserts</span></p>
 						</div>
 						<ul class="list">
 							<li class="recipe-item" ng-repeat="item in tabRecipes[2] track by item.id">
@@ -85,7 +85,7 @@
 										<img ng-src="img/recipes/{{ item.image }}" width="100%">
 										<figcaption class="description">
 											<span class="text">{{item.title}}</span>
-											<span class="time-recipe">1h30</span>
+											<span class="time-recipe">{{item.time}}</span>
 										</figcaption>
 									</figure>
 								</a>

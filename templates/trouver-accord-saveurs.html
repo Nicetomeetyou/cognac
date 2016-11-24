@@ -7,7 +7,7 @@
 				<div class="col">
 					<div class="description-accord">
 						<div class="illustration-container">
-							<img class="illustration" src="img/flavors/{{ tabContent.image }}" alt="Photographie de la saveur">
+							<img class="illustration" src="img/flavors/{{ tabContent.image }}" alt="">
 							<span class="icone-block icone icone-saveur-{{ tabContent.family }}"></span>
 						</div>
 
@@ -16,22 +16,20 @@
 							<span class="item-family">{{ tabFamilyFlavors[tabContent.family] }}</span>
 						</div>
 
-						<div class="description-block">
-							<div ng-class="isItemShown(item) ? 'item-expand inactive' : 'item-expand active'">
-								<p  class="text" ng-bind-html="renderHtml(tabContent.intro)"></p>
+						<div class="description-block description-block-read-more">
+							<div class="invisible-read-more" toggle-class="switch-state" slide-toggle="#read-more">
+								<span class="info-read-more" translate="accord.lire-suite">Lire la suite</span>
+								<span class="info-read-less" translate="accord.lire-close">Réduire</span>
 							</div>
-							<div ng-click="toggleItem(item)" class="item-expand-footer">
-								{{ isItemShown(item) ? 'Lire la suite' : 'Réduire' }}
-								<span ng-class="isItemShown(item) ? 'ion-ios-plus-outline' : 'ion-ios-minus-outline'"></span>
-							</div>
+							<p id="read-more" class="content-read-more slideable text" ng-bind-html="renderHtml(tabContent.intro)"></p>
 						</div>
 					</div>
 
 					<div class="accords-possibility-container">
 						<div class="accords-possibility-block">
-							<h3 translate="accord.acc-majeurs" class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-majeurs-s">Accords Majeurs</h3>
+							<h3 class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-majeurs-s" translate="gen.accord-maj">Accords Majeurs</h3>
 							<div id="definication-accords-majeurs-s" class="slideable definition">
-								<p class="text">L’accord majeur c’est l’équilibre parfait entre une saveur et un cognac lorsque solide et liquide se complètent parfaitement et prolongent le plaisir.</p>
+								<p class="text" translate="gen.accord-maj-exp">L’accord majeur c’est l’équilibre parfait entre une saveur et un cognac lorsque solide et liquide se complètent parfaitement et prolongent le plaisir.</p>
 							</div>
 
 							<ul class="list">
@@ -44,9 +42,9 @@
 						</div>
 
 						<div class="accords-possibility-block">
-							<h3 translate="accord.acc-possible" class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-possibles-s">Accords Possible</h3>
+							<h3 class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-possibles-s" translate="gen.accord-possible">Accords Possible</h3>
 							<div id="definication-accords-possibles-s" class="slideable definition">
-								<p class="text">Un accord possible, c’est un équilibre fragile entre une saveur et un cognac. <br> L’un des deux éléments prend le pas sur l’autre. <br> C’est une belle rencontre qui ne peut toutefois pas tenir toutes ses promesses.</p>
+								<p class="text" translate="gen.accord-possible-exp">Un accord possible, c’est un équilibre fragile entre une saveur et un cognac. <br> L’un des deux éléments prend le pas sur l’autre. <br> C’est une belle rencontre qui ne peut toutefois pas tenir toutes ses promesses.</p>
 							</div>
 
 							<ul class="list">
@@ -59,9 +57,9 @@
 						</div>
 
 						<div class="accords-possibility-block end">
-							<h3 translate="accord.acc-evite" class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-a-eviter-s">Accords a Éviter</h3>
+							<h3 class="title" toggle-class="switch-icon" slide-toggle="#definication-accords-a-eviter-s" translate="gen.accord-not">Accords a Éviter</h3>
 							<div id="definication-accords-a-eviter-s" class="slideable definition">
-								<p class="text">Un accord à éviter, c’est lorsque l’équilibre ne se produit pas entre liquide et solide. <br> Par exemple, lorsque le cognac est trop puissant ou le met trop discret.</p>
+								<p class="text" translate="gen.accord-not-exp">Un accord à éviter, c’est lorsque l’équilibre ne se produit pas entre liquide et solide. <br> Par exemple, lorsque le cognac est trop puissant ou le met trop discret.</p>
 							</div>
 
 							<ul class="list">
@@ -82,7 +80,7 @@
 			<div class="row">
 				<div class="col">
 					<div class="secondary-title-container">
-						<h2 class="title"><span translate="accord.title-recipes-saveurs">Les recettes avec :</span> <br/>{{ tabContent.title }}</h2>
+						<h2 class="title"><span translate="accord.title-recipes-saveurs">Les recettes avec : <br/></span> {{ tabContent.title }} <span translate="accord.title-recipes-saveurs-en"><br/>Les recettes avec : </span></h2>
 					</div>
 				</div>
 			</div>

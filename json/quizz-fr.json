@@ -61,6 +61,22 @@
     },
     { 
         "id": 3,
+        "title": "Faut-il chauffer son Cognac ?",
+        "good" : "1",
+        "responses" : [
+            { "response" : [
+                { "text" : "Oui" },
+                { "value" : "0" }
+            ]},
+            { "response" : [
+                { "text" : "Non" },
+                { "value" : "1" }
+            ]}
+        ],
+        "validation" : "Contrairement aux idées reçues, il ne faut pas chauffer le cognac au risque de libérer l’alcool et de réduire les arômes."
+    },
+    { 
+        "id": 4,
         "title": "Un Cognac VSOP est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
         "good" : "1",
         "responses" : [
@@ -78,26 +94,6 @@
             ]}
         ],
         "validation" : "Le Very Superior Old Pale, VSOP, est un assemblage d’eaux-de-vie ayant vieilli au moin 4 ans en fût de chêne."
-    },
-    { 
-        "id": 4,
-        "title": "Un Cognac XO est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
-        "good" : "1",
-        "responses" : [
-            { "response" : [
-                { "text" : "4 ans" },
-                { "value" : "0" }
-            ]},
-            { "response" : [
-                { "text" : "6 ans" },
-                { "value" : "1" }
-            ]},
-            { "response" : [
-                { "text" : "8 ans" },
-                { "value" : "0" }
-            ]}
-        ],
-        "validation" : "Le XO pour Extra Old est le plus vieux des cognacs puisque son eau-de-vie a vieilli au minimum 6 ans en fût de chêne."
     },
     { 
         "id": 5,
@@ -121,19 +117,23 @@
     },
     { 
         "id": 6,
-        "title": "Faut-il chauffer son Cognac ?",
+        "title": "Un Cognac XO est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
         "good" : "1",
         "responses" : [
             { "response" : [
-                { "text" : "Oui" },
+                { "text" : "4 ans" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "Non" },
+                { "text" : "6 ans" },
                 { "value" : "1" }
+            ]},
+            { "response" : [
+                { "text" : "8 ans" },
+                { "value" : "0" }
             ]}
         ],
-        "validation" : "Contrairement aux idées reçues, il ne faut pas chauffer le cognac au risque de libérer l’alcool et de réduire les arômes."
+        "validation" : "Le XO pour Extra Old est le plus vieux des cognacs puisque son eau-de-vie a vieilli au minimum 6 ans en fût de chêne."
     },
     { 
         "id": 7,

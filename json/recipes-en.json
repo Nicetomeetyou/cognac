@@ -1,266 +1,273 @@
 [
     { 
         "id": 0,
-        "title": "Carpaccio de saumon et pommes vertes, crème acidulé aux herbes",
-        "family": "Plats",
-        "intro" : "Pastry cotton candy cotton candy. Sesame snaps bonbon ice cream gingerbread jelly-o candy topping. Dessert macaroon fruitcake dragée. Muffin apple pie macaroon tootsie roll. Brownie cheesecake sugar plum donut marzipan tootsie roll.",
-        "time" : "1h45",
-        "people" : "4 pers",
+        "new": "",
+        "title": "The mixed aperitif",
+        "image": "aperitif-mixte.jpg",
+        "family": "1",
+        "intro" : "For an original and flavour-packed aperitif, try a selection of cheeses and cured meats paired with Cognac.",
+        "time" : "0h15",
+        "people" : "Serves 4",
         "ingredients" : [
-            { "name" : "100 gr de lorem ipsum" },
-            { "name" : "100 cl de lorem ipsum" },
-            { "name" : "100 ml de lorem ipsum" },
-            { "name" : "100 l de lorem ipsum" }
+            { "name" : "3 cheeses of your choice" },
+            { "name" : "Slices of Jamon Iberico" },
+            { "name" : "Slices of Cecina" },
+            { "name" : "Slices of Lomo" },
+			{ "name" : "Sourdough bread" }
+
         ],
         "directions" : [
-            { "step" : "Preheat oven to 400 degrees F (200 degrees C)." },
-            { "step" : "Tear a large sheet of aluminum foil. Place carrots on foil and sprinkle with walnut oil, cognac, honey, and cinnamon." },
-            { "step" : "Wrap up tightly and roast for 25 to 35 minutes until carrots are tender, yet crisp." }
-        ],
-        "nutrition" : [
-            { "value" : [
-                { "name" : "Calories" },
-                { "note" : "142" }
-            ]},
-            { "value" : [
-                { "name" : "Lipides (g)" },
-                { "note" : "23" }
-            ]},
-            { "value" : [
-                { "name" : "Glucides (g)" },
-                { "note" : "26" }
-            ]}
+            { "step" : "For the cheese: Select three cheeses and serve them on a natural platter (wood or glass) to avoid altering the taste of the products in any way." },
+            { "step" : "It is important that the cheeses are tasted in order of increasing flavour, from mildest to strongest. For example, you might select a Brillat-Savarin, a Cheddar and a Roquefort. Eat in this flavour order with a glass of VSOP." },
+            { "step" : "For the cured meats: On a wooden board, present slices of Jamon Iberico, Cecina and Lomo. Serve with slices of sourdough. Accompany with Cognac VSOP." }
         ]
+        
     },
     { 
         "id": 1,
-        "title": "Les petits farcis",
-        "family": "Entrées",
-        "intro" : "Pastry cotton candy cotton candy. Sesame snaps bonbon ice cream gingerbread jelly-o candy topping. Dessert macaroon fruitcake dragée. Muffin apple pie macaroon tootsie roll. Brownie cheesecake sugar plum donut marzipan tootsie roll.",
-        "time" : "1h45",
-        "people" : "6 pers",
+        "new": "",
+        "title": "Roast langoustines and ceps",
+        "image": "langoustines-et-cepes-rotis.jpg",
+        "family": "1",
+        "intro" : "Roast langoustine is a great idea for a starter that works brilliantly with Cognac XO.",
+        "time" : "0h15",
+        "people" : "Serves 2",
         "ingredients" : [
-            { "name" : "100 gr de lorem ipsum" },
-            { "name" : "100 cl de lorem ipsum" },
-            { "name" : "100 ml de lorem ipsum" },
-            { "name" : "100 l de lorem ipsum" }
+            { "name" : "4 langoustines" },
+            { "name" : "80g butter" },
+            { "name" : "4 ceps" },
+            { "name" : "Green shiso" },
+			{ "name" : "Pink radish, thinly sliced" },
+            { "name" : "Dried brioche" }
         ],
         "directions" : [
-            { "step" : "Preheat oven to 400 degrees F (200 degrees C)." },
-            { "step" : "Tear a large sheet of aluminum foil. Place carrots on foil and sprinkle with walnut oil, cognac, honey, and cinnamon." },
-            { "step" : "Wrap up tightly and roast for 25 to 35 minutes until carrots are tender, yet crisp." }
-        ],
-        "nutrition" : [
-            { "value" : [
-                { "name" : "Calories" },
-                { "note" : "142" }
-            ]},
-            { "value" : [
-                { "name" : "Lipides (g)" },
-                { "note" : "23" }
-            ]},
-            { "value" : [
-                { "name" : "Glucides (g)" },
-                { "note" : "26" }
-            ]}
+            { "step" : "Peel four large langoustines and discard the black intestinal tracts. Roast in 40g of butter." },
+            { "step" : "Clean four ceps, cut them in half and roast in 40g of beurre noisette. Garnish the langoustines and ceps with green shiso and a few thin slices of pink radish." },
+            { "step" : "Sprinkle with dried brioche crumbs. Another idea: Spread slices of black bread with fromage frais and season with black pepper." },
+			{ "step" : "Place thin slices of tart apple on top, and drizzle with a little lemon juice to bring out the flavour. Finally, dress with pieces of smoked herring, seasoned to taste with salt and pepper. Accompany with Cognac VS." },
+			{ "step" : "Meaty idea: Foie gras served with cherry jam. Pair with Cognac VSOP." }
         ]
+        
     },
     { 
         "id": 2,
-        "title": "Filet de porc au cognac",
-        "family": "Entrées",
-        "intro" : "Pastry cotton candy cotton candy. Sesame snaps bonbon ice cream gingerbread jelly-o candy topping. Dessert macaroon fruitcake dragée. Muffin apple pie macaroon tootsie roll. Brownie cheesecake sugar plum donut marzipan tootsie roll.",
-        "time" : "1h45",
-        "people" : "6 pers",
+        "new": "",
+        "title": "Pigeon with woodland flavours",
+        "image": "assiette-pantruche30-pigeon-fume-et-roti.jpg",
+        "family": "2",
+        "intro" : "Cognac works well with delicate, elegant meats like game. The subtle and slightly gamey flavour of pigeon is absolutely perfect. Its powerful aromas explode in the mouth when paired with VSOP or XO.",
+        "time" : "0h15",
+        "people" : "Serves 4",
         "ingredients" : [
-            { "name" : "100 gr de lorem ipsum" },
-            { "name" : "100 cl de lorem ipsum" },
-            { "name" : "100 ml de lorem ipsum" },
-            { "name" : "100 l de lorem ipsum" }
+            { "name" : "2 pigeons" },
+            { "name" : "Sprigs of thyme and rosemary" },
+            { "name" : "2 garlic cloves" },
+            { "name" : "30g butter" },
+			{ "name" : "Carrots" },
+            { "name" : "Shiitake mushrooms" }
         ],
         "directions" : [
-            { "step" : "Preheat oven to 400 degrees F (200 degrees C)." },
-            { "step" : "Tear a large sheet of aluminum foil. Place carrots on foil and sprinkle with walnut oil, cognac, honey, and cinnamon." },
-            { "step" : "Wrap up tightly and roast for 25 to 35 minutes until carrots are tender, yet crisp." }
-        ],
-        "nutrition" : [
-            { "value" : [
-                { "name" : "Calories" },
-                { "note" : "142" }
-            ]},
-            { "value" : [
-                { "name" : "Lipides (g)" },
-                { "note" : "23" }
-            ]},
-            { "value" : [
-                { "name" : "Glucides (g)" },
-                { "note" : "26" }
-            ]}
+            { "step" : "Prepare 2 pigeons." },
+            { "step" : "Mix a few sprigs of thyme and rosemary with 2 crushed garlic cloves and 30g of melted butter. Spread the mixture over the pigeons." },
+            { "step" : "Roast in the oven at 220°C for 30 minutes. Baste regularly with the cooking juices. Turn the birds halfway through cooking." },
+			{ "step" : "Serve the roast pigeons with carrots and pan-fried shiitake mushrooms." },
+            { "step" : "Another idea: Marinate 18 scallops in the juice of one lemon and 100ml of olive oil for 5 minutes. Drain. Put the scallops on skewers, alternating with thin slices of Bayonne ham. Sear on a very hot grill or frying pan for 5 minutes. Serve with VS." }
         ]
     },
     { 
         "id": 3,
-        "title": "Pintade flambée au cognac",
-        "family": "Entrées",
-        "intro" : "Pastry cotton candy cotton candy. Sesame snaps bonbon ice cream gingerbread jelly-o candy topping. Dessert macaroon fruitcake dragée. Muffin apple pie macaroon tootsie roll. Brownie cheesecake sugar plum donut marzipan tootsie roll.",
-        "time" : "1h45",
-        "people" : "6 pers",
+        "new": "",
+        "title": "Pan-fried ceps and Pata Negra",
+        "image": "poele-de-cepes.jpg",
+        "family": "2",
+        "intro" : "Jamon Iberico and ceps call for a really food-friendly Cognac like XO.",
+        "time" : "0h10",
+        "people" : "Serves 4",
         "ingredients" : [
-            { "name" : "100 gr de lorem ipsum" },
-            { "name" : "100 cl de lorem ipsum" },
-            { "name" : "100 ml de lorem ipsum" },
-            { "name" : "100 l de lorem ipsum" }
+            { "name" : "400g ceps" },
+            { "name" : "Butter" },
+            { "name" : "50g Pata Negra, thinly sliced" },
+            { "name" : "1 knob of parsley butter" },
+			{ "name" : "Sourdough croutons" }
+
         ],
         "directions" : [
-            { "step" : "Preheat oven to 400 degrees F (200 degrees C)." },
-            { "step" : "Tear a large sheet of aluminum foil. Place carrots on foil and sprinkle with walnut oil, cognac, honey, and cinnamon." },
-            { "step" : "Wrap up tightly and roast for 25 to 35 minutes until carrots are tender, yet crisp." }
-        ],
-        "nutrition" : [
-            { "value" : [
-                { "name" : "Calories" },
-                { "note" : "142" }
-            ]},
-            { "value" : [
-                { "name" : "Lipides (g)" },
-                { "note" : "23" }
-            ]},
-            { "value" : [
-                { "name" : "Glucides (g)" },
-                { "note" : "26" }
-            ]}
+            { "step" : "Cut 400g ceps in half and brown them in butter on their cut side. Season." },
+            { "step" : "Dress with the slices of Pata Negra, a knob of parsley butter and a few sourdough croutons, browned in the butter. You could also serve this pairing as a starter, with a cep velouté." },
+            { "step" : "Another idea: A carrot purée and pan-fried shiitake mushrooms would be ideal with roast pigeon and Cognac XO. Wash, peel and slice 500g of carrots. Steam them for 10 to 15 minutes. Blend with 20g of mild butter, salt and pepper. Add 100ml of double cream. Blend to a consistent purée. Clean and quarter 300g of shiitake mushrooms and brown them in some of the cooking juices from the pigeon in a frying pan for two minutes. Cover and cook over a gentle heat for 5 minutes." }
         ]
     },
     { 
         "id": 4,
-        "title": "Mousse de saumon fume au cognac",
-        "family": "Entrées",
-        "intro" : "Pastry cotton candy cotton candy. Sesame snaps bonbon ice cream gingerbread jelly-o candy topping. Dessert macaroon fruitcake dragée. Muffin apple pie macaroon tootsie roll. Brownie cheesecake sugar plum donut marzipan tootsie roll.",
-        "time" : "1h45",
-        "people" : "6 pers",
+        "new": "",
+        "title": "Dark chocolate ganache",
+        "image": "ganache-au-chocolat-noir.jpg",
+        "family": "3",
+        "intro" : "Chocolate hits the spot and tantalises the tastebuds. This chocolate ganache marries well with VSOP.",
+        "time" : "0h15",
+        "people" : "Serves 4",
         "ingredients" : [
-            { "name" : "100 gr de lorem ipsum" },
-            { "name" : "100 cl de lorem ipsum" },
-            { "name" : "100 ml de lorem ipsum" },
-            { "name" : "100 l de lorem ipsum" }
+            { "name" : "500g dark chocolate" },
+            { "name" : "500g cream" }
         ],
         "directions" : [
-            { "step" : "Preheat oven to 400 degrees F (200 degrees C)." },
-            { "step" : "Tear a large sheet of aluminum foil. Place carrots on foil and sprinkle with walnut oil, cognac, honey, and cinnamon." },
-            { "step" : "Wrap up tightly and roast for 25 to 35 minutes until carrots are tender, yet crisp." }
-        ],
-        "nutrition" : [
-            { "value" : [
-                { "name" : "Calories" },
-                { "note" : "142" }
-            ]},
-            { "value" : [
-                { "name" : "Lipides (g)" },
-                { "note" : "23" }
-            ]},
-            { "value" : [
-                { "name" : "Glucides (g)" },
-                { "note" : "26" }
-            ]}
-        ]
+            { "step" : "Break 500g of dark chocolate into small pieces." },
+            { "step" : "Bring 500g of cream to a simmer then add the pieces of chocolate. Stir to melt the chocolate to form a smooth cream. Chill. Take a quenelle of chocolate ganache." },
+            { "step" : "Another idea: Tarte Tatin. Cut 50g of salted butter into cubes and place in a saucepan with 50g of sugar. Cook over a gentle heat for 5 minutes without stirring; the caramel will form by itself. Pour the caramel into the bottom of a tart pan. Add 1kg of thinly sliced apple, then cover with shortcrust pastry. Bake for 25 minutes at 210°C. Serve warm with Cognac XO. The warmth of the tart brings out the power of the flavours. Get ready for fireworks!" }
+        ] 
     },
     { 
         "id": 5,
-        "title": "Magrets de canards flambés au cognac, pommes et abricots",
-        "family": "Entrées",
-        "intro" : "Pastry cotton candy cotton candy. Sesame snaps bonbon ice cream gingerbread jelly-o candy topping. Dessert macaroon fruitcake dragée. Muffin apple pie macaroon tootsie roll. Brownie cheesecake sugar plum donut marzipan tootsie roll.",
-        "time" : "1h45",
-        "people" : "6 pers",
+        "new": "",
+        "title": "Foie gras, confit rhubarb",
+        "image": "foie-gras-fernando-de-tomaso.jpg",
+        "family": "2",
+        "intro" : "The distinctive flavours of duck foie gras are enhanced by the alcohol in VSOP, while the fatty texture of the liver brings out the full flavour range of the cognac.",
+        "time" : "0h30",
+        "people" : "Serves 4",
         "ingredients" : [
-            { "name" : "100 gr de lorem ipsum" },
-            { "name" : "100 cl de lorem ipsum" },
-            { "name" : "100 ml de lorem ipsum" },
-            { "name" : "100 l de lorem ipsum" }
+            { "name" : "500g raw foie gras" },
+            { "name" : "300g rhubarb" },
+            { "name" : "200g sugar" },
+            { "name" : "2 tbsp olive oil" },
+            { "name" : "1 tbsp lemon juice" },
+            { "name" : "1 tbsp grapeseed oil" },
+            { "name" : "Salt and pepper" },
+            { "name" : "Pink radishes" },
+            { "name" : "Borage flowers" }
+			
         ],
         "directions" : [
-            { "step" : "Preheat oven to 400 degrees F (200 degrees C)." },
-            { "step" : "Tear a large sheet of aluminum foil. Place carrots on foil and sprinkle with walnut oil, cognac, honey, and cinnamon." },
-            { "step" : "Wrap up tightly and roast for 25 to 35 minutes until carrots are tender, yet crisp." }
-        ],
-        "nutrition" : [
-            { "value" : [
-                { "name" : "Calories" },
-                { "note" : "142" }
-            ]},
-            { "value" : [
-                { "name" : "Lipides (g)" },
-                { "note" : "23" }
-            ]},
-            { "value" : [
-                { "name" : "Glucides (g)" },
-                { "note" : "26" }
-            ]}
-        ]
+            { "step" : "Cut the foie gras into 4 individual 100g servings. Cook them on both sides in a hot frying pan." },
+            { "step" : "Remove from the heat, taste, and then roast in the oven for 3 minutes at 180C° so that the centre of the foie gras is hot." },
+            { "step" : "Confit rhubarb: peel the rhubarb and steep it in a sugar and water syrup (1 litre of water and 200g of sugar). Chill." },
+            { "step" : "Vinaigrette: mix together the lemon juice, olive oil and grapeseed oil. Add salt and pepper." },
+            { "step" : "Presentation and dressing: serve the foie gras warm with the confit rhubarb. Thinly slice the radishes with a mandolin so they keep their crunch. Arrange the thin slices on the plate with the borage flowers." }
+			
+	   ]  
     },
     { 
         "id": 6,
-        "title": "The Best Parmesan Chicken Bake",
-        "family": "Entrées",
-        "intro" : "Pastry cotton candy cotton candy. Sesame snaps bonbon ice cream gingerbread jelly-o candy topping. Dessert macaroon fruitcake dragée. Muffin apple pie macaroon tootsie roll. Brownie cheesecake sugar plum donut marzipan tootsie roll.",
-        "time" : "1h45",
-        "people" : "6 pers",
+        "new": "",
+        "title": "A marriage of Tarbouriech oysters, carrot and ginger",
+        "image": "huitres-laurent-chabert.jpg",
+        "family": "2",
+        "intro" : "With its quite refined notes, XO pairs perfectly with the natural sweetness of the carrot counterbalanced by the salty oyster. A very elegant balance.",
+        "time" : "0h45",
+        "people" : "Serves 4",
         "ingredients" : [
-            { "name" : "100 gr de lorem ipsum" },
-            { "name" : "100 cl de lorem ipsum" },
-            { "name" : "100 ml de lorem ipsum" },
-            { "name" : "100 l de lorem ipsum" }
+            { "name" : "12 Tarbouriech oysters no.3" },
+            { "name" : "6 bunched carrots" },
+            { "name" : "250ml orange juice" },
+            { "name" : "1/4 bulb of fresh ginger" },
+            { "name" : "500ml carrot juice" },
+            { "name" : "2g agar agar" },
+            { "name" : "250ml crème fraîche" },
+            { "name" : "Olive oil, vinegar" }			
         ],
         "directions" : [
-            { "step" : "Preheat oven to 400 degrees F (200 degrees C)." },
-            { "step" : "Tear a large sheet of aluminum foil. Place carrots on foil and sprinkle with walnut oil, cognac, honey, and cinnamon." },
-            { "step" : "Wrap up tightly and roast for 25 to 35 minutes until carrots are tender, yet crisp." }
-        ],
-        "nutrition" : [
-            { "value" : [
-                { "name" : "Calories" },
-                { "note" : "142" }
-            ]},
-            { "value" : [
-                { "name" : "Lipides (g)" },
-                { "note" : "23" }
-            ]},
-            { "value" : [
-                { "name" : "Glucides (g)" },
-                { "note" : "26" }
-            ]}
-        ]
+            { "step" : "Brunoise: peel and cook 4 carrots in the orange juice and ¼ of the grated ginger. \"Brunoise\" the carrots (cut them into 3mm dice) and chill." },
+            { "step" : "Carrot jelly: bring 250ml carrot juice to the boil with 1g agar agar. Pour into a flat dish and chill." },
+            { "step" : "Foam: bring 250ml carrot juice to the boil with 1g agar agar, and add the crème fraîche. Put the mixture in a whipping siphon, chill and aerate twice." },
+            { "step" : "Oysters: open and chill them." },
+            { "step" : "Presentation and dressing: in a soup dish, arrange the seasoned carrots and dressing with the olive oil and vinegar. Place the oysters on top. Add a disc of carrot jelly then the foam and garnish with a few dried carrot chips and fried carrot tops." }
+			
+        ] 
     },
     { 
         "id": 7,
-        "title": "Shrimp Scampi Bake",
-        "family": "Entrées",
-        "intro" : "Pastry cotton candy cotton candy. Sesame snaps bonbon ice cream gingerbread jelly-o candy topping. Dessert macaroon fruitcake dragée. Muffin apple pie macaroon tootsie roll. Brownie cheesecake sugar plum donut marzipan tootsie roll.",
-        "time" : "1h45",
-        "people" : "6 pers",
+        "new": "",
+        "title": "Scallops, passion fruit crust, celeriac cream",
+        "image": "noix-de-saint-jacques.jpg",
+        "family": "2",
+        "intro" : "The citrus notes of VS cognac complement the delicate flesh of the scallop. The natural acidity of the passion fruit brings balance and length to this subtle pairing.",
+        "time" : "0h40",
+        "people" : "Serves 4",
         "ingredients" : [
-            { "name" : "100 gr de lorem ipsum" },
-            { "name" : "100 cl de lorem ipsum" },
-            { "name" : "100 ml de lorem ipsum" },
-            { "name" : "100 l de lorem ipsum" }
+            { "name" : "12 scallops" },
+            { "name" : "200g passion fruit purée" },
+            { "name" : "150g butter" },
+            { "name" : "100g breadcrumbs" },
+            { "name" : "1/2 celeriac" },
+            { "name" : "2 shallots" },
+            { "name" : "200ml cream" },
+            { "name" : "Salt and pepper" }			
         ],
         "directions" : [
-            { "step" : "Preheat oven to 400 degrees F (200 degrees C)." },
-            { "step" : "Tear a large sheet of aluminum foil. Place carrots on foil and sprinkle with walnut oil, cognac, honey, and cinnamon." },
-            { "step" : "Wrap up tightly and roast for 25 to 35 minutes until carrots are tender, yet crisp." }
+            { "step" : "Passion fruit crust: put the passion fruit juice into a saucepan and cook off three-quarters of the liquid to make a purée." },
+            { "step" : "Mix the butter with the breadcrumbs then add the purée." },
+            { "step" : "On a worktop, spread out some cling film and place the mixture on top. Cover with another piece of cling film and roll out to a thickness of 3mm using a rolling pin." },
+            { "step" : "Use a pastry cutter to cut 12 rounds of scallop diameter." },
+            { "step" : "Chill" },
+            { "step" : "Celeriac cream: cut the celeriac into pieces and sauté with the sliced shallots." },
+            { "step" : "Add the cream. Cook for 30 minutes, then blend." },
+            { "step" : "Presentation and dressing: season the scallops with salt and pepper, sear on both sides, then set aside." }
+        
+		]
+    },
+    { 
+        "id": 9,
+        "new": "",
+        "title": "Tart of baby turnips with Navel oranges",
+        "image": "tarte-navet.jpg",
+        "family": "1",
+        "intro" : "A delightful balance between multiple flavours: acidity and sweetness perfectly balanced by the freshness of a VS cognac.",
+        "time" : "0h30",
+        "people" : "Serves 4",
+        "ingredients" : [
+            { "name" : "3 baby turnips with their tops" },
+            { "name" : "4 Navel oranges" },
+            { "name" : "100ml maple syrup" },
+            { "name" : "Juice of 1/2 lime" },
+            { "name" : "A few saffron threads" },
+            { "name" : "1cm fresh peeled ginger, chopped" },
+            { "name" : "2 pinches bergamot zest" },
+            { "name" : "2 sheets puff pastry" },
+            { "name" : "4 tbsp low-fat orange jam" }
+			
         ],
-        "nutrition" : [
-            { "value" : [
-                { "name" : "Calories" },
-                { "note" : "142" }
-            ]},
-            { "value" : [
-                { "name" : "Lipides (g)" },
-                { "note" : "23" }
-            ]},
-            { "value" : [
-                { "name" : "Glucides (g)" },
-                { "note" : "26" }
-            ]}
-        ]
+        "directions" : [
+            { "step" : "Garnish and syrup: peel the turnips and cut them into rounds." },
+            { "step" : "Peel 3 oranges, removing all the white pith, and cut them into slices." },
+            { "step" : "In a large frying pan, heat the maple syrup with the remaining orange and lime juice, saffron, ginger and bergamot. Boil for a few minutes then add the rounds of turnip. Set the contents of the pan aside." },
+            { "step" : "In the same pan, caramelise the orange pieces quickly on both sides in a little of the remaining syrup. Set aside." },
+            { "step" : "Presentation and dressing: cut out 4 puff pastry rounds. Bake them in the oven for around 15 minutes at 165°C, to a golden colour. Remove from the oven, spread on one side with jam and arrange the turnip and orange pieces in a circular pattern. Drizzle generously with syrup. Serve immediately." }
+		]
+    },
+	{ 
+        "id": 10,
+        "new": "",
+        "title": "Croquettes of snail, spinach, \"Comptoir des Affineurs\" Roquefort foam and pear",
+        "image": "cromesquis-d-escargot-roquefort-alain-geaam.jpg",
+        "family": "1",
+        "intro" : "Two strong characters together create a third flavour with caramelised notes. The melt-in-the-mouth texture of the Roquefort and the finesse of the VSOP cognac combine harmoniously.",
+        "time" : "1h00",
+        "people" : "Serves 6",
+        "ingredients" : [
+            { "name" : "18 prepared Burgundy snails" },
+            { "name" : "100g Roquefort from Comptoir des Affineurs" },
+            { "name" : "200ml whipping cream" },
+            { "name" : "1 bunch curly-leaf parsley" },
+            { "name" : "1 garlic bulb" },
+            { "name" : "1 shallot" },
+            { "name" : "100g breadcrumbs" },
+            { "name" : "Egg white" },
+            { "name" : "Flour" },
+            { "name" : "600g spinach + handful of leaves" },
+            { "name" : "1 pear" },
+            { "name" : "Brown sugar" },
+			{ "name" : "Cane sugar" },
+            { "name" : "Maître d’hôtel (parsley) butter" },
+            { "name" : "Salt and pepper" }
+        ],
+        "directions" : [
+            { "step" : "Foam: blend the Roquefort with the whipping cream, and strain. Put in a whipping siphon and refrigerate for 2 hours." },
+            { "step" : "Snail croquettes: blend the curly-leaf parsley, garlic and shallot. Add the breadcrumbs. Drain the snails and dip them in the butter. Roll them in the egg white, flour and herb butter biscuit crumbs. Repeat, and then fry the snails." },
+            { "step" : "Spinach: wash and pan-fry in olive oil." },
+            { "step" : "Pear: peel, trim and caramelise the pear with brown sugar, cane sugar and butter." },
+            { "step" : "Presentation and dressing: as in the photo. Garnish with a few spinach leaves." }
+		]
     }
+
+	
 ]

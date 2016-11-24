@@ -62,7 +62,7 @@
         "title": "Jambon de Bayonne", 
         "family": "5", 
         "image": "Jambon-Bayonne.jpg",
-        "intro" : "Le jambon de Bayonne et son umami est la très belle surprise et marche à tous les coups. <br><br>Il faut essayer les autres jambons secs, Parme, Serrano, Pata Negra... <br><br>Un accord intéressant en terme de mode de consommation, à l’apéritif, facilement reproductible à la maison ou à proposer dans les bars, brasseries et restaurants. <br><br>Il serait très intéressant de créer la planche de charcuterie idéale pour le Cognac et de la coupler à une planche de 1, la très populaire assiette mixte, plaçant le Cognac au coeur de la convivialité.",
+        "intro" : "Le jambon de Bayonne et son umami est la très belle surprise et marche à tous les coups. <br><br>A essayer également les jambons secs. Parme, Serrano, Pata Negra... <br><br>Un accord intéressant en terme de mode de consommation, à l’apéritif, facilement reproductible à la maison ou à proposer dans les bars, brasseries et restaurants. <br><br>Il serait très intéressant de créer la planche de charcuterie idéale pour le Cognac et de la coupler à une planche de fromages, la très populaire assiette mixte, plaçant le Cognac au coeur de la convivialité.",
         "id": 2,
         "perfect" : [
             { "accord" : [
@@ -122,10 +122,10 @@
         ]
     },
     { 
-        "title": "Pâthé en croute", 
+        "title": "Pâté en croute", 
         "family": "5", 
         "image": "Pate-Croute.jpg", 
-        "intro" : "De nombreux facteurs tels la différence de cuisson de la croûte entre le dessus et le dessous, la présence de foie gras rendent le pâté en croute difficile à juger. Le VS Frozen peut fonctionner. Le XO, par sa complexité, semble le plus à même de s’accorder avec les différents ingrédients du pâté en croûte.",
+        "intro" : "Le pâté en croûte avec sa caramélisation et son croquant sont des ponts idéaux pour venir s'accorder avec un cognac XO où le temps aura pâtiné ses aromes.",
         "id": 4,
         "perfect" : [
             { "accord" : [
@@ -154,7 +154,7 @@
         "title": "Caviar",
         "family": "4",
         "image": "Caviar.jpg", 
-        "intro" : "Caviar/Cognac, l’union est parfaite. Sans conteste, le n°1 au hit-parade des accords pour l’ensemble de l’atelier de la mer. L’entente est totale à condition que le Cognac ne présente pas un caractère boisé. Il nécessite du fruit, de la vanille et quand la complexité est au rendez-vous, l’accord est sublime. Le froid convient au caviar également.",
+        "intro" : "Caviar/Cognac, l’union est parfaite. Sans conteste, le n°1 au hit-parade des accords pour l’ensemble de l’atelier de la mer. L’entente est totale à condition que le Cognac ne présente pas un caractère boisé. Il nécessite du fruit, de la vanille et quand la complexité est au rendez-vous, l’accord est sublime. Le froid convient aussi bien au caviar qu'au Cognac.",
         "id": 5,
         "perfect" : [
             { "accord" : [
@@ -182,7 +182,7 @@
         "title": "Gambas",
         "family": "4",
         "image": "Gambas.jpg", 
-        "intro" : "Pour la gamba, comme avec la langoustine, la cuisson et la fraîcheur sont des aspects très pointus. L’accord se fait sur une gamba grillée mais il est perfectible avec des épices ou une sauce. Le meilleur équilibre est obtenu sur le VS Frozen. Le profi l aromatique du Cognac, surtout pour les catégories plus âgées, est crucial. Le caractère boisé et tannique est rédhibitoire.",
+        "intro" : "Pour les gambas, comme avec les langoustines, la cuisson et la fraîcheur sont des aspects clés. L’accord avec une gamba grillée est parfait avec des épices ou une sauce. Le meilleur équilibre est obtenu sur le VS Frozen. Le caractère boisé et tannique est rédhibitoire avec les Cognacs plus agés.",
         "id": 6,
         "perfect" : [
             { "accord" : [
@@ -212,7 +212,7 @@
         "title": "Langoustine",
         "family": "4",
         "image": "Langoustines.jpg", 
-        "intro" : "Entre la langoustine et le Cognac, la complicité est bien réelle et le type de cuisson déterminant. L’association avec le XO exige une langoustine très cuisinée (rôtie, relevée avec des épices et une sauce).Mais c’est avec le VS Frozen que l’accord marche le mieux sur une langoustine presque nature. Évident, limpide, profond.",
+        "intro" : "Entre la langoustine et le Cognac, la complicité est bien réelle et le type de cuisson déterminant. L’association avec le XO exige une langoustine très cuisinée (rôtie, relevée avec des épices et une sauce). Mais c’est avec le VS Frozen que l’accord marche le mieux sur une langoustine presque nature. Évident, limpide, profond.",
         "id": 7,
         "perfect" : [
             { "accord" : [
@@ -243,7 +243,7 @@
         "title": "Hareng fumé",
         "family": "4",
         "image": "Hareng-Fume.jpg", 
-        "intro" : "Trop rustique pour le Cognac, le hareng fumé ? A voir car il sait flatter les plus jeunes de ces spiritueux. Le fumé et le gras permettent un magnifi que accord avec le VS, un accord correct avec le VSOP et médiocre avec le XO. Seul le VS Frozen échoue.",
+        "intro" : "Trop rustique pour le Cognac, le hareng fumé ? A voir car il sait flatter les plus jeunes de ces spiritueux. Le fumé et le gras permettent un magnifique accord avec le VS, un accord correct avec le VSOP et médiocre avec le XO. Seul le VS Frozen échoue.",
         "id": 8,
         "perfect" : [
             { "accord" : [
@@ -270,10 +270,10 @@
         "recipes" : []
     },
     { 
-        "title": "Saint-Jacques",
+        "title": "Saint-jacques",
         "family": "4",
         "image": "Saint-Jacques.jpg", 
-        "intro" : "Les réactions sont très diverses avec la Saint-Jacques. Lorsqu’elle est cuite, le beurre et la caramélisation font un excellent pont avec le Cognac VS et surprenant avec le XO. Mais, le froid du VS Frozen fait barrage. Crue, elle est plus difficile à marier, elle a besoin d’un plus (huile, citron, épices).",
+        "intro" : "Les réactions sont très diverses avec la saint-jacques. Lorsqu’elle est cuite, le beurre et la caramélisation font un excellent pont avec le Cognac VS et surprenant avec le XO. Mais, le froid du VS Frozen fait barrage. Crue, elle est plus difficile à marier, elle a besoin d’un plus (huile, citron, épices).",
         "id": 9,
         "perfect" : [
             { "accord" : [
@@ -304,7 +304,7 @@
         "title": "Saumon",
         "family": "4",
         "image": "Saumon.jpg", 
-        "intro" : "Le gras est l’une des clés d’un accord réussi. Dans le cas du saumon, il est déterminant qu’il s’agisse du gras du poisson, de la cuisson ou de l’assaisonnement. Le Cognac lui ne doit pas être boisé ni sucré mais présenter un profi l'aromatique léger, fruité (sur les agrumes) et floral.",
+        "intro" : "Le gras est l’une des clés d’un accord réussi. Dans le cas du saumon, il est déterminant qu’il s’agisse du gras du poisson, de la cuisson ou de l’assaisonnement. Le Cognac lui ne doit pas être boisé ni sucré mais présenter un profil aromatique léger, fruité (sur les agrumes) et floral.",
         "id": 10,
         "perfect" : [
             { "accord" : [
@@ -333,7 +333,7 @@
         "title": "Huîtres de Cancale",
         "family": "4",
         "image": "Huitres-Cancale.jpg", 
-        "intro" : "Pas de place pour la demi-mesure avec une personnalité comme l’Huître de Cancale. La variété des goûts personnels jouent à plein dans l’appréciation des accords. L’iode est le terrain de l’affrontement. Soit Cognac et Huître de Cancale s’y anéantissent, soit ils s’y magnifient. Il faut un Cognac fruité, au caractère affi rmé, et privilégier la température ambiante. Le VSOP gagne haut la main.",
+        "intro" : "Pas de place pour la demi-mesure avec une personnalité comme l’Huître de Cancale. La variété des goûts personnels joue à plein dans l’appréciation des accords. L’iode est le terrain de l’affrontement. Soit Cognac et Huître de Cancale s’y anéantissent, soit ils s’y magnifient. Il faut un Cognac fruité, au caractère affirmé, et privilégier la température ambiante. Le VSOP gagne haut la main.",
         "id": 11,
         "perfect" : [
             { "accord" : [
@@ -392,8 +392,7 @@
         "recipes" : [
             { "id" : "1" },
             { "id" : "2" }
-        ],
-        "recipes" : []
+        ]
     },
     { 
         "title": "Litchi",
@@ -429,7 +428,7 @@
         "title": "Pomme",
         "family": "2",
         "image": "Pommes.jpg", 
-        "intro" : "La légère acidité de la pomme contrebalancée par sa touche sucrée lui permet de s'accorder parfaitement avec un Cognac VS à température ambiante ou encore un VS Frozen.",
+        "intro" : "La légère acidité de la pomme, contrebalancée par sa touche sucrée, lui permet de s'accorder parfaitement avec un Cognac VS à température ambiante ou encore un VS Frozen.",
         "id": 14,
         "perfect" : [
             { "accord" : [
@@ -665,7 +664,7 @@
         "recipes" : []
     },
     { 
-        "title": "Emmenthal",
+        "title": "Emmental",
         "family": "1",
         "image": "Emmental.jpg", 
         "intro" : "Assez neutre en saveurs, l’emmental produit un enrichissement mutuel avec le VS Frozen. Accord moyen avec le VS, opposition et rejet avec le VSOP et tolérance mutuelle avec le XO.",
@@ -699,7 +698,7 @@
         "title": "Roquefort",
         "family": "1",
         "image": "Roquefort.jpg", 
-        "intro" : "Quel que soit le Cognac, le roquefort domine l’atelier des 1. L’accord joue sur les notes douces et vanillées du Cognac, sur le crémeux du fromage et en opposition, son caractère typé, salé et piquant. Éblouissant avec le VSOP, excellent avec XO et VS, très bon avec le VS Frozen.",
+        "intro" : "Quel que soit le Cognac, le roquefort domine l’atelier des fromages. L’accord joue sur les notes douces et vanillées du Cognac, sur le crémeux du fromage et en opposition, son caractère typé, salé et piquant. Éblouissant avec le VSOP, excellent avec XO et VS, très bon avec le VS Frozen.",
         "id": 23,
         "perfect" : [
             { "accord" : [
@@ -723,7 +722,7 @@
         "avoid" : [],
         "recipes" : [
             { "id" : "0" },
-            { "id" : "8" }
+            { "id" : "10" }
         ]
     },
     { 
@@ -756,7 +755,7 @@
         "recipes" : []
     },
     { 
-        "title": "Fromage blanc (Brillat Savarin)", 
+        "title": "Fromage blanc (brillat-savarin)", 
         "family": "1",
         "image": "brillad-Savarin.jpg", 
         "intro" : "Le brillat-savarin réussit l’accord majeur avec le VS. L’accord joue sur le gras et le crémeux. Le froid (VS Frozen) bouleverse l’équation, apportant de l’amertume. La vanille et le fruit du VSOP sont satisfaits tandis que le profil boisé du XO se heurte à la jeunesse du fromage.",
@@ -1087,7 +1086,7 @@
         "title": "Palet chocolat noir",
         "family": "3",
         "image": "Palets-Choco.jpg", 
-        "intro" : "L'accord entre le Cognac et le palet au chocolat noir peut susciter des impressions contrastées car sa relative sécheresse renforce l'impression d'amertume et la sensation alcoolique. L'amertume du chocolat noir s'accorde effectivement mieux aux vieux Cognacs. Plus le Cognac est âgé, plusl'accord est complet et plus le chocolat noir et amer s'épanouit. ",
+        "intro" : "L'accord entre le Cognac et le palet au chocolat noir peut susciter des impressions contrastées car sa relative sécheresse renforce l'impression d'amertume et la sensation alcoolique. L'amertume du chocolat noir s'accorde effectivement mieux aux vieux Cognacs. Plus le Cognac est âgé, plus l'accord est complet et plus le chocolat noir et amer s'épanouit. ",
         "id": 36,
         "perfect" : [
             { "accord" : [

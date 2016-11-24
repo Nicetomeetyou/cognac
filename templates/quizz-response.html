@@ -7,7 +7,7 @@
 				<div class="col">
 					<div class="description-quizz rep{{ response }}">
 						<div class="illustration-container">
-							<div class="question-number">Réponse {{ numQuestionDisplay }}</div>
+							<div class="question-number"><span translate="quizz.reponse">Réponse</span> {{ numQuestionDisplay }}</div>
 						</div>
 
 						<div class="primary-title-container">
@@ -31,7 +31,7 @@
 	</ion-content>
 
 	<ion-footer-bar class="sticky-btn-container">
-		<button class="button btn-ghost" ng-show="!showEndButton" ng-click="nextQuestion()">Question suivante</button>
-		<button class="button btn-ghost" ng-show="showEndButton" ng-click="nextQuestion()">Voir le resultat</button>
+		<button class="button btn-ghost" ng-show="!showEndButton" ng-click="nextQuestion()" translate="quizz.btn-suivant">Question suivante</button>
+		<button class="button btn-ghost" ng-show="showEndButton" ng-click="nextQuestion()" translate="quizz.btn-result">Voir le resultat</button>
 	</ion-footer-bar>
 </ion-view>

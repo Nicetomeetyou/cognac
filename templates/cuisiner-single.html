@@ -8,7 +8,7 @@
 				<div class="col">
 					<div class="description-fiche-recette">
 						<div class="illustration-container">
-							<img class="illustration" src="img/recipes/{{ tabRecipe.image }}" alt="Photographie de la saveur">
+							<img class="illustration" src="img/recipes/{{ tabRecipe.image }}" alt="">
 						</div>
 
 						<div class="primary-title-container">
@@ -27,7 +27,7 @@
 
 					<div class="fiche-recette-container">
 						<div class="fiche-recette-block">
-							<h3 class="title">Ingrédients</h3>
+							<h3 class="title" translate="recipes.ingre">Ingrédients</h3>
 							<ul class="list">
 								<li class="list-item" ng-repeat="item in tabRecipe.ingredients track by $index">
 									{{item.name}}
@@ -36,7 +36,7 @@
 						</div>
 
 						<div class="fiche-recette-block end">
-							<h3 class="title">&Eacute;tapes de préparation</h3>
+							<h3 class="title" translate="recipes.time">&Eacute;tapes de préparation</h3>
 							<ul class="list step-list">
 								<li class="list-item" ng-repeat="item in tabRecipe.directions track by $index">
 									<div class="step-number-block">{{$index + 1}}</div>
@@ -44,12 +44,12 @@
 								</li>
 								<li class="list-item last-step">
 									<div class="step-number-block icone-last-step"></div>
-									<div class="step-description-block"><p class="text">Voilà ! Bon appétit.</p></div>
+									<div class="step-description-block"><p class="text" translate="recipes.thx">Voilà ! Bon appétit.</p></div>
 								</li>
 							</ul>
 						</div>
 
-						<div ng-show="tabRecipe.nutrition.length" class="fiche-recette-block end">
+						<!-- <div ng-show="tabRecipe.nutrition.length" class="fiche-recette-block end">
 							<h3 class="title">Valeurs nutritionnelles</h3>
 							<ul class="list">
 								<li class="list-item" ng-repeat="item in tabRecipe.nutrition track by $index">
@@ -57,7 +57,7 @@
 								</li>
 							</ul>
 						</div>
-
+ -->
 					</div>
 				</div>
 			</div>

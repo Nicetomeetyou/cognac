@@ -18,7 +18,7 @@
         ],
         "directions" : [
             { "step" : "Pour le fromage : sur un support naturel (bois ou verre) pour prévenir toute altération du goût du produit, sélectionner 3 fromages." },
-            { "step" : "A noter, les fromages doivent être dégustés dans un ordre croissant de saveurs, du plus doux au plus fort. Par exemple, présenter sur une planche du Brillat-Savarin, du cheddar et du roquefort. A déguster avec un verre de VSOP dans cet ordre de saveurs." },
+            { "step" : "A noter, les fromages doivent être dégustés dans un ordre croissant de saveurs, du plus doux au plus fort. Par exemple, présenter sur une planche du brillat-savarin, du cheddar et du roquefort. A déguster avec un verre de VSOP dans cet ordre de saveurs." },
             { "step" : "Pour la charcuterie : dresser sur une planche en bois des tranches de jambon ibérique, des tranches de Cecina et des tranches de Lomo. Servir avec des tranches de pain de campagne. Accompagner le tout du Cognac VSOP." }
         ]
         
@@ -29,23 +29,23 @@
         "title": "Langoustines et cèpes rôties",
         "image": "langoustines-et-cepes-rotis.jpg",
         "family": "1",
-        "intro" : "Une langoustine rôtie, voici une idée d’entrée de choix pour un résultat magnifique avec le cognac XO.",
+        "intro" : "Une langoustine rôtie, voici une idée d’entrée de choix pour un résultat magnifique avec le Cognac XO.",
         "time" : "0h15",
         "people" : "2 pers",
         "ingredients" : [
             { "name" : "4 langoustines" },
-            { "name" : "80 g de beurre" },
+            { "name" : "80g de beurre" },
             { "name" : "4 cèpes" },
             { "name" : "Shiso vert" },
 			{ "name" : "Lamelles de radis roses" },
             { "name" : "Brioche séchée" }
         ],
         "directions" : [
-            { "step" : "Décortiquer quatre belles langoustines et enlever le boyau noir. Les faire rôtir dans 40 g de beurre." },
-            { "step" : "Nettoyer quatre cèpes, les couper en deux et les faire rôtir dans 40 g de beurre noisette. Dresser les langoustines et les cèpes, avec du shiso vert et quelques lamelles de radis roses." },
+            { "step" : "Décortiquer quatre belles langoustines et enlever le boyau noir. Les faire rôtir dans 40g de beurre." },
+            { "step" : "Nettoyer quatre cèpes, les couper en deux et les faire rôtir dans 40g de beurre noisette. Dresser les langoustines et les cèpes, avec du shiso vert et quelques lamelles de radis roses." },
             { "step" : "Parsemer de miettes de brioche séchée. Autre suggestion : sur des tranches de pain noir, tartiner du fromage frais, assaisonner avec du poivre noir." },
 			{ "step" : "Dresser dessus de fines lamelles de pommes acidulées, rehausser avec un peu de jus de citron. Puis finir le dressage avec des morceaux de harengs fumés, préalablement salés et poivrés. A déguster avec le VS." },
-			{ "step" : "Idée carnée : Un foie gras à servir avec de la confi ture de cerise. Le tout, accompagné du Cognac VSOP." }
+			{ "step" : "Idée carnée : un foie gras à servir avec de la confiture de cerise. Le tout, accompagné du Cognac VSOP." }
         ]
         
     },
@@ -55,23 +55,23 @@
         "title": "Pigeon à l’accent forestier",
         "image": "assiette-pantruche30-pigeon-fume-et-roti.jpg",
         "family": "2",
-        "intro" : "Le cognac s’associe bien avec les viandes racées et délicates comme les gibiers. Dans ce domaine, le pigeon avec son goût tout en finesse et un peu faisandé s’avère plus que concluant. Ses puissants arômes explosent en bouche avec le VSOP ou le XO.",
+        "intro" : "Le Cognac s’associe bien avec les viandes racées et délicates comme les gibiers. Dans ce domaine, le pigeon avec son goût tout en finesse et un peu faisandé s’avère plus que concluant. Ses puissants arômes explosent en bouche avec le VSOP ou le XO.",
         "time" : "0h15",
         "people" : "4 pers",
         "ingredients" : [
             { "name" : "2 pigeons" },
             { "name" : "Branches de thym, romarin" },
             { "name" : "2 gousses d’ail" },
-            { "name" : "30 g de beurre" },
+            { "name" : "30g de beurre" },
 			{ "name" : "Carottes" },
             { "name" : "Shiitakés" }
         ],
         "directions" : [
             { "step" : "Préparer 2 pigeons." },
-            { "step" : "Mélanger quelques branches de thym et de romarin avec 2 gousses d’ail écrasées et 30 g de beurre fondu. Badigeonner les pigeons." },
+            { "step" : "Mélanger quelques branches de thym et de romarin avec 2 gousses d’ail écrasées et 30g de beurre fondu. Badigeonner les pigeons." },
             { "step" : "Enfourner 30 minutes dans un four à 220°C. Arroser régulièrement avec le jus de cuisson. Tourner à mi-cuisson." },
 			{ "step" : "Servir les pigeons rôtis avec des carottes et une poêlée de shiitakés (champignons)." },
-            { "step" : "Autre suggestion : faire mariner 18 noix de Saint-Jacques, dans le jus d’un citron et 10 cl d’huile d’olive pendant 5 min. Les égoutter. Piquer sur des brochettes les noix et des fines tranches de jambon de Bayonne, en alternance. Snacker sur une plancha ou une poêle bien chaude pendant 5 min. A servir avec le VS." }
+            { "step" : "Autre suggestion : faire mariner 18 noix de Saint-Jacques, dans le jus d’un citron et 10cl d’huile d’olive pendant 5 minutes. Les égoutter. Piquer sur des brochettes les noix et des fines tranches de jambon de Bayonne, en alternance. Snacker sur une plancha ou une poêle bien chaude pendant 5 minutes. A servir avec le VS." }
         ]
     },
     { 
@@ -80,21 +80,21 @@
         "title": "Poêlée de cèpes et Pata Negra",
         "image": "poele-de-cepes.jpg",
         "family": "2",
-        "intro" : "Le jambon ibérique et les cèpes appellent un cognac passionnément gastronomique comme le XO.",
+        "intro" : "Le jambon ibérique et les cèpes appellent un Cognac passionnément gastronomique comme le XO.",
         "time" : "0h10",
         "people" : "4 pers",
         "ingredients" : [
-            { "name" : "400 g de cèpes" },
+            { "name" : "400g de cèpes" },
             { "name" : "Beurre" },
-            { "name" : "50 g de lamelles de Pata Negra" },
+            { "name" : "50g de lamelles de Pata Negra" },
             { "name" : "1 rondelle de beurre persillée" },
 			{ "name" : "Croûtons de pain de campagne" }
 
         ],
         "directions" : [
-            { "step" : "Tailler 400 g de cèpes en 2 et les faire colorer dans du beurre, sur leur face plate. Assaisonner." },
-            { "step" : "Dresser avec 50 g de lamelles de Pata Negra, une rondelle de beurre persillée et quelques croûtons de pain de campagne colorés dans du beurre. Vous pouvez également servir cet accompagnement en entrée, avec un velouté de cèpes." },
-            { "step" : "Autre suggestion : Avec un pigeon rôti et le cognac XO, une purée de carottes et une poêlée de shiitakés seront idéales. Laver, éplucher et couper en rondelles 500 g de carottes et cuire à la vapeur pendant 10 à 15 min. Les mixer avec 20 g de beurre doux, du sel et du poivre. Ajouter 10 cl de crème liquide entière. Mixer jusqu’à l’obtention d’une purée consistante. Dans une poêle, avec un peu du jus de cuisson du pigeon, faire rissoler 300 g de shiitakés, nettoyés de leur terre et coupés en 4, pendant 2 min. Couvrir et cuire à feu doux pendant 5 min." }
+            { "step" : "Tailler 400g de cèpes en 2 et les faire colorer dans du beurre, sur leur face plate. Assaisonner." },
+            { "step" : "Dresser avec 50g de lamelles de Pata Negra, une rondelle de beurre persillée et quelques croûtons de pain de campagne colorés dans du beurre. Vous pouvez également servir cet accompagnement en entrée, avec un velouté de cèpes." },
+            { "step" : "Autre suggestion : avec un pigeon rôti et le Cognac XO, une purée de carottes et une poêlée de shiitakés seront idéales. Laver, éplucher et couper en rondelles 500g de carottes et cuire à la vapeur pendant 10 à 15 minutes. Les mixer avec 20g de beurre doux, du sel et du poivre. Ajouter 10cl de crème liquide entière. Mixer jusqu’à l’obtention d’une purée consistante. Dans une poêle, avec un peu du jus de cuisson du pigeon, faire rissoler 300g de shiitakés, nettoyés de leur terre et coupés en 4, pendant 2 minutes. Couvrir et cuire à feu doux pendant 5 minutes." }
         ]
     },
     { 
@@ -107,13 +107,13 @@
         "time" : "0h15",
         "people" : "4 pers",
         "ingredients" : [
-            { "name" : "500 g de chocolat noir" },
-            { "name" : "500 g de crème" }
+            { "name" : "500g de chocolat noir" },
+            { "name" : "500g de crème" }
         ],
         "directions" : [
-            { "step" : "Concasser 500 g de chocolat noir." },
-            { "step" : "Amener 500 g de crème à ébullition puis verser sur les morceaux de chocolat. Remuer afin de faire fondre le chocolat jusqu’à obtention d’une crème lisse. Réserver au frais. Réaliser une quenelle de ganache de chocolat." },
-            { "step" : "Autre suggestion : La tarte Tatin. Déposer 50 g de beurre salé en dés dans une casserole, verser 50 g de sucre. Laisser cuire à feu doux pendant 5 min sans mélanger, le caramel prend seul. Déposer le caramel dans le fond d’un plat à tarte. Ajouter 1 kg de pommes coupées en lamelles, puis recouvrir d’une pâte brisée. Enfourner pendant 25 min au four à 210°C. Servir tiède avec le cognac XO. La chaleur de la tarte décuple la puissance des arômes. Place au feu d’artifice !" }
+            { "step" : "Concasser 500g de chocolat noir." },
+            { "step" : "Amener 500g de crème à ébullition puis verser sur les morceaux de chocolat. Remuer afin de faire fondre le chocolat jusqu’à obtention d’une crème lisse. Réserver au frais. Réaliser une quenelle de ganache de chocolat." },
+            { "step" : "Autre suggestion : la tarte Tatin. Déposer 50g de beurre salé en dés dans une casserole, verser 50g de sucre. Laisser cuire à feu doux pendant 5 minutes sans mélanger, le caramel prend seul. Déposer le caramel dans le fond d’un plat à tarte. Ajouter 1kg de pommes coupées en lamelles, puis recouvrir d’une pâte brisée. Enfourner pendant 25 minutes au four à 210°C. Servir tiède avec le Cognac XO. La chaleur de la tarte décuple la puissance des arômes. Place au feu d’artifice !" }
         ] 
     },
     { 
@@ -122,13 +122,13 @@
         "title": "Foie gras, rhubarbe confite",
         "image": "foie-gras-fernando-de-tomaso.jpg",
         "family": "2",
-        "intro" : "Le foie gras de canard aux arômes assez prononcés est renforcé par l’alcool du VSOP. Le cognac lui, s’épanoui pleinement avec la texture grasse du foie.",
+        "intro" : "Le foie gras de canard aux arômes assez prononcés est renforcé par l’alcool du VSOP. Le Cognac lui, s’épanouit pleinement avec la texture grasse du foie.",
         "time" : "0h30",
         "people" : "4 pers",
         "ingredients" : [
-            { "name" : "400 g de foie gras cru" },
-            { "name" : "300 g de rhubarbe" },
-            { "name" : "200 g de sucre" },
+            { "name" : "400g de foie gras cru" },
+            { "name" : "300g de rhubarbe" },
+            { "name" : "200g de sucre" },
             { "name" : "2 cuillerées d’huile d’olive" },
             { "name" : "1 cuillerée de jus de citron" },
             { "name" : "1 cuillerée d’huile de pépins de raisin" },
@@ -138,9 +138,9 @@
 			
         ],
         "directions" : [
-            { "step" : "Foie gras : découper 4 escalopes de 100 g par personne. Les cuire aller-retour dans une poêle bien chaude." },
-            { "step" : "Sortir, goûter puis passer au four à 180 C° pendant 3 mn pour que le cœur du foie gras soit chaud." },
-            { "step" : "Rhubarbe confite : éplucher la rhubarbe, la plonger dans un sirop sucre et eau (1 litre d’eau et 200 g de sucre). Laisser refroidir." },
+            { "step" : "Foie gras : découper 4 escalopes de 100g par personne. Les cuire aller-retour dans une poêle bien chaude." },
+            { "step" : "Sortir, goûter puis passer au four à 180C° pendant 3 minutes pour que le cœur du foie gras soit chaud." },
+            { "step" : "Rhubarbe confite : éplucher la rhubarbe, la plonger dans un sirop sucre et eau (1 litre d’eau et 200g de sucre). Laisser refroidir." },
             { "step" : "Vinaigrette : mélanger le jus de citron, l’huile d’olive, l’huile de pépins de raisin. Saler, poivrer." },
             { "step" : "Finition et dressage : servir le foie gras chaud avec la rhubarbe confite. Découper les radis à la minute à la mandoline pour qu’ils restent croquants. Les disposer sur l’assiette avec les fleurs de bourrache." }
 			
@@ -158,17 +158,17 @@
         "ingredients" : [
             { "name" : "12 huîtres n°3 Tarbouriech" },
             { "name" : "6 carottes fanes" },
-            { "name" : "25 cl de jus d’orange" },
+            { "name" : "25cl de jus d’orange" },
             { "name" : "1/4 de bulbe de gingembre frais" },
-            { "name" : "50 cl de jus de carotte" },
-            { "name" : "2 g d’agar-agar" },
-            { "name" : "25 cl de crème fraîche" },
+            { "name" : "50cl de jus de carotte" },
+            { "name" : "2g d’agar-agar" },
+            { "name" : "25cl de crème fraîche" },
             { "name" : "Huile d’olive, vinaigre" }			
         ],
         "directions" : [
-            { "step" : "Brunoise : faire cuire 4 carottes épluchées dans le jus d’orange et 1/4du gingembre râpé. Tailler en brunoise et réserver au frais." },
-            { "step" : "Gelée de carotte : faire bouillir 25 cl de jus de carotte avec 1 g d’agar-agar. Le couler dans une assiette plate et réserver au frais." },
-            { "step" : "Siphon : faire bouillir 25 cl de jus de carotte avec 1 g d’agar-agar, ajouter la crème. Mettre en siphon, refroidir et gazer deux fois." },
+            { "step" : "Brunoise : faire cuire 4 carottes épluchées dans le jus d’orange et 1/4 du gingembre râpé. Tailler en brunoise et réserver au frais." },
+            { "step" : "Gelée de carotte : faire bouillir 25cl de jus de carotte avec 1g d’agar-agar. Le couler dans une assiette plate et réserver au frais." },
+            { "step" : "Siphon : faire bouillir 25cl de jus de carotte avec 1g d’agar-agar, ajouter la crème. Mettre en siphon, refroidir et gazer deux fois." },
             { "step" : "Huîtres : les ouvrir puis réserver au frais." },
             { "step" : "Finition et dressage : dans une assiette creuse, disposer les carottes assaisonnées avec de l’huile d’olive et du vinaigre. Déposer les huîtres dessus. Ajouter un disque de gelée de carotte puis le siphon et finir avec quelques chips de carottes séchées et des fanes frites." }
 			
@@ -180,56 +180,30 @@
         "title": "Noix de saint-jacques, fine croûte aux fruits de la passion, crème de céleri rave",
         "image": "noix-de-saint-jacques.jpg",
         "family": "2",
-        "intro" : "Le cognac VS sur ses notes d’agrumes met en valeur la chaire délicate de la Saint-Jacques. L’acidité naturelle du fruit de la passion apporte équilibre et longueur a cet accord subtil.",
+        "intro" : "Le Cognac VS sur ses notes d’agrumes met en valeur la chaire délicate de la saint-jacques. L’acidité naturelle du fruit de la passion apporte équilibre et longueur à cet accord subtil.",
         "time" : "0h40",
         "people" : "4 pers",
         "ingredients" : [
             { "name" : "12 noix de saint-jacques" },
-            { "name" : "200 g de purée de fruits de la passion" },
-            { "name" : "150 g de beurre" },
-            { "name" : "100 g de chapelure" },
+            { "name" : "200g de purée de fruits de la passion" },
+            { "name" : "150g de beurre" },
+            { "name" : "100g de chapelure" },
             { "name" : "1/2 céleri rave" },
             { "name" : "2 échalotes" },
-            { "name" : "20 cl de crème" },
+            { "name" : "20cl de crème" },
             { "name" : "Sel et poivre" }			
         ],
         "directions" : [
             { "step" : "Croûte passion : dans une casserole, faire réduire la purée de fruits de la passion jusqu’au 1/4." },
             { "step" : "Mélanger le beurre, la chapelure puis ajouter la purée." },
-            { "step" : "Sur le plan de travail, étaler une feuille de film, y déposer le mélange, recouvrir d’une autre feuille puis étaler à l’aide d’un rouleau sur une épaisseur de 3 mm." },
+            { "step" : "Sur le plan de travail, étaler une feuille de film, y déposer le mélange, recouvrir d’une autre feuille puis étaler à l’aide d’un rouleau sur une épaisseur de 3mm." },
             { "step" : "Découper à l’emporte-pièce 12 ronds du diamètre des saint-jacques." },
             { "step" : "Réserver au froid." },
             { "step" : "Crème de céleri rave : faire revenir le céleri en morceaux avec les échalotes émincées." },
-            { "step" : "Ajouter la crème. Laisser cuire 30 mn puis mixer." },
+            { "step" : "Ajouter la crème. Laisser cuire 30 minutes puis mixer." },
             { "step" : "Finition et dressage : assaisonner les noix de saint-jacques, les saisir de chaque côté puis réserver." }
         
 		]
-    },
-    { 
-        "id": 8,
-        "new": "new",
-        "title": "Crémeux de roquefort et fraîcheur de poire parfumée au cognac",
-        "image": "cromesquis-d-escargot-roquefort-alain-geaam.jpg",
-        "family": "1",
-        "intro" : "Deux forts caractères créent ensemble une troisième saveur sur des notes toastées. Les textures fondantes du roquefort et le soyeux du cognac XO se combinent harmonieusement.",
-        "time" : "0h30",
-        "people" : "4 pers",
-        "ingredients" : [
-            { "name" : "100 g de roquefort" },
-            { "name" : "100 g de faisselle de vache" },
-            { "name" : "Piment d’Espelette" },
-            { "name" : "3 cl de cognac" },
-            { "name" : "2 poires comices" },
-            { "name" : "Quelques pluches de persil plat" },
-            { "name" : "2 citrons perlés" }
-        ],
-        "directions" : [
-            { "step" : "Crémeux de roquefort : dans un bol, bien mélanger le roquefort, la faisselle, le piment. Ajouter le cognac et mélanger doucement." },
-            { "step" : "Déposer ce mélange au fond des assiettes et laisser prendre au frais quelques instants." },
-            { "step" : "Poires : les laver et les couper en fines lamelles." },
-            { "step" : "Les disposer sur le mélange en forme irrégulière et ajouter quelques pluches de persil plat." },
-            { "step" : "Finition et dressage : saupoudrer de piment d’Espelette, ajouter quelques grains de citron perlé et servir aussitôt." }
-		] 
     },
     { 
         "id": 9,
@@ -237,16 +211,16 @@
         "title": "Tartelette de navet nouveau aux navels",
         "image": "tarte-navet.jpg",
         "family": "1",
-        "intro" : "Un bel équilibre multi-saveurs : acidité et sucrosité parfaitement équilibrées par la fraîcheur d’un cognac VS.",
+        "intro" : "Un bel équilibre multi-saveurs : acidité et sucrosité parfaitement équilibrées par la fraîcheur d’un Cognac VS.",
         "time" : "0h30",
         "people" : "4 pers",
         "ingredients" : [
             { "name" : "3 navets fanes nouveaux" },
             { "name" : "4 oranges navel" },
-            { "name" : "10 cl de sirop d’érable" },
+            { "name" : "10cl de sirop d’érable" },
             { "name" : "Le jus d’1/2 lime" },
             { "name" : "Quelques filaments de safran" },
-            { "name" : "1 cm de gingembre frais épluché et haché" },
+            { "name" : "1cm de gingembre frais épluché et haché" },
             { "name" : "2 pincées de zeste de bergamote" },
             { "name" : "2 rouleaux de feuilletage" },
             { "name" : "4 cuillerées de confiture d’orange allégée" }
@@ -257,7 +231,41 @@
             { "step" : "Peler à vif 3 oranges et les couper en tranches." },
             { "step" : "Dans une grande poêle, chauffer le sirop d’érable avec le jus de l’orange restante et de lime, le safran, le gingembre, la bergamote. Faire bouillir quelques minutes puis ajouter les rondelles de navet. Débarrasser." },
             { "step" : "Dans la même poêle, avec un petit peu de sirop restant, caraméliser rapidement les rondelles d’orange des deux côtés. Réserver." },
-            { "step" : "Finition et dressage : découper 4 cercles de feuilletage. Les cuire à four chaud, à coloration blonde, à 165 °C environ 15 mn. À la sortie du four, les napper de confiture d’orange et disposer en rosaces les navets et les oranges. Napper de sirop. Servir aussitôt." }
+            { "step" : "Finition et dressage : découper 4 cercles de feuilletage. Les cuire à four chaud, à coloration blonde, à 165°C environ 15 minutes. À la sortie du four, les napper de confiture d’orange et disposer en rosaces les navets et les oranges. Napper de sirop. Servir aussitôt." }
 		]
-    }
+    },
+	{ 
+        "id": 10,
+        "new": "",
+        "title": "Cromesquis d’escargot, épinard, espuma de roquefort du Comptoir des Affineurs, poire",
+        "image": "tarte-navet.jpg",
+        "family": "1",
+        "intro" : "Deux forts caractères créent ensemble une troisième saveur sur des notes grillées, caramélisées. Les textures fondantes du roquefort et la finesse du Cognac VSOP se combinent harmonieusement.",
+        "time" : "1h00",
+        "people" : "6 pers",
+        "ingredients" : [
+            { "name" : "18 chairs d’escargots de Bourgogne" },
+            { "name" : "100g de roquefort du Comptoir des Affineurs" },
+            { "name" : "200ml de crème liquide" },
+            { "name" : "1 botte de persil frisé" },
+            { "name" : "1 tête d’ail" },
+            { "name" : "1 échalote" },
+            { "name" : "100g de chapelure" },
+            { "name" : "Blanc d’œuf" },
+            { "name" : "Farine" },
+            { "name" : "600g d’épinards + quelques feuilles" },
+            { "name" : "1 poire" },
+            { "name" : "Cassonade" },
+			{ "name" : "Sucre de canne" },
+            { "name" : "Beurre maître d’hôtel" },
+            { "name" : "Sel, poivre" }
+        ],
+        "directions" : [
+            { "step" : "Espuma : mixer le roquefort et la crème liquide et passer au chinois. Mettre dans un siphon et garder 2 heures au réfrigérateur." },
+            { "step" : "Cromesquis d’escargots : mixer le persil frisé, l’ail et l’échalote. Ajouter la chapelure. Egoutter les escargots et les tremper dans du beurre maître d’hôtel. Les rouler dans du blanc d’œuf, de la farine et du sablé aux fines herbes. Renouveler l’opération puis faire frire." },
+            { "step" : "Épinards : les laver et les poêler à l’huile d’olive." },
+            { "step" : "Poire : éplucher, tailler et faire caraméliser la poire avec de la cassonade, du sucre de canne et du beurre." },
+            { "step" : "Finition et dressage : procéder comme sur la photo. Décorer de quelques feuilles d’épinard." }
+		]
+    }	
 ]

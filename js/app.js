@@ -1,7 +1,11 @@
 var tabFamilyFlavors_fr = ["", "Fromages", "Fruits et Légumes", "Pâtisseries et Chocolats", "Poissons et coquillages", "Viandes et charcuteries"];
+var tabFamilyFlavors_en = ["", "Cheeses", "Fruits & vegetables", "Desserts", "Fish & seashell", "Meat"];
+
 var tabFamilyRecipes_fr = ["", "Entrées", "Plats", "Desserts"];
+var tabFamilyRecipes_en = ["", "Starters", "Dishes", "Desserts"];
 
 var tabResultCognac_fr = ["Vous êtes jeunes dans le cognac. Entrainez-vous à refaire le quizz avant de passer à la pratique !", "Pas mal. Réessayez pour viser le sans-faute. Vous êtes prêts à découvrir nos accords cognac/saveurs et passer à la pratique !", "Le cognac n’a plus de secret pour vous. Avouez le, le cognac est déjà présent sur votre table !"];
+var tabResultCognac_en = ["You are a newbie with cognac. Keep practicing with this test before doing anything concrete!", "That’s not bad at all! Try again, you might get it right next time. You are ready to discover our pairings of cognac and flavours and to move on to more practical things!", "Cognac is no longer a mystery to you. Alright, admit it: you’ve got the bottle already sitting on your table, right?"];
 
 var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ksSwiper', 'pascalprecht.translate', 'ngAnimate', 'ion-sticky'])
 
@@ -52,7 +56,6 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 			'menuContent': {
 				templateUrl: 'templates/accueil.html',
 				controller: function($scope, $ionicSideMenuDelegate) {
-					if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Accueil");
 					if(typeof analytics !== "undefined") { analytics.trackView("Accueil"); }
 
 					/* Animation home page */
@@ -146,7 +149,6 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 						$ionicHistory.goBack();
 					};
 
-					if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Trouver l'accord - "+$scope.tabContent.title);
 					if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord - "+$scope.tabContent.title); }
 
 					$scope.renderHtml = function(html_code) { return $sce.trustAsHtml(html_code); }
@@ -209,7 +211,6 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 					return $scope.shownItem === item;
 				};
 
-				if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Trouver l'accord - "+$scope.tabContent.title);
 				if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord - "+$scope.tabContent.title); }
 
 				$scope.renderHtml = function(html_code) { return $sce.trustAsHtml(html_code); }
@@ -249,7 +250,6 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 					$ionicHistory.goBack();
 				}
 
-				if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Recette - "+$scope.tabRecipe.title);
 				if(typeof analytics !== "undefined") { analytics.trackView("Recette - "+$scope.tabRecipe.title); }
 
 				$scope.renderHtml = function(html_code) { return $sce.trustAsHtml(html_code); }				}
@@ -260,25 +260,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 				return $stateParams.idAccord;
 			}]
 		}
-	})
-
-.state('app.mentions-legales', {
-	url: '/mentions-legales',
-	views: {
-		'menuContent': {
-			templateUrl: 'templates/mentions-legales.html'
-		}
-	}
-})
-
-.state('app.credits', {
-	url: '/credits',
-	views: {
-		'menuContent': {
-			templateUrl: 'templates/credits.html'
-		}
-	}
-});
+	});
 
 
 
@@ -289,7 +271,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 		$translateProvider.translations(lang, translations[lang]);
 	}
 
-	$translateProvider.preferredLanguage('fr');
+	$translateProvider.preferredLanguage('en');
 })
 
 .directive('slideable', function () {
@@ -344,7 +326,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 						myElement.innerHTML = "Filtrez les saveurs";
 					}
 
-					next.css("height" , '0px');
+					next.css("height" , '60px');
 					next.removeClass('open')
 				}
 				attrs.expanded = !attrs.expanded;
@@ -362,46 +344,3 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 		}
 	};
 })
-
-function openCity(evt, cityName) {
-	// Declare all variables
-	var i, tabcontent, tablinks;
-
-	// Get all elements with class="tabcontent" and hide them
-	tabcontent = document.getElementsByClassName("tabcontent");
-	for (i = 0; i < tabcontent.length; i++) {
-		tabcontent[i].style.display = "none";
-	}
-
-	// Get all elements with class="tablinks" and remove the class "active"
-	tablinks = document.getElementsByClassName("tablinks");
-	for (i = 0; i < tablinks.length; i++) {
-		tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-
-	// Show the current tab, and add an "active" class to the link that opened the tab
-	document.getElementById(cityName).style.display = "block";
-	evt.currentTarget.className += " active";
-}
-
-function openCity2(evt, cityName) {
-	// Declare all variables
-	// 
-	var i, tabcontent, tablinks;
-
-	// Get all elements with class="tabcontent" and hide them
-	tabcontent = document.getElementsByClassName("tabcontent2");
-	for (i = 0; i < tabcontent.length; i++) {
-		tabcontent[i].style.display = "none";
-	}
-
-	// Get all elements with class="tablinks" and remove the class "active"
-	tablinks = document.getElementsByClassName("tablinks2");
-	for (i = 0; i < tablinks.length; i++) {
-		tablinks[i].className = tablinks[i].className.replace(" active", "");
-	}
-
-	// Show the current tab, and add an "active" class to the link that opened the tab
-	document.getElementById(cityName).style.display = "block";
-	evt.currentTarget.className += " active";
-}

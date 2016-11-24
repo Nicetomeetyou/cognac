@@ -21,11 +21,16 @@ angular.module('starter.controllers', [])
 	$scope.showPopup = function() {
 		$scope.data = {};
 
+		data_fr = ["Cette application est éditée par le <strong>Bureau National Interprofessionnel du Cognac</strong> (BNIC).", "Cette interprofession qui fédère viticulteurs et maisons de négoce, oeuvre quotidiennement pour la protection de l\'AOC Cognac et son développement économique dans le monde.<br><br>Reconnu pour sa subtilité et sa richesse aromatique, le cognac, appellation d’une rare qualité, propose une expérience unique au monde."];
+		data_en = ["This app is edited by the <strong>Bureau National Interprofessionnel du Cognac</strong> (National interprofessional cognac office).", "This joint-trade organisation which regroups winegrowers and trading houses, daily aims to protect the cognac AOC and its economic development around the world.<br/><br/>Renowned for its subtlety and wealth of flavours, cognac, with its name denoting the highest quality, offers a one-of-a-kind experience."];
+
+		data = eval("data_"+langApp);
+
 		// An elaborate, custom popup
 		var myPopup = $ionicPopup.show({
 			template: '',
-			title: 'Cette application est éditée par le <strong>Bureau National Interprofessionnel du Cognac</strong> (BNIC).',
-			subTitle: 'Cette interprofession qui fédère viticulteurs et maisons de négoce, oeuvre quotidiennement pour la protection de l\'AOC Cognac et son développement économique dans le monde.<br><br>Reconnu pour sa subtilité et sa richesse aromatique, le cognac, appellation d’une rare qualité, propose une expérience unique au monde.',
+			title: data[0],
+			subTitle: data[1],
 			scope: $scope,
 			buttons: [{
 				text: '<span class="icon-croix"></span>',
@@ -96,7 +101,6 @@ angular.module('starter.controllers', [])
 		angular.element($event.currentTarget).addClass("active");
 	}
 
-	if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Trouver l'accord");
 	if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord"); }
 })
 
@@ -116,7 +120,6 @@ angular.module('starter.controllers', [])
 		$state.go('app.accueil');
 	};
 
-	if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Recette");
 	if(typeof analytics !== "undefined") { analytics.trackView("Recette"); }
 
 	$scope.clickTab = function($event, numTab) {
@@ -175,7 +178,6 @@ angular.module('starter.controllers', [])
 		return result;
 	}
 
-	if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Social Wall");
 	if(typeof analytics !== "undefined") { analytics.trackView("Social Wall"); }
 })
 
@@ -229,14 +231,12 @@ angular.module('starter.controllers', [])
 		$state.go('app.accueil');
 	}
 
-	if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Quizz");
 	if(typeof analytics !== "undefined") { analytics.trackView("Quizz"); }
 })
 
 .controller('quizzEndController', function($scope, $ionicHistory, quizzFactory, $rootScope, $state, $ionicViewSwitcher) {
 	$rootScope.endMessage = tabResultCognac_fr[2];
 
-	if(window.FirebasePlugin) window.FirebasePlugin.logEvent("Quizz end");
 	if(typeof analytics !== "undefined") { analytics.trackView("Quizz end"); }
 
 	$scope.goHome = function() {

@@ -1,4 +1,4 @@
-var langApp = "fr";
+var langApp = "en";
 
 angular.module('starter.services', [])
 
