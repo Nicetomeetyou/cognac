@@ -11,7 +11,7 @@ var translations = {
 		"gen.accord-possible-exp" : "Un accord possible, c’est un équilibre fragile entre une saveur et un cognac. <br> L’un des deux éléments prend le pas sur l’autre. <br> C’est une belle rencontre qui ne peut toutefois pas tenir toutes ses promesses.",
 		"gen.accord-not-exp" : "Un accord à éviter, c’est lorsque l’équilibre ne se produit pas entre liquide et solide. <br> Par exemple, lorsque le cognac est trop puissant ou le met trop discret.",
 		// -- ACCUEIL 
-		"accueil.title": "Accords Majeurs",
+		"accueil.title": "Cognac Foodpairing",
 		"accueil.baseline" : "Cognac et plats, le bon match",
 		"accueil.btn-saveurs" : "Rechercher l'accord",
 		"accueil.title-recette" : "On passe à la pratique avec Gault&Millau",
@@ -61,7 +61,7 @@ var translations = {
 		"gen.btn-recette" : "More recipes",
 		"gen.lire-suite" : "Read more",
 		"gen.lire-close" : "Réduire",
-		"gen.accord-maj" : "Major pairings",
+		"gen.accord-maj" : "Cognac Foodpairing",
 		"gen.accord-possible" : "Potential pairings",
 		"gen.accord-not" : "Pairings to avoid",
 		"gen.accord-maj-exp" : "A major pairing is the perfect balance between a flavour and a cognac when solid and liquid complement each other to perfection and thus extend the pleasure.",

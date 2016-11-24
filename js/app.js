@@ -271,7 +271,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 		$translateProvider.translations(lang, translations[lang]);
 	}
 
-	$translateProvider.preferredLanguage('en');
+	$translateProvider.preferredLanguage('fr');
 })
 
 .directive('slideable', function () {
