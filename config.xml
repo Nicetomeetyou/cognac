@@ -23,7 +23,7 @@
     -->
 
     <platform name="ios">
-        <preference name="deployment-target" value="4.0"/>
+        <preference name="deployment-target" value="5.0"/>
     </platform>
 
     <preference name="SplashScreen" value="screen"/>
