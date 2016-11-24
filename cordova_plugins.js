@@ -25,14 +25,6 @@ module.exports = [
         ]
     },
     {
-        "id": "cordova-plugin-firebase.FirebasePlugin",
-        "file": "plugins/cordova-plugin-firebase/www/firebase.js",
-        "pluginId": "cordova-plugin-firebase",
-        "clobbers": [
-            "FirebasePlugin"
-        ]
-    },
-    {
         "id": "cordova-plugin-splashscreen.SplashScreen",
         "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
         "pluginId": "cordova-plugin-splashscreen",
@@ -63,7 +55,6 @@ module.exports.metadata =
 {
     "cordova-plugin-console": "1.0.4",
     "cordova-plugin-device": "1.1.3",
-    "cordova-plugin-firebase": "0.1.18",
     "cordova-plugin-splashscreen": "4.0.0",
     "cordova-plugin-statusbar": "2.2.0",
     "cordova-plugin-whitelist": "1.3.0",
