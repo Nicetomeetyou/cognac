@@ -326,7 +326,7 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 						myElement.innerHTML = "Filtrez les saveurs";
 					}
 
-					next.css("height" , '60px');
+					next.css("height" , '0px');
 					next.removeClass('open')
 				}
 				attrs.expanded = !attrs.expanded;
