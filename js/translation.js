@@ -40,7 +40,7 @@ var translations = {
 		"quizz.btn-suivant" : "Question suivante",
 		"quizz.btn-result" : "Voir le resultat",
 		"quizz.good-response" : "de bonnes <br> réponses",
-		"quizz.congrats" : "Félicitation",
+		"quizz.congrats" : "Félicitations",
 		"quizz.btn-accords" : "Trouver l'association parfaite",
 		// -- SOCIAL
 		"social.title" : "L’actualité Cognac",
