@@ -18,6 +18,8 @@ angular.module('starter.controllers', [])
 		$state.go('app.quizz');
 	}
 
+
+
 	$scope.showPopup = function() {
 		$scope.data = {};
 
@@ -101,7 +103,9 @@ angular.module('starter.controllers', [])
 		angular.element($event.currentTarget).addClass("active");
 	}
 
-	if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord"); }
+	$scope.$watch('$viewContentLoaded', function(event) {
+		if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord"); }
+	});
 })
 
 .controller('recipesController', function($scope, recipesFactory, $state) {
@@ -120,7 +124,9 @@ angular.module('starter.controllers', [])
 		$state.go('app.accueil');
 	};
 
-	if(typeof analytics !== "undefined") { analytics.trackView("Recette"); }
+	$scope.$watch('$viewContentLoaded', function(event) {
+		if(typeof analytics !== "undefined") { analytics.trackView("Recette"); }
+	});
 
 	$scope.clickTab = function($event, numTab) {
 		var _this = $scope;
@@ -178,7 +184,9 @@ angular.module('starter.controllers', [])
 		return result;
 	}
 
-	if(typeof analytics !== "undefined") { analytics.trackView("Social Wall"); }
+	$scope.$watch('$viewContentLoaded', function(event) {
+		if(typeof analytics !== "undefined") { analytics.trackView("Social Wall"); }
+	});
 })
 
 .controller('quizzController', function($scope, $ionicHistory, quizzFactory, $rootScope, $state, $ionicViewSwitcher) {
@@ -231,13 +239,17 @@ angular.module('starter.controllers', [])
 		$state.go('app.accueil');
 	}
 
-	if(typeof analytics !== "undefined") { analytics.trackView("Quizz"); }
+	$scope.$watch('$viewContentLoaded', function(event) {
+		if(typeof analytics !== "undefined") { analytics.trackView("Quizz" + $rootScope.numQuestionDisplay); }
+	});
 })
 
 .controller('quizzEndController', function($scope, $ionicHistory, quizzFactory, $rootScope, $state, $ionicViewSwitcher) {
 	$rootScope.endMessage = tabResultCognac_fr[2];
 
-	if(typeof analytics !== "undefined") { analytics.trackView("Quizz end"); }
+	$scope.$watch('$viewContentLoaded', function(event) {
+		if(typeof analytics !== "undefined") { analytics.trackView("Quizz end"); }
+	});
 
 	$scope.goHome = function() {
 		$rootScope.numQuestionDisplay = 1;

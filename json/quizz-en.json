@@ -1,95 +1,95 @@
 [
     { 
         "id": 0,
-        "title": "Le Cognac est issu de la distillation de :",
+        "title": "Cognac originates from the distillation of:",
         "good" : "0",
         "responses" : [
             { "response" : [
-                { "text" : "Vin" },
+                { "text" : "Wine" },
                 { "value" : "1" }
             ]},
             { "response" : [
-                { "text" : "Céréales" },
+                { "text" : "Cereals" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "Prunes" },
+                { "text" : "Plums" },
                 { "value" : "0" }
             ]}
         ],
-        "validation" : "Le cognac est né de la double distillation d’un vin blanc produit dans une aire géographique délimitée autour de la ville de cognac."
+        "validation" : "Cognac was born out of the distillation of a white wine produced in a city called Cognac."
     },
     { 
         "id": 1,
-        "title": "L’assemblage dans le monde du Cognac, c’est :",
+        "title": "What makes a cognac complete?",
         "good" : "2",
         "responses" : [
             { "response" : [
-                { "text" : "La fabrication d’un fût de vieillissement" },
+                { "text" : "A cask to age" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "L’accord avec un plat" },
+                { "text" : "Paring with a dish" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "Le mariage de différentes eaux-de-vie vieillies" },
+                { "text" : "A blend of various aged spirits" },
                 { "value" : "1" }
             ]}
         ],
-        "validation" : "C'est en effet en réalisant des assemblages entre eaux-de-vie d'âges et de crus différents que le Maître de Chai crée son cognac, tel un peintre ou un musicien en véritable harmonie. Un travail d'orfèvre qui permet de garantir le même style pour un cognac donné. Et de proposer des cognacs adaptés aux goûts de chacun."
+        "validation" : "It is indeed by blending aged spirits with spirits from different crus that the Maître de Chai (Cellar Master) created his cognac in perfect harmony, like a painter or a musician. A real work of art which guarantees a cognac that does not fall short of high expectations and offers various types of cognac to suit all tastes."
     },
     { 
         "id": 2,
-        "title": "Un Cognac VS est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "title": "VS Cognac originates from a blend of various spirits that have been aged for at least:",
         "good" : "1",
         "responses" : [
             { "response" : [
-                { "text" : "1 an" },
+                { "text" : "1 year" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "2 ans" },
+                { "text" : "2 years" },
                 { "value" : "1" }
             ]},
             { "response" : [
-                { "text" : "4 ans" },
+                { "text" : "4 years" },
                 { "value" : "0" }
             ]}
         ],
-        "validation" : "Un cognac VS pour « Very Special » est un assemblage d’eaux de vie ayant vieilli au minimum 2 ans en fût de chêne pour la plus jeune des eaux-de- vie qui va constituer son assemblage."
+        "validation" : "The “VS” in Cognac stands for “Very Special”; a blend of various spirits that have been aged for at least 2 years in oak casks with the youngest spirit used for the blend."
     },
     { 
         "id": 3,
-        "title": "Faut-il chauffer son Cognac ?",
+        "title": "Does Cognac need to be warmed up?",
         "good" : "1",
         "responses" : [
             { "response" : [
-                { "text" : "Oui" },
+                { "text" : "Yes" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "Non" },
+                { "text" : "No" },
                 { "value" : "1" }
             ]}
         ],
-        "validation" : "Contrairement aux idées reçues, il ne faut pas chauffer le cognac au risque de libérer l’alcool et de réduire les arômes."
+        "validation" : "Contrary to common beliefs, cognac must not be warmed up lest all the alcohol evaporate and the flavours fade."
     },
     { 
         "id": 4,
-        "title": "Un Cognac VSOP est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "title": "VSOP Cognac originates from a blend of various spirits that have been aged for at least:",
         "good" : "1",
         "responses" : [
             { "response" : [
-                { "text" : "2 ans" },
+                { "text" : "2 years" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "4 ans" },
+                { "text" : "4 years" },
                 { "value" : "1" }
             ]},
             { "response" : [
-                { "text" : "8 ans" },
+                { "text" : "8 years" },
                 { "value" : "0" }
             ]}
         ],
@@ -97,63 +97,63 @@
     },
     { 
         "id": 5,
-        "title": "Quel est le verre idéal pour apprécier un Cognac pur ?",
+        "title": "What is the best wine glass for enjoying a pure Cognac?",
         "good" : "0",
         "responses" : [
             { "response" : [
-                { "text" : "Le verre tulipe" },
+                { "text" : "The tulip shaped glass" },
                 { "value" : "1" }
             ]},
             { "response" : [
-                { "text" : "Le verre ballon" },
+                { "text" : "The balloon glass" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "Le verre Old Fashioned" },
+                { "text" : "The old fashioned glass" },
                 { "value" : "0" }
             ]}
         ],
-        "validation" : "Pour apprécier les arômes du cognac, le verre tulipe est le plus approprié car il s’ouvre sur le haut du buvant lui permettant de libérer progressivement les arômes."
+        "validation" : "To fully enjoy the flavours of cognac, the tulip shaped glass is the most suitable as it is open at the top, thus facilitating the progressive release of the flavours."
     },
     { 
         "id": 6,
-        "title": "Un Cognac XO est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "title": "XO Cognac originates from a blend of various spirits that have been aged for at least:",
         "good" : "1",
         "responses" : [
             { "response" : [
-                { "text" : "4 ans" },
+                { "text" : "4 years" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "6 ans" },
+                { "text" : "6 years" },
                 { "value" : "1" }
             ]},
             { "response" : [
-                { "text" : "8 ans" },
+                { "text" : "8 years" },
                 { "value" : "0" }
             ]}
         ],
-        "validation" : "Le XO pour Extra Old est le plus vieux des cognacs puisque son eau-de-vie a vieilli au minimum 6 ans en fût de chêne."
+        "validation" : "XO stands for Extra Old and is the oldest of all cognacs since its spirit has aged for at least 6 years in oak casks."
     },
     { 
         "id": 7,
-        "title": "Faut-il agiter son verre ?",
+        "title": "Must you swirl your wine?",
         "good" : "1",
         "responses" : [
             { "response" : [
-                { "text" : "Oui" },
+                { "text" : "Yes" },
                 { "value" : "0" }
             ]},
             { "response" : [
-                { "text" : "Non" },
+                { "text" : "No" },
                 { "value" : "1" }
             ]}
         ],
-        "validation" : "A 40 % d’alcool, il n’est pas nécessaire d’agiter son verre, ni d’ailleurs de mettre son nez au fond du verre ! L’objectif est de sentir les arômes et non l’alcool."
+        "validation" : "At 40 % of alcohol you do not need to swirl your wine or stick your nose in it! The goal is to smell the flavours, not the alcohol."
     },
     { 
         "id": 8,
-        "title": "Quel Cognac s’accorde mieux à l’ananas ?",
+        "title": "Which cognac is best paired with pineapples?",
         "good" : "0",
         "responses" : [
             { "response" : [
@@ -169,11 +169,11 @@
                 { "value" : "0" }
             ]}
         ],
-        "validation" : "Mis au congélateur, le cognac « Frozen » offre une palette d’arômes concentrée sur la vanille et les épices. La sensation d’alcool disparait au nez et en bouche."
+        "validation" : "When put in the freezer, “Frozen” cognac delivers a palette of flavours concentrated on vanilla and spices. The taste and aroma of alcohol disappear."
     },
     { 
         "id": 9,
-        "title": "Quel Cognac s’accorde mieux au Brie ?",
+        "title": "Which cognac is best paired with Brie?",
         "good" : "1",
         "responses" : [
             { "response" : [
@@ -189,11 +189,11 @@
                 { "value" : "0" }
             ]}
         ],
-        "validation" : "Le VSOP, pour sa rondeur, ses arômes élégants et sa force qui laissent place à une large palette aromatique."
+        "validation" : "VSOP is the most suitable candidate with its roundness, elegant flavours and strength that delivers a large aromatic palette."
     },
     { 
         "id": 10,
-        "title": "Quel Cognac s’accorde mieux au pâté en croûte ?",
+        "title": "Which cognac is best paired with pâté en croute?",
         "good" : "2",
         "responses" : [
             { "response" : [
@@ -209,11 +209,11 @@
                 { "value" : "1" }
             ]}
         ],
-        "validation" : "Pour sa finesse et sa complexité aromatique, l’élégance des fruits confits et des épices douces qui lui procurent une explosion de saveurs et d’arômes."
+        "validation" : "For its subtlety and aromatic complexity, the elegance of candied fruits and mild spices which cause it to burst with flavours and aromas."
     },
     { 
         "id": 11,
-        "title": "Le Cognac est-il uniquement un digestif ?",
+        "title": "Is cognac only a digestive?",
         "good" : "1",
         "responses" : [
             { "response" : [
@@ -225,6 +225,6 @@
                 { "value" : "1" }
             ]}
         ],
-        "validation" : "Contrairement à ce que l’on pense en France, le cognac peut se boire en cocktail, en apéritif, notamment en VS et VSOP.  Il peut également accompagner des plats. CQFD avec cette application !"
+        "validation" : "Contrary to popular belief in France, cognac can be served as a cocktail, an appetizer or blended with VS and VSOP. It can also accompany dishes. CQFD with this app!"
     }
 ]

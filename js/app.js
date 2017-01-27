@@ -56,7 +56,10 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 			'menuContent': {
 				templateUrl: 'templates/accueil.html',
 				controller: function($scope, $ionicSideMenuDelegate) {
-					if(typeof analytics !== "undefined") { analytics.trackView("Accueil"); }
+
+					$scope.$watch('$viewContentLoaded', function(event) {
+						if(typeof analytics !== "undefined") { analytics.trackView("Accueil"); console.log("Accueil"); }
+					});
 
 					/* Animation home page */
 					setTimeout(function(){ 
@@ -149,7 +152,9 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 						$ionicHistory.goBack();
 					};
 
-					if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord - "+$scope.tabContent.title); }
+					$scope.$watch('$viewContentLoaded', function(event) {
+						if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord - "+$scope.tabContent.title);  }
+					});					
 
 					$scope.renderHtml = function(html_code) { return $sce.trustAsHtml(html_code); }
 					
@@ -211,7 +216,9 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 					return $scope.shownItem === item;
 				};
 
-				if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord - "+$scope.tabContent.title); }
+				$scope.$watch('$viewContentLoaded', function(event) {
+					if(typeof analytics !== "undefined") { analytics.trackView("Trouver l'accord - "+$scope.tabContent.title);  }
+				});
 
 				$scope.renderHtml = function(html_code) { return $sce.trustAsHtml(html_code); }
 			}
@@ -250,7 +257,9 @@ var app = angular.module('starter', ['ionic', 'starter.controllers', 'starter.se
 					$ionicHistory.goBack();
 				}
 
-				if(typeof analytics !== "undefined") { analytics.trackView("Recette - "+$scope.tabRecipe.title); }
+				$scope.$watch('$viewContentLoaded', function(event) {
+					if(typeof analytics !== "undefined") { analytics.trackView("Recette - "+$scope.tabRecipe.title);  }
+				});
 
 				$scope.renderHtml = function(html_code) { return $sce.trustAsHtml(html_code); }				}
 			}

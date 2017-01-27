@@ -1,7 +1,7 @@
 [
     { 
         "id": 0,
-        "title": "Le Cognac est issu de la distillation de :",
+        "title": "Le cognac est issu de la distillation de :",
         "good" : "0",
         "responses" : [
             { "response" : [
@@ -21,7 +21,7 @@
     },
     { 
         "id": 1,
-        "title": "L’assemblage dans le monde du Cognac, c’est :",
+        "title": "L’assemblage dans le monde du cognac, c’est :",
         "good" : "2",
         "responses" : [
             { "response" : [
@@ -41,7 +41,7 @@
     },
     { 
         "id": 2,
-        "title": "Un Cognac VS est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "title": "Un cognac VS est un cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
         "good" : "1",
         "responses" : [
             { "response" : [
@@ -61,7 +61,7 @@
     },
     { 
         "id": 3,
-        "title": "Faut-il chauffer son Cognac ?",
+        "title": "Faut-il chauffer son cognac ?",
         "good" : "1",
         "responses" : [
             { "response" : [
@@ -77,7 +77,7 @@
     },
     { 
         "id": 4,
-        "title": "Un Cognac VSOP est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "title": "Un cognac VSOP est un cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
         "good" : "1",
         "responses" : [
             { "response" : [
@@ -97,7 +97,7 @@
     },
     { 
         "id": 5,
-        "title": "Quel est le verre idéal pour apprécier un Cognac pur ?",
+        "title": "Quel est le verre idéal pour apprécier un cognac pur ?",
         "good" : "0",
         "responses" : [
             { "response" : [
@@ -117,7 +117,7 @@
     },
     { 
         "id": 6,
-        "title": "Un Cognac XO est un Cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
+        "title": "Un cognac XO est un cognac issu de l’assemblage d’eaux-de-vie ayant vieilli au minimum :",
         "good" : "1",
         "responses" : [
             { "response" : [
@@ -153,7 +153,7 @@
     },
     { 
         "id": 8,
-        "title": "Quel Cognac s’accorde mieux à l’ananas ?",
+        "title": "Quel cognac s’accorde mieux à l’ananas ?",
         "good" : "0",
         "responses" : [
             { "response" : [
@@ -173,7 +173,7 @@
     },
     { 
         "id": 9,
-        "title": "Quel Cognac s’accorde mieux au Brie ?",
+        "title": "Quel cognac s’accorde mieux au Brie ?",
         "good" : "1",
         "responses" : [
             { "response" : [
@@ -193,7 +193,7 @@
     },
     { 
         "id": 10,
-        "title": "Quel Cognac s’accorde mieux au pâté en croûte ?",
+        "title": "Quel cognac s’accorde mieux au pâté en croûte ?",
         "good" : "2",
         "responses" : [
             { "response" : [
@@ -213,7 +213,7 @@
     },
     { 
         "id": 11,
-        "title": "Le Cognac est-il uniquement un digestif ?",
+        "title": "Le cognac est-il uniquement un digestif ?",
         "good" : "1",
         "responses" : [
             { "response" : [

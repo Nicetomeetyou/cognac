@@ -5,7 +5,7 @@
         "title": "L’apéritif mixte",
         "image": "aperitif-mixte.jpg",
         "family": "1",
-        "intro" : "Pour un apéritif original et gastronomique, servir une sélection de fromages et de charcuterie avec le Cognac en accord.",
+        "intro" : "Pour un apéritif original et gastronomique, servir une sélection de fromages et de charcuterie avec le cognac en accord.",
         "time" : "0h15",
         "people" : "4 pers",
         "ingredients" : [
@@ -19,17 +19,17 @@
         "directions" : [
             { "step" : "Pour le fromage : sur un support naturel (bois ou verre) pour prévenir toute altération du goût du produit, sélectionner 3 fromages." },
             { "step" : "A noter, les fromages doivent être dégustés dans un ordre croissant de saveurs, du plus doux au plus fort. Par exemple, présenter sur une planche du brillat-savarin, du cheddar et du roquefort. A déguster avec un verre de VSOP dans cet ordre de saveurs." },
-            { "step" : "Pour la charcuterie : dresser sur une planche en bois des tranches de jambon ibérique, des tranches de Cecina et des tranches de Lomo. Servir avec des tranches de pain de campagne. Accompagner le tout du Cognac VSOP." }
+            { "step" : "Pour la charcuterie : dresser sur une planche en bois des tranches de jambon ibérique, des tranches de Cecina et des tranches de Lomo. Servir avec des tranches de pain de campagne. Accompagner le tout du cognac VSOP." }
         ]
         
     },
     { 
         "id": 1,
         "new": "",
-        "title": "Langoustines et cèpes rôties",
+        "title": "Langoustines et cèpes rôtis",
         "image": "langoustines-et-cepes-rotis.jpg",
         "family": "1",
-        "intro" : "Une langoustine rôtie, voici une idée d’entrée de choix pour un résultat magnifique avec le Cognac XO.",
+        "intro" : "Une langoustine rôti, voici une idée d’entrée de choix pour un résultat magnifique avec le cognac XO.",
         "time" : "0h15",
         "people" : "2 pers",
         "ingredients" : [
@@ -45,7 +45,7 @@
             { "step" : "Nettoyer quatre cèpes, les couper en deux et les faire rôtir dans 40g de beurre noisette. Dresser les langoustines et les cèpes, avec du shiso vert et quelques lamelles de radis roses." },
             { "step" : "Parsemer de miettes de brioche séchée. Autre suggestion : sur des tranches de pain noir, tartiner du fromage frais, assaisonner avec du poivre noir." },
 			{ "step" : "Dresser dessus de fines lamelles de pommes acidulées, rehausser avec un peu de jus de citron. Puis finir le dressage avec des morceaux de harengs fumés, préalablement salés et poivrés. A déguster avec le VS." },
-			{ "step" : "Idée carnée : un foie gras à servir avec de la confiture de cerise. Le tout, accompagné du Cognac VSOP." }
+			{ "step" : "Idée carnée : un foie gras à servir avec de la confiture de cerise. Le tout, accompagné du cognac VSOP." }
         ]
         
     },
@@ -55,7 +55,7 @@
         "title": "Pigeon à l’accent forestier",
         "image": "assiette-pantruche30-pigeon-fume-et-roti.jpg",
         "family": "2",
-        "intro" : "Le Cognac s’associe bien avec les viandes racées et délicates comme les gibiers. Dans ce domaine, le pigeon avec son goût tout en finesse et un peu faisandé s’avère plus que concluant. Ses puissants arômes explosent en bouche avec le VSOP ou le XO.",
+        "intro" : "Le cognac s’associe bien avec les viandes racées et délicates comme les gibiers. Dans ce domaine, le pigeon avec son goût tout en finesse et un peu faisandé s’avère plus que concluant. Ses puissants arômes explosent en bouche avec le VSOP ou le XO.",
         "time" : "0h15",
         "people" : "4 pers",
         "ingredients" : [
@@ -80,7 +80,7 @@
         "title": "Poêlée de cèpes et Pata Negra",
         "image": "poele-de-cepes.jpg",
         "family": "2",
-        "intro" : "Le jambon ibérique et les cèpes appellent un Cognac passionnément gastronomique comme le XO.",
+        "intro" : "Le jambon ibérique et les cèpes appellent un cognac passionnément gastronomique comme le XO.",
         "time" : "0h10",
         "people" : "4 pers",
         "ingredients" : [
@@ -94,7 +94,7 @@
         "directions" : [
             { "step" : "Tailler 400g de cèpes en 2 et les faire colorer dans du beurre, sur leur face plate. Assaisonner." },
             { "step" : "Dresser avec 50g de lamelles de Pata Negra, une rondelle de beurre persillée et quelques croûtons de pain de campagne colorés dans du beurre. Vous pouvez également servir cet accompagnement en entrée, avec un velouté de cèpes." },
-            { "step" : "Autre suggestion : avec un pigeon rôti et le Cognac XO, une purée de carottes et une poêlée de shiitakés seront idéales. Laver, éplucher et couper en rondelles 500g de carottes et cuire à la vapeur pendant 10 à 15 minutes. Les mixer avec 20g de beurre doux, du sel et du poivre. Ajouter 10cl de crème liquide entière. Mixer jusqu’à l’obtention d’une purée consistante. Dans une poêle, avec un peu du jus de cuisson du pigeon, faire rissoler 300g de shiitakés, nettoyés de leur terre et coupés en 4, pendant 2 minutes. Couvrir et cuire à feu doux pendant 5 minutes." }
+            { "step" : "Autre suggestion : avec un pigeon rôti et le cognac XO, une purée de carottes et une poêlée de shiitakés seront idéales. Laver, éplucher et couper en rondelles 500g de carottes et cuire à la vapeur pendant 10 à 15 minutes. Les mixer avec 20g de beurre doux, du sel et du poivre. Ajouter 10cl de crème liquide entière. Mixer jusqu’à l’obtention d’une purée consistante. Dans une poêle, avec un peu du jus de cuisson du pigeon, faire rissoler 300g de shiitakés, nettoyés de leur terre et coupés en 4, pendant 2 minutes. Couvrir et cuire à feu doux pendant 5 minutes." }
         ]
     },
     { 
@@ -113,7 +113,7 @@
         "directions" : [
             { "step" : "Concasser 500g de chocolat noir." },
             { "step" : "Amener 500g de crème à ébullition puis verser sur les morceaux de chocolat. Remuer afin de faire fondre le chocolat jusqu’à obtention d’une crème lisse. Réserver au frais. Réaliser une quenelle de ganache de chocolat." },
-            { "step" : "Autre suggestion : la tarte Tatin. Déposer 50g de beurre salé en dés dans une casserole, verser 50g de sucre. Laisser cuire à feu doux pendant 5 minutes sans mélanger, le caramel prend seul. Déposer le caramel dans le fond d’un plat à tarte. Ajouter 1kg de pommes coupées en lamelles, puis recouvrir d’une pâte brisée. Enfourner pendant 25 minutes au four à 210°C. Servir tiède avec le Cognac XO. La chaleur de la tarte décuple la puissance des arômes. Place au feu d’artifice !" }
+            { "step" : "Autre suggestion : la tarte Tatin. Déposer 50g de beurre salé en dés dans une casserole, verser 50g de sucre. Laisser cuire à feu doux pendant 5 minutes sans mélanger, le caramel prend seul. Déposer le caramel dans le fond d’un plat à tarte. Ajouter 1kg de pommes coupées en lamelles, puis recouvrir d’une pâte brisée. Enfourner pendant 25 minutes au four à 210°C. Servir tiède avec le cognac XO. La chaleur de la tarte décuple la puissance des arômes. Place au feu d’artifice !" }
         ] 
     },
     { 
@@ -122,7 +122,7 @@
         "title": "Foie gras, rhubarbe confite",
         "image": "foie-gras-fernando-de-tomaso.jpg",
         "family": "2",
-        "intro" : "Le foie gras de canard aux arômes assez prononcés est renforcé par l’alcool du VSOP. Le Cognac lui, s’épanouit pleinement avec la texture grasse du foie.",
+        "intro" : "Le foie gras de canard aux arômes assez prononcés est renforcé par l’alcool du VSOP. Le cognac lui, s’épanouit pleinement avec la texture grasse du foie.",
         "time" : "0h30",
         "people" : "4 pers",
         "ingredients" : [
@@ -180,7 +180,7 @@
         "title": "Noix de saint-jacques, fine croûte aux fruits de la passion, crème de céleri rave",
         "image": "noix-de-saint-jacques.jpg",
         "family": "2",
-        "intro" : "Le Cognac VS sur ses notes d’agrumes met en valeur la chaire délicate de la saint-jacques. L’acidité naturelle du fruit de la passion apporte équilibre et longueur à cet accord subtil.",
+        "intro" : "Le cognac VS sur ses notes d’agrumes met en valeur la chaire délicate de la saint-jacques. L’acidité naturelle du fruit de la passion apporte équilibre et longueur à cet accord subtil.",
         "time" : "0h40",
         "people" : "4 pers",
         "ingredients" : [
@@ -211,7 +211,7 @@
         "title": "Tartelette de navet nouveau aux navels",
         "image": "tarte-navet.jpg",
         "family": "1",
-        "intro" : "Un bel équilibre multi-saveurs : acidité et sucrosité parfaitement équilibrées par la fraîcheur d’un Cognac VS.",
+        "intro" : "Un bel équilibre multi-saveurs : acidité et sucrosité parfaitement équilibrées par la fraîcheur d’un cognac VS.",
         "time" : "0h30",
         "people" : "4 pers",
         "ingredients" : [
@@ -240,7 +240,7 @@
         "title": "Cromesquis d’escargot, épinard, espuma de roquefort du Comptoir des Affineurs, poire",
         "image": "tarte-navet.jpg",
         "family": "1",
-        "intro" : "Deux forts caractères créent ensemble une troisième saveur sur des notes grillées, caramélisées. Les textures fondantes du roquefort et la finesse du Cognac VSOP se combinent harmonieusement.",
+        "intro" : "Deux forts caractères créent ensemble une troisième saveur sur des notes grillées, caramélisées. Les textures fondantes du roquefort et la finesse du cognac VSOP se combinent harmonieusement.",
         "time" : "1h00",
         "people" : "6 pers",
         "ingredients" : [
