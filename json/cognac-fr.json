@@ -1,5 +1,15 @@
 [
     { 
+        "id": 2,
+        "title": "VS",
+        "image" : "photo-cognac-vs.jpg",
+        "intro" : "De par sa jeunesse, le cognac VS possède encore tous les arômes distinctifs de l’eau-de-vie de vin et notamment ses caractéristiques fruitées (raisin, agrumes, poire, pomme cuite, prune, pêche et abricot) et florales (fleur de vigne, marguerite, pétunia, rose, violette). <br><br>Il a déjà extrait une grande partie des arômes du chêne lors de son court vieillissement mais ceux-ci n’ont pas encore eu le temps de se fondre totalement aux arômes de l’eau-de-vie. <br><br>C’est pour cette raison que le cognac VS peut paraître assez boisé et est souvent très vanillé – arôme très présent dans le chêne – et épicé (cannelle, muscade). <br><br>Bien qu’embouteillé le plus souvent à 40% d’alcool comme ses aînés, le cognac VS peut paraître également plus vif au nez et très sec en bouche car l’alcool n’a pas encore eu le temps de se fondre totalement dans la masse.",
+        "recipes" : [
+            { "id" : "7" },
+            { "id" : "9" }
+        ]
+    },
+    { 
         "id": 0,
         "title" : "VS Frozen",
         "image" : "photo-cognac-Frozen.jpg",
@@ -21,16 +31,7 @@
             { "id" : "10" }
         ]
     },
-    { 
-        "id": 2,
-        "title": "VS",
-        "image" : "photo-cognac-vs.jpg",
-        "intro" : "De par sa jeunesse, le cognac VS possède encore tous les arômes distinctifs de l’eau-de-vie de vin et notamment ses caractéristiques fruitées (raisin, agrumes, poire, pomme cuite, prune, pêche et abricot) et florales (fleur de vigne, marguerite, pétunia, rose, violette). <br><br>Il a déjà extrait une grande partie des arômes du chêne lors de son court vieillissement mais ceux-ci n’ont pas encore eu le temps de se fondre totalement aux arômes de l’eau-de-vie. <br><br>C’est pour cette raison que le cognac VS peut paraître assez boisé et est souvent très vanillé – arôme très présent dans le chêne – et épicé (cannelle, muscade). <br><br>Bien qu’embouteillé le plus souvent à 40% d’alcool comme ses aînés, le cognac VS peut paraître également plus vif au nez et très sec en bouche car l’alcool n’a pas encore eu le temps de se fondre totalement dans la masse.",
-        "recipes" : [
-            { "id" : "7" },
-            { "id" : "9" }
-        ]
-    },
+    ,
     { 
         "id": 3,
         "title": "XO",

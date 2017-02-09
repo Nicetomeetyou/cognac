@@ -125,7 +125,7 @@
         "title": "Pâté en croûte", 
         "family": "5", 
         "image": "Pate-Croute.jpg", 
-        "intro" : "Le pâté en croûte avec sa caramélisation et son croquant sont des ponts idéaux pour venir s'accorder avec un cognac XO où le temps aura pâtiné ses aromes.",
+        "intro" : "Le pâté en croûte avec sa caramélisation et son croquant sont des ponts idéaux pour venir s'accorder avec un cognac XO où le temps aura pâtiné ses arômes.",
         "id": 4,
         "perfect" : [
             { "accord" : [
@@ -304,7 +304,7 @@
         "title": "Saumon",
         "family": "4",
         "image": "Saumon.jpg", 
-        "intro" : "Le gras est l’une des clés d’un accord réussi. Dans le cas du saumon, il est déterminant qu’il s’agisse du gras du poisson, de la cuisson ou de l’assaisonnement. Le cognac lui ne doit pas être boisé ni sucré mais présenter un profil aromatique léger, fruité (sur les agrumes) et floral.",
+        "intro" : "Le gras est l’une des clés d’un accord réussi. Dans le cas du saumon, il est déterminant qu’il s’agisse du gras du poisson, de la cuisson ou de l’assaisonnement. Le cognac lui ne doit pas être ni boisé ni sucré mais présenter un profil aromatique léger, fruité (sur les agrumes) et floral.",
         "id": 10,
         "perfect" : [
             { "accord" : [
@@ -850,7 +850,7 @@
         "title": "Fourme d'Ambert",
         "family": "1",
         "image": "Fourme-Ambert.jpg", 
-        "intro" : "La fourme d’Ambert a tendance à dominer le cognac, surtout le VS Frozen. Au contraire, le VS met en valeur le fromage, d’une manière plaisante. Accord majeur avec le XO : la combinaison apporte de la complexité aux deux protagoniste.",
+        "intro" : "La fourme d’Ambert a tendance à dominer le cognac, surtout le VS Frozen. Au contraire, le VS met en valeur le fromage, d’une manière plaisante. Accord majeur avec le XO : la combinaison apporte de la complexité aux deux protagonistes.",
         "id": 28,
         "perfect" : [
             { "accord" : [
@@ -938,7 +938,7 @@
         "title": "Ganache noire",
         "family": "3",
         "image": "Ganache-Noire.jpg", 
-        "intro" : "La ganache s'accorde très bien avec le VS Frozen qui possède une texture plus huileuse. A savoir, le chocolat noir et amer s'épanouit d'autant plus que le cognac est âgé. ",
+        "intro" : "La ganache s'accorde très bien avec le VS Frozen qui possède une texture plus huileuse.  A savoir, le chocolat noir et amer, s'épanouit d'autant plus si le Cognac est âgé. ",
         "id": 31,
         "perfect" : [
             { "accord" : [
